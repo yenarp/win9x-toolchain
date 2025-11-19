@@ -1,0 +1,7 @@
+LIBRARY w95inf32.DLL
+EXPORTS
+CtlSetLddPath32@8@8
+GenFormStrWithoutPlaceHolders32@12@12
+GenInstall32@20@20
+GetSETUPXErrorText32@12@12
+w95thk_ThunkData32 DATA

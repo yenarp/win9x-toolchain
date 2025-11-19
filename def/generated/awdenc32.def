@@ -1,0 +1,8 @@
+LIBRARY AWDENC32.DLL
+EXPORTS
+ImageCreate@8
+ImageSetBand@8
+ImageClose@4
+AWDCreate@8
+AWDAddImage@8
+AWDClose@4

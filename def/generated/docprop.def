@@ -1,0 +1,4 @@
+LIBRARY DOCPROP.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12

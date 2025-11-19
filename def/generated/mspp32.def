@@ -1,0 +1,3 @@
+LIBRARY MSPP32.DLL
+EXPORTS
+InitializePrintProvidor@12

@@ -1,0 +1,6 @@
+LIBRARY MSHTMLWB.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

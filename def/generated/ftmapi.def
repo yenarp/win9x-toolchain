@@ -1,0 +1,57 @@
+LIBRARY FTMAPI.DLL
+EXPORTS
+FFtmApproxTime@8
+HrGetXferService@8
+HrReleaseXferService@4
+HrRequestDownload@8
+HrFinishRequest@4
+HrDeleteRequest@4
+HrQueryProgress@8
+??0CXferFile@@QAE@PAVCXferService@@@Z ; has WINAPI (@4)
+??0CXferService@@QAE@XZ
+??1CXferFile@@QAE@XZ
+??1CXferService@@QAE@XZ
+??2CXferService@@SAPAXI@Z
+??3CXferService@@SAXPAX@Z
+??4CXferFile@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CXferService@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_ECXferFile@@QAEPAXI@Z ; has WINAPI (@4)
+??_ECXferService@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCXferFile@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCXferService@@QAEPAXI@Z ; has WINAPI (@4)
+?AddRef@CXferService@@QAEKXZ
+?DwGetBytesRecv@CXferFile@@QAEKXZ
+?DwGetOrgSize@CXferFile@@QAEKXZ
+?DwGetZipSize@CXferFile@@QAEKXZ
+?FIsFlagSet@CXferFile@@QAEHG@Z ; has WINAPI (@4)
+?FRenderFRI@CXferFile@@QAEHPAUFTM_REQUEST_INFO@@@Z ; has WINAPI (@4)
+?GetFtmInterface@CXferService@@QBEPAUIMosUniversal@@XZ
+?GetPercentageDone@CXferFile@@QAEXPAH@Z ; has WINAPI (@4)
+?HangUp@CXferService@@QAEXG@Z ; has WINAPI (@4)
+?HrBillClient@CXferFile@@QAEJXZ
+?HrGetLastError@CXferFile@@QAEJXZ
+?HrInit@CXferFile@@QAEJPAUFTM_REQUEST_INFO@@@Z ; has WINAPI (@4)
+?HrInit@CXferService@@QAEJPBD@Z ; has WINAPI (@4)
+?HrQueryProgress@CXferFile@@QAEJPAHK@Z ; has WINAPI (@8)
+?HrRequestDownload@CXferFile@@QAEJPAUFTM_REQUEST_INFO@@@Z ; has WINAPI (@4)
+?HrStartDownload@CXferFile@@QAEJXZ
+?HrUnpack@CXferFile@@QAEJP6GHXZHH@Z ; has WINAPI (@12)
+?PszGetFileName@CXferFile@@QAEPADXZ
+?PszGetFullPath@CXferFile@@QAEPADXZ
+?PszGetPathName@CXferFile@@QAEPADXZ
+?Release@CXferService@@QAEKXZ
+?SetFcfi@CXferFile@@AAEXPAUFtmClientFileId@@@Z ; has WINAPI (@4)
+?SetFlag@CXferFile@@AAEXGH@Z ; has WINAPI (@8)
+?SetNotification@CXferService@@QAEXPAVCMosEvents@@@Z ; has WINAPI (@4)
+?WithdrawNotification@CXferService@@QAEXPAVCMosEvents@@@Z ; has WINAPI (@4)
+FGetBps@8 == _FGetBps@8
+FGetDefaultDownloadDir@4 == _FGetDefaultDownloadDir@4
+FGetSaveAsFileName@20 == _FGetSaveAsFileName@20
+FGetTempFileName@8 == _FGetTempFileName@8
+FSetFileSize@8 == _FSetFileSize@8
+FormatTimeString
+HrMos2CompFile
+HrMos2DecompFile
+HrQueueToFtm@4 == _HrQueueToFtm@4
+HrRequestDownloadEx@12 == _HrRequestDownloadEx@12
+ReportFtmErr

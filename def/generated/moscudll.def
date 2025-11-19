@@ -1,0 +1,23 @@
+LIBRARY MOSCUDLL.DLL
+EXPORTS
+?CreateOleWorkerThread@@YAIP6AHW4WP@@PAX@Z1K@Z
+?DispatchWaitForSingleObject@@YAKPAXKK@Z
+?FFormatPrice@@YAHPAU_PRICING@@PADHH@Z
+?FMergeMenus@@YAHPAX0I@Z
+?FParseAmount@@YAHPAXPADHPAK@Z
+?GetAssociatedExecutable@@YAHPAD0@Z
+?GetOleWorkerThreadSuicideEvent@@YAPAXI@Z
+?HMenuSubFromId@@YAPAXPAXI@Z
+?HrEnsureMsnInstalled@@YAJH@Z
+?HrFtmDownloadWithUI@@YAJPAD0PAUTKN@@H0W4ZIPCODE@@HKK@Z
+?HrFtmDownloadWithUIFRI@@YAJPAUFTM_REQUEST_INFO@@PAD@Z
+?HrSzForByteCount@@YAJKPADK@Z
+?LoadCurrencyName@@YAXGPADH@Z
+?PreviewRTF@@YAXPAD0PAX1HHHH@Z
+?PulseOleWorkerThread@@YAXI@Z
+?ShutdownOleWorkerThread@@YAXI@Z
+?ShutdownOleWorkerThreadEx@@YAXIK@Z
+?WaitForOleWorkerThread@@YAXIK@Z
+?_SzToUnsLong@@YAKPAD@Z
+?g_rgISOCurrencyCodes@@3PAU_ISO_CURRENCY_CODES@@A DATA
+FEnsureMarvelDesktopFile

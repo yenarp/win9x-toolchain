@@ -1,0 +1,6 @@
+LIBRARY COMCAT.DLL
+EXPORTS
+DllGetClassObject = Ole32.DllGetClassObject ; Check!!! forwards to Ole32.DllGetClassObject
+DllRegisterServer = Ole32.DllRegisterServer ; Check!!! forwards to Ole32.DllRegisterServer
+DllCanUnloadNow
+DllUnregisterServer

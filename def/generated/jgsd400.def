@@ -1,0 +1,10 @@
+LIBRARY JGSD400.DLL
+EXPORTS
+JgaDBlockQuery
+JgaDecodeBlock
+JgaDecodeCreate
+JgaDecodeDestroy
+JgaDecodeHook
+JgaDecodeUnhook
+JgaDecodeWorkSpaceNeeded
+JgaSpeechHeaderUnpack

@@ -1,0 +1,5 @@
+LIBRARY MAPIU32.DLL
+EXPORTS
+OpenStreamOnFile@24@24
+OpenTnefStream@28@28
+UlAddRef@4@4

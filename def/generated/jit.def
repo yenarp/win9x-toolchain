@@ -1,0 +1,10 @@
+LIBRARY jit.DLL
+EXPORTS
+EnumerateGcRefs
+EnumerateLocals
+FilterException
+FixHandlerContext
+GetSecurityObject
+IsMethodGcSafe
+UnwindStackFrame
+compileMethod2native

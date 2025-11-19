@@ -1,0 +1,3 @@
+LIBRARY DPWSOCK.DLL
+EXPORTS
+CreateNewDirectPlay

@@ -1,0 +1,4 @@
+LIBRARY AWDCXC32.DLL
+EXPORTS
+DcxCodecInit@8
+DcxCodecConvert@12

@@ -1,0 +1,42 @@
+LIBRARY NTDLL.DLL
+EXPORTS
+DbgBreakPoint ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DbgPrint ; Check!!! return value is from dprintf in KERNEL32.dll (ordinal 660)
+DbgPrompt@12
+RtlAllocateHeap@8
+RtlAnsiStringToUnicodeString@12
+RtlConvertLongToLargeInteger ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlConvertUlongToLargeInteger ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlCreateHeap@24
+RtlDestroyHeap@4
+NtQueryPerformanceCounter@8
+RtlExtendedIntegerMultiply ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlExtendedLargeIntegerDivide ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlLargeIntegerSubtract ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlEnlargedIntegerMultiply ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlEnlargedUnsignedDivide ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlEnlargedUnsignedMultiply ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlExAllocateHeap@12
+RtlExFreeHeap@12
+RtlExReAllocateHeap@16
+RtlExSizeHeap@12
+RtlExtendedMagicDivide ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlFreeHeap@8
+RtlGetHandleValueHeap@8
+RtlGrowHeap@8
+RtlImageNtHeader
+RtlLargeIntegerAdd ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlLargeIntegerArithmeticShift ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlLargeIntegerDivide@20
+RtlLargeIntegerNegate ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlLargeIntegerShiftLeft ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlLargeIntegerShiftRight ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RtlMultiByteToUnicodeN@16
+RtlReAllocateHeap@12
+RtlSetHandleValueHeap@12
+RtlSizeHeap@8
+RtlUnicodeStringToAnsiString@12
+RtlUnicodeToMultiByteN@16
+RtlUnwind ; Check!!! return value is from RtlUnwind in KERNEL32.dll (ordinal 488)
+RtlValidateHeap@4
+NtCurrentTeb

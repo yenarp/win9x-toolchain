@@ -1,0 +1,18 @@
+LIBRARY OITWA400.DLL
+EXPORTS
+IMGTwainExecTriplet@8
+IMGTwainSelectDS@12
+IMGTwainOpenDSM@16
+IMGTwainCloseDSM@8
+IMGTwainProcessDCMessage@16
+IMGTwainGetCap@8
+IMGTwainSetCap@8
+IMGTwainLayout@8
+IMGTwaintoOiControl@16
+IMGTwainOpenDS@12
+IMGTwainCloseDS@12
+IMGTwainDisableDS@8
+IMGTwainEnableDS@12
+IMGTwainGetCaps@12
+IMGTwainSetCaps@12
+IMGTwainGetDSNames@8

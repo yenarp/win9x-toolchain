@@ -1,0 +1,24 @@
+LIBRARY SOFTPUB.DLL
+EXPORTS
+SoftpubDefCertInit@4
+SoftpubFreeDefUsageCallData@8
+SoftpubLoadDefUsageCallData@8
+AddPersonalTrustDBPages@12
+DllRegisterServer
+DllUnregisterServer
+DriverCleanupPolicy@4
+DriverFinalPolicy@4
+DriverInitializePolicy@4
+FindCertsByIssuer@28
+HTTPSCheckCertProv@16
+HTTPSFinalProv@4
+OfficeCleanupPolicy@4
+OfficeInitializePolicy@4
+OpenPersonalTrustDBDialog@4
+SoftpubAuthenticode@4
+SoftpubCheckCert@16
+SoftpubCleanup@4
+SoftpubDumpStructure@4
+SoftpubInitialize@4
+SoftpubLoadMessage@4
+SoftpubLoadSignature@4

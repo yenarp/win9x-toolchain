@@ -1,0 +1,31 @@
+LIBRARY JGDWMIE.DLL
+EXPORTS
+JgCreateDecompressContext@8 == _JgCreateDecompressContext@8
+JgCreateDecompressor@12 == _JgCreateDecompressor@12
+JgDecompressDone@4 == _JgDecompressDone@4
+JgDecompressImageBlock@16 == _JgDecompressImageBlock@16
+JgDestroyDecompressContext@4 == _JgDestroyDecompressContext@4
+JgDestroyDecompressor@4 == _JgDestroyDecompressor@4
+JgGetDecoderVersion@4 == _JgGetDecoderVersion@4
+JgGetDecompressCaps@4 == _JgGetDecompressCaps@4
+JgGetDecompressInfo@8 == _JgGetDecompressInfo@8
+JgGetImage@8 == _JgGetImage@8
+JgGetImageHandleDIB@8 == _JgGetImageHandleDIB@8
+JgGetImageInfo@12 == _JgGetImageInfo@12
+JgGetMask@8 == _JgGetMask@8
+JgGetMaskDIB@8 == _JgGetMaskDIB@8
+JgGetMiniatureDIB@8 == _JgGetMiniatureDIB@8
+JgGetMiniatureOffset@12 == _JgGetMiniatureOffset@12
+JgGetOptimalPalette@12 == _JgGetOptimalPalette@12
+JgInitDecompress@8 == _JgInitDecompress@8
+JgLosslessDecompressBlock@24 == _JgLosslessDecompressBlock@24
+JgLosslessDecompressCreate@4 == _JgLosslessDecompressCreate@4
+JgLosslessDecompressDestroy@4 == _JgLosslessDecompressDestroy@4
+JgLosslessDecompressPartitionReset@4 == _JgLosslessDecompressPartitionReset@4
+JgLosslessDecompressQuery@12 == _JgLosslessDecompressQuery@12
+JgLosslessDecompressReset@4 == _JgLosslessDecompressReset@4
+JgNewDIBDepth@24 == _JgNewDIBDepth@24
+JgQueryArtImage@8 == _JgQueryArtImage@8
+JgSetDebug@8 == _JgSetDebug@8
+JgSetDecompressResourceBuffer@8 == _JgSetDecompressResourceBuffer@8
+JgSetMemCallbacks@8 == _JgSetMemCallbacks@8

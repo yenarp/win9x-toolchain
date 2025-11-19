@@ -1,0 +1,4 @@
+LIBRARY MSAB32.DLL
+EXPORTS
+DllMain@12
+ABProviderInit

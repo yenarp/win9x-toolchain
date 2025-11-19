@@ -1,0 +1,105 @@
+LIBRARY MPR.DLL
+EXPORTS
+ord_1@12 @1 NONAME
+ord_2@8 @2 NONAME
+ord_3@4 @3 NONAME
+ord_4@12 @4 NONAME
+ord_5@8 @5 NONAME
+ord_6 @6 NONAME
+ord_7@4 @7 NONAME
+ord_8 @8 NONAME
+ord_9 @9 NONAME DATA
+DllCanUnloadNow
+DllGetClassObject@12
+ord_12@12 @12 NONAME
+ord_13@12 @13 NONAME
+ord_14@12 @14 NONAME
+ord_15@8 @15 NONAME
+ord_16@8 @16 NONAME
+ord_17@8 @17 NONAME
+ord_18@8 @18 NONAME
+ord_19@12 @19 NONAME
+ord_20@8 @20 NONAME
+ord_21@8 @21 NONAME
+ord_22@4 @22 NONAME
+ord_23@8 @23 NONAME
+ord_24@4 @24 NONAME
+ord_25@8 @25 NONAME
+MultinetGetConnectionPerformanceA@8
+MultinetGetConnectionPerformanceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MultinetGetErrorTextA@16
+MultinetGetErrorTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+NPSAuthenticationDialogA@4
+NPSCopyStringA@12
+NPSDeviceGetNumberA@12
+NPSDeviceGetStringA@16
+NPSGetProviderHandleA@4
+NPSGetProviderNameA@8
+NPSGetSectionNameA@8
+NPSNotifyGetContextA@4
+NPSNotifyRegisterA@8
+NPSSetCustomTextA@4
+NPSSetExtendedErrorA@8
+PwdChangePasswordA@16
+PwdChangePasswordW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PwdGetPasswordStatusA@12
+PwdGetPasswordStatusW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PwdSetPasswordStatusA@12
+PwdSetPasswordStatusW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetAddConnection2A@16
+WNetAddConnection2W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetAddConnection3A@20
+WNetAddConnection3W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetAddConnectionA@12
+WNetAddConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetCachePassword@24
+WNetCancelConnection2A@12
+WNetCancelConnection2W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetCancelConnectionA@8
+WNetCancelConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetCloseEnum@4
+WNetConnectionDialog1A@4
+WNetConnectionDialog1W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetConnectionDialog@8
+WNetDisconnectDialog1A@4
+WNetDisconnectDialog1W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetDisconnectDialog@8
+WNetEnumCachedPasswords@20
+WNetEnumResourceA@16
+WNetEnumResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetFormatNetworkNameA@24
+WNetFormatNetworkNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetCachedPassword@20
+WNetGetConnectionA@12
+WNetGetConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetHomeDirectoryA@12
+WNetGetHomeDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetLastErrorA@20
+WNetGetLastErrorW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetNetworkInformationA@8
+WNetGetNetworkInformationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetProviderNameA@12
+WNetGetProviderNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetResourceInformationA@16
+WNetGetResourceInformationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetResourceParentA@12
+WNetGetResourceParentW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetUniversalNameA@16
+WNetGetUniversalNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetGetUserA@12
+WNetGetUserW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetLogoffA@8
+WNetLogoffW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetLogonA@8
+WNetLogonW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetOpenEnumA@20
+WNetOpenEnumW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetRemoveCachedPassword@12
+WNetRestoreConnectionA@8
+WNetRestoreConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetSetConnectionA@12
+WNetSetConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetUseConnectionA@32
+WNetUseConnectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNetVerifyPasswordA@8
+WNetVerifyPasswordW ; Check!!! Couldn't determine function argument count. Function doesn't return.

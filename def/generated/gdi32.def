@@ -1,0 +1,337 @@
+LIBRARY GDI32.DLL
+EXPORTS
+ord_100@20 @100 NONAME
+ord_101@16 @101 NONAME
+ord_102@28 @102 NONAME
+ord_103@16 @103 NONAME
+ord_104@20 @104 NONAME
+AbortDoc@4
+AbortPath@4
+AddFontResourceA@4
+AddFontResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AngleArc ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AnimatePalette@16
+Arc@36
+ArcTo ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BeginPath@4
+BitBlt@36
+ByeByeGDI@4
+CancelDC ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CheckColorsInGamut@16
+ChoosePixelFormat@8
+Chord@36
+CloseEnhMetaFile@4
+CloseFigure@4
+CloseMetaFile@4
+ColorMatchToTarget@12
+CombineRgn@16
+CombineTransform ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopyEnhMetaFileA@8
+CopyEnhMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopyMetaFileA@8
+CopyMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateBitmap ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateBitmapIndirect ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateBrushIndirect@4
+CreateColorSpaceA@4
+CreateColorSpaceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateCompatibleBitmap@12
+CreateCompatibleDC@4
+CreateDCA@16
+CreateDCW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDIBPatternBrush@8
+CreateDIBPatternBrushPt@8
+CreateDIBSection@24
+CreateDIBitmap@24
+CreateDiscardableBitmap@12
+CreateEllipticRgn@16
+CreateEllipticRgnIndirect@4
+CreateEnhMetaFileA@16
+CreateEnhMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateFontA@56
+CreateFontIndirectA ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+CreateFontIndirectW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateFontW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateHalftonePalette@4
+CreateHatchBrush@8
+CreateICA@16
+CreateICW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateMetaFileA@4
+CreateMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreatePalette@4
+CreatePatternBrush@4
+CreatePen@12
+CreatePenIndirect ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+CreatePolyPolygonRgn@16
+CreatePolygonRgn ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+CreateRectRgn@16
+CreateRectRgnIndirect@4
+CreateRoundRectRgn@24
+CreateScalableFontResourceA@16
+CreateScalableFontResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateSolidBrush@4
+DPtoLP ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+DeleteColorSpace@4
+DeleteDC@4
+DeleteEnhMetaFile@4
+DeleteMetaFile ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeleteObject@4
+DescribePixelFormat@16
+DeviceCapabilitiesEx ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeviceCapabilitiesExA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeviceCapabilitiesExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DrawEscape@16
+Ellipse@20
+EndDoc@4
+EndPage@4
+EndPath@4
+EnumEnhMetaFile@20
+EnumFontFamiliesA@16
+EnumFontFamiliesExA@20
+EnumFontFamiliesExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumFontFamiliesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumFontsA@16
+EnumFontsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumICMProfilesA@12
+EnumICMProfilesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumMetaFile@16
+EnumObjects ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EqualRgn@8
+Escape@20
+ExcludeClipRect@20
+ExtCreatePen@20
+ExtCreateRegion@12
+ExtEscape@24
+ExtFloodFill@20
+ExtSelectClipRgn@12
+ExtTextOutA ; Check!!! return value is from FT_Exit32 in KERNEL32.dll (ordinal 123)
+ExtTextOutW ; Check!!! return value is from FT_Exit32 in KERNEL32.dll (ordinal 123)
+FillPath@4
+FillRgn ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FixBrushOrgEx@16
+FlattenPath@4
+FloodFill@16
+FrameRgn ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GdiComment ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GdiFlush
+GdiGetBatchLimit
+GdiPlayDCScript ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GdiPlayJournal ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GdiPlayScript ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GdiSetBatchLimit@4
+GetArcDirection@4
+GetAspectRatioFilterEx@8
+GetBitmapBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetBitmapDimensionEx ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+GetBkColor@4
+GetBkMode@4
+GetBoundsRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+GetBrushOrgEx@8
+GetCharABCWidthsA ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetCharABCWidthsFloatA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharABCWidthsFloatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharABCWidthsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharWidth32A ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharWidth32W ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharWidthA ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetCharWidthFloatA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharWidthFloatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCharWidthW ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetCharacterPlacementA@24
+GetCharacterPlacementW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClipBox ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+GetClipRgn@8
+GetColorAdjustment ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetColorSpace@4
+GetCurrentObject@4
+GetCurrentPositionEx@8
+GetDCOrgEx@8
+GetDIBColorTable@16
+GetDIBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDeviceCaps@8
+GetDeviceGammaRamp@8
+GetEnhMetaFileA@4
+GetEnhMetaFileBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnhMetaFileDescriptionA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnhMetaFileDescriptionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnhMetaFileHeader@12
+GetEnhMetaFilePaletteEntries ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnhMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFontData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFontLanguageInfo@4
+GetFontResourceInfo ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetGlyphOutline ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetGlyphOutlineA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetGlyphOutlineW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetGraphicsMode@4
+GetICMProfileA@12
+GetICMProfileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKerningPairs ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKerningPairsA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKerningPairsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetLogColorSpaceA@12
+GetLogColorSpaceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMapMode@4
+GetMetaFileA@4
+GetMetaFileBitsEx@12
+GetMetaFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMetaRgn@8
+GetMiterLimit@8
+GetNearestColor@8
+GetNearestPaletteIndex@8
+GetObjectA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetObjectType@4
+GetObjectW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetOutlineTextMetricsA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetOutlineTextMetricsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPaletteEntries@16
+GetPath ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPixel@12
+GetPixelFormat@4
+GetPolyFillMode@4
+GetROP2@4
+GetRandomRgn@12
+GetRasterizerCaps@8
+GetRegionData@12
+GetRgnBox@8
+GetStockObject@4
+GetStretchBltMode@4
+GetSystemPaletteEntries@16
+GetSystemPaletteUse@4
+GetTextAlign@4
+GetTextCharacterExtra@4
+GetTextCharset@4
+GetTextCharsetInfo@12
+GetTextColor@4
+GetTextExtentExPointA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTextExtentExPointW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTextExtentPoint32A ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetTextExtentPoint32W ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetTextExtentPointA ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetTextExtentPointW ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetTextFaceA@12
+GetTextFaceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTextMetricsA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTextMetricsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetViewportExtEx@8
+GetViewportOrgEx@8
+GetWinMetaFileBits@20
+GetWindowExtEx@8
+GetWindowOrgEx@8
+GetWorldTransform ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IntersectClipRect@20
+InvertRgn ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LPtoDP ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+LineDDA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LineTo@12
+MaskBlt ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ModifyWorldTransform ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MoveToEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+OffsetClipRgn@12
+OffsetRgn@12
+OffsetViewportOrgEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+OffsetWindowOrgEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+PaintRgn ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PatBlt@24
+PathToRegion@4
+Pie@36
+PlayEnhMetaFile@12
+PlayEnhMetaFileRecord@16
+PlayMetaFile@8
+PlayMetaFileRecord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PlgBlt ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PolyBezier ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+PolyBezierTo ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+PolyDraw ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PolyPolygon@16
+PolyPolyline ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+PolyTextOutA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PolyTextOutW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Polygon ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+Polyline ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+PolylineTo ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+PtInRegion@12
+PtVisible@12
+RealizePalette ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RectInRegion ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+RectVisible@8
+Rectangle@20
+RemoveFontResourceA@4
+RemoveFontResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ResetDCA@8
+ResetDCW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ResizePalette@8
+RestoreDC@8
+RoundRect@28
+SaveDC@4
+ScaleViewportExtEx ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+ScaleWindowExtEx ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+SelectClipPath@8
+SelectClipRgn@8
+SelectObject@8
+SelectPalette ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetAbortProc ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetArcDirection@8
+SetBitmapBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetBitmapDimensionEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+SetBkColor@8
+SetBkMode@8
+SetBoundsRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+SetBrushOrgEx@16
+SetColorAdjustment ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetColorSpace@8
+SetDIBColorTable@16
+SetDIBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDIBitsToDevice ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDeviceGammaRamp@8
+SetEnhMetaFileBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetFontEnumeration ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetGraphicsMode@8
+SetICMMode@8
+SetICMProfileA@8
+SetICMProfileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMapMode@8
+SetMapperFlags@8
+SetMetaFileBitsEx ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMetaRgn@4
+SetMiterLimit@12
+SetObjectOwner@8
+SetPaletteEntries@16
+SetPixel@16
+SetPixelFormat@12
+SetPixelV@16
+SetPolyFillMode@8
+SetROP2@8
+SetRectRgn@20
+SetStretchBltMode@8
+SetSystemPaletteUse@8
+SetTextAlign@8
+SetTextCharacterExtra@8
+SetTextColor@8
+SetTextJustification@12
+SetViewportExtEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+SetViewportOrgEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+SetWinMetaFileBits@16
+SetWindowExtEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+SetWindowOrgEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+SetWorldTransform ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartDocA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartDocW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartPage@4
+StretchBlt@44
+StretchDIBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StrokeAndFillPath@4
+StrokePath@4
+SwapBuffers@4
+TextOutA@20
+TextOutW@20
+TranslateCharsetInfo@12
+UnrealizeObject@4
+UpdateColors@4
+UpdateICMRegKey@16
+UpdateICMRegKeyA@16
+UpdateICMRegKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WidenPath@4
+gdiPlaySpoolStream@24
+pfnRealizePalette DATA
+pfnSelectPalette DATA

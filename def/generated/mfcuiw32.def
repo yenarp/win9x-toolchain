@@ -1,0 +1,14 @@
+LIBRARY MFCUIW32.DLL
+EXPORTS
+OleUIAddVerbMenu ; Check!!! return value is from OleUIAddVerbMenuW in oledlg.dll (ordinal 1)
+OleUICanConvertOrActivateAs ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIInsertObject ; Check!!! return value is from OleUIInsertObjectW in oledlg.dll (ordinal 14)
+OleUIPasteSpecial ; Check!!! return value is from OleUIPasteSpecialW in oledlg.dll (ordinal 18)
+OleUIEditLinks ; Check!!! return value is from OleUIEditLinksW in oledlg.dll (ordinal 12)
+OleUIChangeIcon ; Check!!! return value is from OleUIChangeIconW in oledlg.dll (ordinal 6)
+OleUIConvert ; Check!!! return value is from OleUIConvertW in oledlg.dll (ordinal 10)
+OleUIBusy ; Check!!! return value is from OleUIBusyW in oledlg.dll (ordinal 3)
+OleUIUpdateLinks ; Check!!! return value is from OleUIUpdateLinksW in oledlg.dll (ordinal 22)
+OleUIPromptUser ; Check!!! return value is from OleUIPromptUserW in oledlg.dll (ordinal 20)
+OleUIObjectProperties ; Check!!! return value is from OleUIObjectPropertiesW in oledlg.dll (ordinal 16)
+OleUIChangeSource ; Check!!! return value is from OleUIChangeSourceW in oledlg.dll (ordinal 8)

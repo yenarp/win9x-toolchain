@@ -1,0 +1,10 @@
+LIBRARY T2EMBED.DLL
+EXPORTS
+TTCharToUnicode@24 == _TTCharToUnicode@24
+TTDeleteEmbeddedFont@12 == _TTDeleteEmbeddedFont@12
+TTEmbedFont@44 == _TTEmbedFont@44
+TTEnableEmbeddingForFacename@8 == _TTEnableEmbeddingForFacename@8
+TTGetEmbeddingType@8 == _TTGetEmbeddingType@8
+TTIsEmbeddingEnabled@8 == _TTIsEmbeddingEnabled@8
+TTIsEmbeddingEnabledForFacename@8 == _TTIsEmbeddingEnabledForFacename@8
+TTLoadEmbeddedFont@40 == _TTLoadEmbeddedFont@40

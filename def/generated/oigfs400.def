@@ -1,0 +1,17 @@
+LIBRARY OIGFS400.DLL
+EXPORTS
+DllMain@12
+gfsclose@4
+gfscreat@8
+gfsgeti@16
+gfsopen@16
+gfsopts@16
+gfsputi@16
+gfsread@24
+gfswrite@20
+gfsxtrct@12
+gfsgtdata@8
+gfsdelpgs@12
+IsAWDFile@8
+CopyStorage
+IsStorage

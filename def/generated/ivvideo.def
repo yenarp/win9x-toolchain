@@ -1,0 +1,12 @@
+LIBRARY IVVIDEO.DLL
+EXPORTS
+DriverProc@20
+DecAndScalePICTUREToDIB24@36 == _DecAndScalePICTUREToDIB24@36
+DecAndScalePICTUREToDIB@32 == _DecAndScalePICTUREToDIB@32
+DecPICTUREToDIB@20 == _DecPICTUREToDIB@20
+VvBchDecode@44 == _VvBchDecode@44
+VvCloseDecoder@4 == _VvCloseDecoder@4
+VvDecGetMBMap@12 == _VvDecGetMBMap@12
+VvDecode@36 == _VvDecode@36
+VvGetDecoderPtr@4 == _VvGetDecoderPtr@4
+VvOpenDecoder@4 == _VvOpenDecoder@4

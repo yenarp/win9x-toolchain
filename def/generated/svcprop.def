@@ -1,0 +1,32 @@
+LIBRARY SVCPROP.DLL
+EXPORTS
+??0CServiceProperties@@QAE@AAV0@@Z ; has WINAPI (@4)
+??0CServiceProperties@@QAE@XZ
+??1CServiceProperties@@QAE@XZ
+??2CServiceProperties@@SAPAXI@Z
+??3CServiceProperties@@SAXPAX@Z
+??4CServiceProperties@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_ECServiceProperties@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCServiceProperties@@QAEPAXI@Z ; has WINAPI (@4)
+?CompressPropClnt@@YAPAXPAVCServiceProperties@@PAK@Z
+?CompressPropSrv@@YAPAXPAVCServiceProperties@@PAK@Z
+?DsDump@@YAXXZ
+?FCompressPropClntInBuffer@@YAHPAVCServiceProperties@@PAEKPAK@Z
+?FCompressPropSrvInBuffer@@YAHPAVCServiceProperties@@PAEKPAK@Z
+?FDecompressPropClnt@@YAHPAXKPAVCServiceProperties@@@Z
+?FDecompressPropSrv@@YAHPAXPAVCServiceProperties@@@Z
+?FDecompressPropSrvFromSrv@@YAHPAXKPAVCServiceProperties@@@Z
+?FDelete@CServiceProperties@@AAEHK@Z ; has WINAPI (@4)
+?FExtendProp@CServiceProperties@@AAEHK@Z ; has WINAPI (@4)
+?FFind@CServiceProperties@@QAEHPADPAK@Z ; has WINAPI (@8)
+?FGet@CServiceProperties@@QAEHKPAPADPAEPAPAXPAK@Z ; has WINAPI (@20)
+?FGet@CServiceProperties@@QAEHPADPAEPAPAXPAK@Z ; has WINAPI (@16)
+?FInit@CServiceProperties@@QAEHK@Z ; has WINAPI (@4)
+?FRemove@CServiceProperties@@QAEHK@Z ; has WINAPI (@4)
+?FSet@CServiceProperties@@QAEHKPADEPAXK@Z ; has WINAPI (@20)
+?FSet@CServiceProperties@@QAEHPADEPAXKPAK@Z ; has WINAPI (@20)
+?FreeCompressed@@YAXPAX@Z
+?FreeProp@CServiceProperties@@AAEXXZ
+?GetCompressedSizeClnt@@YAKPAVCServiceProperties@@@Z
+?GetCompressedSizeSrv@@YAKPAVCServiceProperties@@@Z
+?GetCount@CServiceProperties@@QAEKXZ

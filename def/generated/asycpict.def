@@ -1,0 +1,8 @@
+LIBRARY ASYCPICT.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+LoadPicture@20
+LoadPicturePath@24

@@ -1,0 +1,5 @@
+LIBRARY D3DIM.DLL
+EXPORTS
+Direct3DCreate@12
+Direct3DCreateDevice@20
+Direct3DCreateTexture@16

@@ -1,0 +1,13 @@
+LIBRARY MSSHRUI.DLL
+EXPORTS
+DllCanUnloadNow
+ShareProperties@12
+IsPathShared@8
+IsPrinterShared@12
+PrintShareProperties@12
+DllGetClassObject@12
+SharingDialog@12
+GetNetResourceFromLocalPath@16
+GetLocalPathFromNetResource@20
+ShareShutdownNotify@16
+PrintingDialog@12

@@ -1,0 +1,35 @@
+LIBRARY MOSCL.DLL
+EXPORTS
+CloseCreatedMosSlot
+CloseMOSConnection@4 == _CloseMOSConnection@4
+CloseMOSPipe@4 == _CloseMOSPipe@4
+CloseMOSSession@4 == _CloseMOSSession@4
+CloseMosSlot
+CloseMosSlotArena
+CloseOpenedMosSlot
+CreateMosSlot
+CreateMosSlotArena
+GetMOSConnectionStatus@4 == _GetMOSConnectionStatus@4
+GetMOSLastError@4 == _GetMOSLastError@4
+GetMOSPipeReadSize@8 == _GetMOSPipeReadSize@8
+GetMOSSysInfo@8 == _GetMOSSysInfo@8
+GetMosSlotInfo
+GetReadMosSlotOverlappedResult
+InitMOS@8 == _InitMOS@8
+OpenMOSConnection@16 == _OpenMOSConnection@16
+OpenMOSPipe@8 == _OpenMOSPipe@8
+OpenMOSPipeEx@12 == _OpenMOSPipeEx@12
+OpenMOSPipeWithNotify@24 == _OpenMOSPipeWithNotify@24
+OpenMOSPipeWithNotifyAndTimeoutEx@36 == _OpenMOSPipeWithNotifyAndTimeoutEx@36
+OpenMOSPipeWithNotifyEx@28 == _OpenMOSPipeWithNotifyEx@28
+OpenMOSSession@8 == _OpenMOSSession@8
+OpenMOSSessionEx@12 == _OpenMOSSessionEx@12
+OpenMosSlot
+OpenMosSlotArena
+ReadMOSPipe@16 == _ReadMOSPipe@16
+ReadMosSlot
+SetMOSPipeReadNotify@12 == _SetMOSPipeReadNotify@12
+SetMOSPipeWriteNotify@8 == _SetMOSPipeWriteNotify@8
+TerminateMOS@0 == _TerminateMOS@0
+WriteMOSPipe@20 == _WriteMOSPipe@20
+WriteMosSlot

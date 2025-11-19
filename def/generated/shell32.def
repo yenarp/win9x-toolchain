@@ -1,0 +1,367 @@
+LIBRARY SHELL32.DLL
+EXPORTS
+ord_2@24 @2 NONAME
+ord_3@24 @3 NONAME
+ord_4@4 @4 NONAME
+ord_5@16 @5 NONAME
+ord_6@24 @6 NONAME
+ord_7@12 @7 NONAME
+ord_8@12 @8 NONAME
+ord_9@16 @9 NONAME
+ord_10@20 @10 NONAME
+ord_11@20 @11 NONAME
+ord_12@12 @12 NONAME
+ord_13@8 @13 NONAME
+ord_14@12 @14 NONAME
+ord_15@8 @15 NONAME
+ord_16@4 @16 NONAME
+ord_17@4 @17 NONAME
+ord_18@4 @18 NONAME
+ord_19@4 @19 NONAME
+ord_20@4 @20 NONAME
+ord_21@8 @21 NONAME
+CheckEscapesA@8
+ord_23@12 @23 NONAME
+ord_24@8 @24 NONAME
+ord_25@8 @25 NONAME
+ord_26@8 @26 NONAME
+ord_27@8 @27 NONAME
+ord_28@12 @28 NONAME
+ord_29@4 @29 NONAME
+ord_30@8 @30 NONAME
+ord_31@4 @31 NONAME
+ord_32@4 @32 NONAME
+ord_33@4 @33 NONAME
+ord_34@4 @34 NONAME
+ord_35@4 @35 NONAME
+ord_36@8 @36 NONAME
+ord_37@12 @37 NONAME
+ord_38@4 @38 NONAME
+ord_39@4 @39 NONAME
+ord_40@4 @40 NONAME
+ord_41@4 @41 NONAME
+ord_42@4 @42 NONAME
+ord_43@4 @43 NONAME
+CheckEscapesW@8
+ord_45@4 @45 NONAME
+ord_46@8 @46 NONAME
+ord_47@20 @47 NONAME
+ord_48@12 @48 NONAME
+ord_49@4 @49 NONAME
+ord_50@4 @50 NONAME
+ord_51@12 @51 NONAME
+ord_52@4 @52 NONAME
+ord_53 @53 NONAME
+ord_54@4 @54 NONAME
+ord_55@4 @55 NONAME
+ord_56@4 @56 NONAME
+ord_57@4 @57 NONAME
+ord_58@16 @58 NONAME
+ord_59@12 @59 NONAME
+ord_60@4 @60 NONAME
+ord_61@24 @61 NONAME
+ord_62@16 @62 NONAME
+ord_63@28 @63 NONAME
+ord_64@4 @64 NONAME
+ord_65@4 @65 NONAME
+ord_66@4 @66 NONAME
+ord_67@24 @67 NONAME
+ord_68@12 @68 NONAME
+ord_69@16 @69 NONAME
+ord_70@20 @70 NONAME
+ord_71@8 @71 NONAME
+ord_72@12 @72 NONAME
+ord_73@12 @73 NONAME
+ord_74@12 @74 NONAME
+ord_75@16 @75 NONAME
+ord_76@8 @76 NONAME
+ord_77@12 @77 NONAME
+ord_78@16 @78 NONAME
+ord_79@16 @79 NONAME
+ord_80@28 @80 NONAME
+ord_81@16 @81 NONAME
+ord_82 @82 NONAME
+ord_83@16 @83 NONAME
+ord_84@8 @84 NONAME
+ord_85@16 @85 NONAME
+ord_86@8 @86 NONAME
+ord_87@4 @87 NONAME
+ord_88@20 @88 NONAME
+ord_89@12 @89 NONAME
+ord_90@8 @90 NONAME
+ord_91@8 @91 NONAME
+ord_92@4 @92 NONAME
+ord_93@8 @93 NONAME
+ord_94@4 @94 NONAME
+ord_95@4 @95 NONAME
+ord_96@16 @96 NONAME
+ord_97@12 @97 NONAME
+ord_98@12 @98 NONAME
+ord_99@8 @99 NONAME
+ord_100@4 @100 NONAME
+ord_101@12 @101 NONAME
+ord_102@20 @102 NONAME
+ord_103@4 @103 NONAME
+ord_104@4 @104 NONAME
+ord_105@8 @105 NONAME
+ord_106@8 @106 NONAME
+ord_107@12 @107 NONAME
+ord_108@8 @108 NONAME
+ord_109@4 @109 NONAME
+ord_110@12 @110 NONAME
+ord_111@4 @111 NONAME
+ord_112@8 @112 NONAME
+ord_113@12 @113 NONAME
+ord_114@20 @114 NONAME
+ord_115@24 @115 NONAME
+ord_116@24 @116 NONAME
+ord_117@8 @117 NONAME
+ord_118@4 @118 NONAME
+ord_119@4 @119 NONAME
+ord_120 @120 NONAME
+ord_121 @121 NONAME
+ord_122@20 @122 NONAME
+ord_123 @123 NONAME
+ord_124@12 @124 NONAME
+CommandLineToArgvW@8
+ord_126@12 @126 NONAME
+ord_127@16 @127 NONAME
+ord_128@12 @128 NONAME
+ord_129@12 @129 NONAME
+ord_130@4 @130 NONAME
+ord_131@12 @131 NONAME
+ord_132 @132 NONAME
+Control_FillCache_RunDLL@16
+ord_134@8 @134 NONAME
+Control_FillCache_RunDLLA@16
+ord_136@8 @136 NONAME
+ord_137@4 @137 NONAME
+Control_FillCache_RunDLLW@16
+ord_139@8 @139 NONAME
+ord_140@8 @140 NONAME
+ord_141@8 @141 NONAME
+ord_142@4 @142 NONAME
+ord_143@12 @143 NONAME
+ord_144@8 @144 NONAME
+ord_145@8 @145 NONAME
+ord_146 @146 NONAME
+ord_147@8 @147 NONAME
+Control_RunDLL@16
+ord_149@16 @149 NONAME
+Control_RunDLLA@16
+ord_151@4 @151 NONAME
+ord_152@4 @152 NONAME
+ord_153@4 @153 NONAME
+ord_154@12 @154 NONAME
+ord_155@4 @155 NONAME
+ord_156@4 @156 NONAME
+ord_157@4 @157 NONAME
+ord_158@12 @158 NONAME
+ord_159@4 @159 NONAME
+ord_160@12 @160 NONAME
+ord_161@8 @161 NONAME
+ord_162@4 @162 NONAME
+ord_163@8 @163 NONAME
+ord_164@4 @164 NONAME
+ord_165@8 @165 NONAME
+ord_166@24 @166 NONAME
+ord_167@12 @167 NONAME
+ord_168@12 @168 NONAME
+ord_169@4 @169 NONAME
+ord_170@16 @170 NONAME
+ord_171@8 @171 NONAME
+ord_172@20 @172 NONAME
+ord_173@12 @173 NONAME
+ord_174@8 @174 NONAME
+ord_175@16 @175 NONAME
+ord_176@4 @176 NONAME
+ord_177@12 @177 NONAME
+ord_178@16 @178 NONAME
+ord_179@20 @179 NONAME
+ord_180@20 @180 NONAME
+ord_181@8 @181 NONAME
+ord_182 @182 NONAME
+ord_183 @183 NONAME
+ord_184@20 @184 NONAME
+ord_185@8 @185 NONAME
+ord_186@16 @186 NONAME
+Control_RunDLLW@16
+DllCanUnloadNow
+ord_189@4 @189 NONAME
+ord_190@4 @190 NONAME
+ord_191@16 @191 NONAME
+ord_192@16 @192 NONAME
+ord_193@4 @193 NONAME
+ord_194@16 @194 NONAME
+ord_195@4 @195 NONAME
+ord_196@4 @196 NONAME
+ord_197@4 @197 NONAME
+ord_198 @198 NONAME
+SHExitWindowsEx@16
+DllGetClassObject@12
+DllGetVersion@4
+DllInstall@8
+DoEnvironmentSubstA@8
+DoEnvironmentSubstW@8
+DragAcceptFiles@8
+DragFinish@4
+DragQueryFile@16
+DragQueryFileA@16
+DragQueryFileAorW@24
+DragQueryFileW@16
+DragQueryPoint@8
+DuplicateIcon@8
+ExtractAssociatedIconA@12
+ExtractAssociatedIconExA@16
+ord_215@12 @215 NONAME
+ord_216@4 @216 NONAME
+ord_217@20 @217 NONAME
+ord_218@28 @218 NONAME
+ord_219@8 @219 NONAME
+ord_220@12 @220 NONAME
+ord_221@4 @221 NONAME
+ord_222@12 @222 NONAME
+ord_223@4 @223 NONAME
+ord_224@4 @224 NONAME
+ord_225@4 @225 NONAME
+ExtractAssociatedIconExW@16
+ord_227@24 @227 NONAME
+ExtractAssociatedIconW@12
+ExtractIconA@12
+ExtractIconEx@20
+ExtractIconExA@20
+ExtractIconExW@20
+ExtractIconResInfoA@20
+ExtractIconResInfoW@20
+ExtractIconW@12
+ExtractVersionResource16W@8
+FindExeDlgProc@16
+FindExecutableA@12
+FindExecutableW@12
+FreeIconList@8
+InternalExtractIconListA@12
+ord_242@8 @242 NONAME
+ord_243@8 @243 NONAME
+ord_244@8 @244 NONAME
+InternalExtractIconListW@12
+OpenAs_RunDLL@16
+OpenAs_RunDLLA@16
+OpenAs_RunDLLW@16
+ord_249@4 @249 NONAME
+ord_250@4 @250 NONAME
+ord_251@4 @251 NONAME
+ord_252@4 @252 NONAME
+PrintersGetCommand_RunDLL@16
+PrintersGetCommand_RunDLLA@16
+PrintersGetCommand_RunDLLW@16
+ord_256@8 @256 NONAME
+ord_257@4 @257 NONAME
+RealShellExecuteA@40
+RealShellExecuteExA@44
+RealShellExecuteExW@44
+RealShellExecuteW@40
+RegenerateUserEnvironment@8
+SHAddToRecentDocs@8
+SHAppBarMessage@8
+SHBrowseForFolder@4
+SHBrowseForFolderA@4
+SHBrowseForFolderW@4
+SHChangeNotify@16
+SHEmptyRecycleBinA@12
+SHEmptyRecycleBinW@12
+SHFileOperation@4
+SHFileOperationA@4
+SHFileOperationW@4
+SHFormatDrive@16
+SHFreeNameMappings@4
+SHGetDataFromIDListA@20
+SHGetDataFromIDListW@20
+SHGetDesktopFolder@4
+SHGetDiskFreeSpaceA@16
+ord_280@12 @280 NONAME
+SHGetFileInfo@20
+SHGetFileInfoA@20
+SHGetFileInfoW@20
+SHGetInstanceExplorer@4
+SHGetMalloc@4
+SHGetNewLinkInfo@20
+SHGetPathFromIDList@8
+SHGetPathFromIDListA@8
+SHGetPathFromIDListW@8
+SHGetSettings@8
+SHGetSpecialFolderLocation@12
+SHGetSpecialFolderPathA@16
+SHGetSpecialFolderPathW@16
+SHHelpShortcuts_RunDLL@16
+SHHelpShortcuts_RunDLLA@16
+SHHelpShortcuts_RunDLLW@16
+SHInvokePrinterCommandA@20
+SHInvokePrinterCommandW@20
+SHLoadInProc@4
+SHQueryRecycleBinA@8
+SHQueryRecycleBinW@8
+SHUpdateRecycleBinIcon
+SheChangeDirA@4
+SheChangeDirExA@4
+SheChangeDirExW@4
+SheChangeDirW@4
+SheConvertPathW@12
+SheFullPathA@12
+SheFullPathW@12
+SheGetCurDrive
+SheGetDirA@8
+SheGetDirExW@12
+SheGetDirW@8
+SheGetPathOffsetW@4
+SheRemoveQuotesA@4
+SheRemoveQuotesW@4
+SheSetCurDrive@4
+SheShortenPathA@8
+SheShortenPathW@8
+ShellAboutA@16
+ShellAboutW@16
+ShellExecuteA@24
+ShellExecuteEx@4
+ShellExecuteExA@4
+ShellExecuteExW@4
+ShellExecuteW@24
+ShellHookProc@12
+Shell_NotifyIcon@8
+Shell_NotifyIconA@8
+Shell_NotifyIconW@8
+ord_505@4 @505 NONAME
+ord_506@12 @506 NONAME
+ord_507@12 @507 NONAME
+ord_508@16 @508 NONAME
+ord_509@24 @509 NONAME
+ord_510@16 @510 NONAME
+ord_511@24 @511 NONAME
+ord_520@12 @520 NONAME
+ord_521@8 @521 NONAME
+ord_522@4 @522 NONAME
+ord_523@8 @523 NONAME
+ord_524@8 @524 NONAME
+ord_525@8 @525 NONAME
+ord_526 @526 NONAME
+ord_640@24 @640 NONAME
+ord_641@4 @641 NONAME
+ord_643@16 @643 NONAME
+ord_644@16 @644 NONAME
+ord_645@4 @645 NONAME
+ord_646@8 @646 NONAME
+ord_647@8 @647 NONAME
+ord_648@8 @648 NONAME
+ord_650@8 @650 NONAME
+ord_651@8 @651 NONAME
+ord_652@4 @652 NONAME
+ord_653@16 @653 NONAME
+ord_654@8 @654 NONAME
+ord_660@4 @660 NONAME
+ord_680 @680 NONAME
+ord_700@36 @700 NONAME
+ord_701@36 @701 NONAME
+ord_702@16 @702 NONAME
+ord_703@8 @703 NONAME
+ord_704@8 @704 NONAME
+ord_707@28 @707 NONAME
+ord_711 @711 NONAME

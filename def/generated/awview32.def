@@ -1,0 +1,6 @@
+LIBRARY AWVIEW32.DLL
+EXPORTS
+ViewerOpen@20
+ViewerSetPage@8
+ViewerGetBand@8
+ViewerClose@4

@@ -1,0 +1,41 @@
+LIBRARY TREENVCL.DLL
+EXPORTS
+??0CTreeNavClient@@QAE@AAV0@@Z ; has WINAPI (@4)
+??0CTreeNavClient@@QAE@PADKGPAVCMosEvents@@00K0HH@Z ; has WINAPI (@40)
+??1CTreeNavClient@@QAE@XZ
+??2CTreeNavClient@@SAPAXI@Z
+??3CTreeNavClient@@SAXPAX@Z
+??4CServiceProperties@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CTreeNavClient@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_ECServiceProperties@@QAEPAXI@Z ; has WINAPI (@4)
+??_ECTreeNavClient@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCServiceProperties@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCTreeNavClient@@QAEPAXI@Z ; has WINAPI (@4)
+?AddRef@CTreeNavClient@@QAEKPAVCMosEvents@@@Z ; has WINAPI (@4)
+?CloseHDyn@CTreeNavClient@@SAXPAX@Z
+?ConnectionDropped@CTreeNavClient@@QAEXXZ
+?CreateTnc@@YAPAVCTreeNavClient@@PADKGPAVCMosEvents@@00K0HH@Z
+?EnumShn@CTreeNavClient@@QAEKEPAGPAPAX@Z ; has WINAPI (@12)
+?FreeMoniker@CTreeNavClient@@QAEXPAG@Z ; has WINAPI (@4)
+?FreeShabby@CTreeNavClient@@QAEXPAX@Z ; has WINAPI (@4)
+?GetChildren@CTreeNavClient@@QAEKT_LARGE_INTEGER@@HKPAPADPAU_LOCALES@@PAKPAPAX@Z ; has WINAPI (@32)
+?GetCount@CServiceProperties@@QAEKXZ
+?GetDeidFromGoWord@CTreeNavClient@@QAEKPADPAU_LOCALES@@PAT_LARGE_INTEGER@@@Z ; has WINAPI (@12)
+?GetIMos@CTreeNavClient@@QAEXPAPAUIMos@@@Z ; has WINAPI (@4)
+?GetNextNode@CTreeNavClient@@QAEKPAXPAVCServiceProperties@@@Z ; has WINAPI (@8)
+?GetNextShn@CTreeNavClient@@SAKPAXPAK@Z
+?GetNthNode@CTreeNavClient@@QAEKPAXKPAVCServiceProperties@@@Z ; has WINAPI (@12)
+?GetNthShn@CTreeNavClient@@SAKPAXGPAK@Z
+?GetParents@CTreeNavClient@@QAEKT_LARGE_INTEGER@@HPAPADPAU_LOCALES@@PAKPAPAX@Z ; has WINAPI (@28)
+?GetProperties@CTreeNavClient@@QAEKPAT_LARGE_INTEGER@@KPAPADPAU_LOCALES@@PAKPAPAX@Z ; has WINAPI (@24)
+?GetRelatives@CTreeNavClient@@AAEKHT_LARGE_INTEGER@@HKPAPADPAU_LOCALES@@PAKPAPAX@Z ; has WINAPI (@36)
+?GetShabby@CTreeNavClient@@QAEKKPAPAXPAKPAPAUIMosStatus@@@Z ; has WINAPI (@16)
+?IsValid@CTreeNavClient@@QAEKXZ
+?NodesAvailableNow@CTreeNavClient@@QAEKPAX@Z ; has WINAPI (@4)
+?PackPropNames@CTreeNavClient@@AAEPADPAPADPAK1@Z ; has WINAPI (@12)
+?Release@CTreeNavClient@@QAEKPAVCMosEvents@@@Z ; has WINAPI (@4)
+?Reset@CTreeNavClient@@QAEXPAX@Z ; has WINAPI (@4)
+?ResolveMoniker@CTreeNavClient@@QAEKPAGPAT_LARGE_INTEGER@@PAKPAPAG@Z ; has WINAPI (@16)
+?SetFInteractive@CTreeNavClient@@QAEXH@Z ; has WINAPI (@4)
+?SetTimeOut@CTreeNavClient@@QAEXK@Z ; has WINAPI (@4)
+DllMain@12 == _DllMain@12

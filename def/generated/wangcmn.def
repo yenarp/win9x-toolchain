@@ -1,0 +1,39 @@
+LIBRARY WANGCMN.DLL
+EXPORTS
+??0CPagePropSheet@@QAE@PBDPAVCWnd@@@Z ; has WINAPI (@8)
+??0CVariantHandler@@QAE@ABUtagVARIANT@@@Z ; has WINAPI (@4)
+??0CVariantHandler@@QAE@XZ
+??1CPagePropSheet@@UAE@XZ
+??1CVariantHandler@@QAE@XZ
+??_FCPagePropSheet@@QAEXXZ
+?AddColorPage@CPagePropSheet@@QAEXXZ
+?AddCompressionPage@CPagePropSheet@@QAEXXZ
+?AddFileTypePage@CPagePropSheet@@QAEXXZ
+?AddResolutionPage@CPagePropSheet@@QAEXXZ
+?AddSizePage@CPagePropSheet@@QAEXXZ
+?DisableColor@CPagePropSheet@@QAEXXZ
+?DoModal@CPagePropSheet@@UAEHXZ
+?GetBool@CVariantHandler@@QAEJAAHABHH@Z ; has WINAPI (@12)
+?GetCString@CVariantHandler@@QAEJAAVCString@@ABV2@H@Z ; has WINAPI (@12)
+?GetColor@CPagePropSheet@@QAEFXZ
+?GetCompOpts@CPagePropSheet@@QAEJXZ
+?GetCompType@CPagePropSheet@@QAEFXZ
+?GetDouble@CVariantHandler@@QAEJAANABNH@Z ; has WINAPI (@12)
+?GetFileType@CPagePropSheet@@QAEFXZ
+?GetFloat@CVariantHandler@@QAEJAAMABMH@Z ; has WINAPI (@12)
+?GetHeight@CPagePropSheet@@QAEJXZ
+?GetLong@CVariantHandler@@QAEJAAJABJH@Z ; has WINAPI (@12)
+?GetPageSize@CPagePropSheet@@QAE?AW4PageSize@@XZ
+?GetShort@CVariantHandler@@QAEJAAFABFH@Z ; has WINAPI (@12)
+?GetWidth@CPagePropSheet@@QAEJXZ
+?GetXRes@CPagePropSheet@@QAEJXZ
+?GetYRes@CPagePropSheet@@QAEJXZ
+?SetDefaultColor@CPagePropSheet@@QAEXF@Z ; has WINAPI (@4)
+?SetDefaultCompOpts@CPagePropSheet@@QAEXJ@Z ; has WINAPI (@4)
+?SetDefaultCompType@CPagePropSheet@@QAEXF@Z ; has WINAPI (@4)
+?SetDefaultFileType@CPagePropSheet@@QAEXF@Z ; has WINAPI (@4)
+?SetDefaultResolution@CPagePropSheet@@QAEXJJ@Z ; has WINAPI (@8)
+?SetDefaultSize@CPagePropSheet@@QAEXJJ@Z ; has WINAPI (@8)
+?SetDefaultSize@CPagePropSheet@@QAEXW4PageSize@@@Z ; has WINAPI (@4)
+?SetVariant@CVariantHandler@@QAEXABUtagVARIANT@@@Z ; has WINAPI (@4)
+?Xlate@ErrMap@@SAJJAAVCString@@AAIPADJ@Z

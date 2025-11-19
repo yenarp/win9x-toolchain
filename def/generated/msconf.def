@@ -1,0 +1,25 @@
+LIBRARY MSCONF.DLL
+EXPORTS
+DllGetClassObject@12
+DllCanUnloadNow
+ConferenceConnectA@16
+ConferenceConnectW@16
+ConferenceGetInfoA@12
+ConferenceGetInfoW@12
+ConferenceSetInfoA@12
+ConferenceSetInfoW@12
+ConferenceSendFileA@16
+ConferenceSendFileW@16
+ConferenceSetNotify@12
+ConferenceRemoveNotify@8
+ConferenceListen@4
+ConferenceLaunchRemote@12
+ConferenceDisconnect@4
+ConferenceCancelTransfer@8
+ConferenceSendData@20
+ConferenceShareWindow@12
+ConfInitialize
+ConfSendMessage@12
+NewMediaPhone@16
+CallToProtocolHandler@16
+OpenConfLink@16

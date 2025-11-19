@@ -1,0 +1,18 @@
+LIBRARY FTE.DLL
+EXPORTS
+xfGetVersion
+xfInitialize@20
+xfUninitialize@8
+xfRegister@12
+xfConnect@16
+xfDisconnect@8
+xfGetStatusLong@8
+xfGetStatusText@16
+xfSend@28
+xfConnectAndSend@32
+xfReceive@12
+xfAbortTransfer@8
+xfDefNotifyProc@16
+xfChangeTransport@8
+xfErrSz@8
+xfMsgSz@12

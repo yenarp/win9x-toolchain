@@ -1,0 +1,22 @@
+LIBRARY FM20.DLL
+EXPORTS
+ord_29@8 @29 NONAME
+ord_30@4 @30 NONAME
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllRegisterServerSetup@4
+DllUnregisterServer
+FormsCloseParentUnit@12
+FormsOpenParentUnit@12
+FormsSetLCID@4
+ord_50@28 @50 NONAME
+ord_51@16 @51 NONAME
+ord_52@28 @52 NONAME
+ord_100@8 @100 NONAME
+ord_101 @101 NONAME
+ord_102@12 @102 NONAME
+ord_103@16 @103 NONAME
+ord_104@20 @104 NONAME
+ord_105@4 @105 NONAME
+ord_106@8 @106 NONAME

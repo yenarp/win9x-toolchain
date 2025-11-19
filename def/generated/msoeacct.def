@@ -1,0 +1,37 @@
+LIBRARY msoeacct.DLL
+EXPORTS
+??0CByteStream@@QAE@ABV0@@Z ; has WINAPI (@4)
+??0CEnumFormatEtc@@QAE@ABV0@@Z ; has WINAPI (@4)
+??4CByteStream@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CEnumFormatEtc@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CLogFile@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CStringParser@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_7CByteStream@@6B@ DATA
+??_7CEnumFormatEtc@@6B@ DATA
+?AddRef@CLogFile@@QAEKXZ
+?CchValue@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?ChParse@CStringParser@@QAGDPBD@Z ; has WINAPI (@8)
+?ChSkip@CStringParser@@QAGDPBD@Z ; has WINAPI (@8)
+?Clone@CByteStream@@UAGJPAPAUIStream@@@Z ; has WINAPI (@8)
+?Commit@CByteStream@@UAGJK@Z ; has WINAPI (@8)
+?CopyTo@CByteStream@@UAGJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z ; has WINAPI (@24)
+CreateAccountsFromFile@8
+CreateAccountsFromFileEx@12
+?FlagClear@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?FlagSet@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?GetCP@CStringParser@@QAGIXZ ; has WINAPI (@4)
+?GetIndex@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?GetLength@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?LockRegion@CByteStream@@UAGJT_ULARGE_INTEGER@@0K@Z ; has WINAPI (@24)
+?PszValue@CStringParser@@QAGPBDXZ ; has WINAPI (@4)
+?Release@CLogFile@@QAEKXZ
+?Revert@CByteStream@@UAGJXZ ; has WINAPI (@4)
+?SetCodePage@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?SetIndex@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?UnlockRegion@CByteStream@@UAGJT_ULARGE_INTEGER@@0K@Z ; has WINAPI (@24)
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+HrCreateAccountManager@4
+ValidEmailAddress@4

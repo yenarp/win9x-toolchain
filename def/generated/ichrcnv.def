@@ -1,0 +1,11 @@
+LIBRARY ICHRCNV.DLL
+EXPORTS
+PC_to_UNIX@24
+UNIX_to_PC@28
+DetectJPNCode@8
+ShiftJIS_to_JIS@16
+ShiftJIS_to_EUC@16
+JIS_to_ShiftJIS@20
+EUC_to_ShiftJIS@20
+FCC_Init@4
+FCC_GetCurrentEncodingMode@4

@@ -1,0 +1,10 @@
+LIBRARY MMFMIG32.DLL
+EXPORTS
+MMFMIG_ProcessMMF@4@4
+HPProviderInit
+FOutsideDateRange@12@12
+HrModifyNamesInMsg@4@4
+ScGetPABMigrationContext@52@52
+ScMMFMigrateToMDB@48@48
+ScMMFVerify@16@16
+ScMigrateMMFPAB@32@32

@@ -1,0 +1,9 @@
+LIBRARY MSPST32.DLL
+EXPORTS
+ABProviderInit
+MSProviderInit
+NDBGetFileInfo@12
+OSTServiceEntry@40
+PABServiceEntry@40
+PSTServiceEntry@40
+ScGetPABImporter@28

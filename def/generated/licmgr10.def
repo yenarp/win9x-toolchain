@@ -1,0 +1,6 @@
+LIBRARY LICMGR10.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

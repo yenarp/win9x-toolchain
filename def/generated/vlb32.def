@@ -1,0 +1,16 @@
+LIBRARY VLB32.DLL
+EXPORTS
+InitVlb
+DeinitVlb
+ord_4@20 @4 NONAME
+ord_5@16 @5 NONAME
+PvAllocFn@8
+PvReAllocFn@12
+FreePvFn@4
+FreePvNullFn@4
+PvAllocMC@16
+PvReAllocMC@20
+FreePvMC@12
+FreePvNullMC@12
+MemCheckLeaksFn
+VLB_EntryFunc@12

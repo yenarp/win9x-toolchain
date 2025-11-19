@@ -1,0 +1,14 @@
+LIBRARY IMGUTIL.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+ComputeInvCMAP@16
+CreateDDrawSurfaceOnDIB@8
+CreateMIMEMap@4
+DecodeImage@12
+DitherTo8@56
+GetMaxMIMEIDBytes@4
+IdentifyMIMEType@12
+SniffStream@12

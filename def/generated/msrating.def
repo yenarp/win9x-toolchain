@@ -1,0 +1,20 @@
+LIBRARY MSRATING.DLL
+EXPORTS
+ord_1@16 @1 NONAME
+ChangeSupervisorPassword@8
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+RatingAccessDeniedDialog2@12
+RatingAccessDeniedDialog@16
+RatingAddPropertyPages@12
+RatingCheckUserAccess@24
+RatingEnable@12
+RatingEnabledQuery
+RatingFreeDetails@4
+RatingInit
+RatingObtainCancel@4
+RatingObtainQuery@16
+RatingSetupUI@8
+VerifySupervisorPassword@4

@@ -1,0 +1,15 @@
+LIBRARY IPROP.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+FmtIdToPropStgName@8
+FreePropVariantArray@8
+GetProxyDllInfo@8
+PropStgNameToFmtId@8
+PropVariantClear@4
+PropVariantCopy@8
+StgCreatePropSetStg@12
+StgCreatePropStg@24
+StgOpenPropStg@20

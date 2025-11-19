@@ -1,0 +1,5 @@
+LIBRARY DEVMGR32.DLL
+EXPORTS
+OtherLocationBrowse@12
+dm_ThunkData32 DATA
+DMDoFileReport@12

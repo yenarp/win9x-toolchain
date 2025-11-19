@@ -1,0 +1,7 @@
+LIBRARY OIPRT400.DLL
+EXPORTS
+PrtAbortProc@8
+PrtAbortDlgProc@16
+IMGPrtFiles@16
+OiPrtGetOpts@4
+OiPrtSetOpts@8

@@ -1,0 +1,14 @@
+LIBRARY LZ32.DLL
+EXPORTS
+LZCopy@8
+LZOpenFileA@12
+LZInit@4
+LZSeek@12
+LZRead@12
+LZClose@4
+LZStart
+CopyLZFile@8
+LZDone
+GetExpandedNameA@8
+LZOpenFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetExpandedNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.

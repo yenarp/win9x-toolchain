@@ -1,0 +1,159 @@
+LIBRARY msoert.DLL
+EXPORTS
+??0CByteStream@@QAE@ABV0@@Z ; has WINAPI (@4)
+??0CByteStream@@QAE@XZ
+??0CEnumFormatEtc@@QAE@ABV0@@Z ; has WINAPI (@4)
+??0CEnumFormatEtc@@QAE@PAUIUnknown@@KPAUtagFORMATETC@@@Z ; has WINAPI (@12)
+??0CEnumFormatEtc@@QAE@PAUIUnknown@@PAUtagDATAOBJINFO@@K@Z ; has WINAPI (@12)
+??0CLogFile@@QAE@PAD0@Z ; has WINAPI (@8)
+??0CStringParser@@QAE@XZ
+??1CByteStream@@QAE@XZ
+??1CEnumFormatEtc@@QAE@XZ
+??1CLogFile@@QAE@XZ
+??1CStringParser@@QAE@XZ
+??4CByteStream@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CEnumFormatEtc@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CLogFile@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??4CStringParser@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_7CByteStream@@6B@ DATA
+??_7CEnumFormatEtc@@6B@ DATA
+?AcquireBytes@CByteStream@@QAGXPAKPAPAEW4tagACQUIRETYPE@@@Z ; has WINAPI (@16)
+?AddRef@CByteStream@@UAGKXZ ; has WINAPI (@4)
+?AddRef@CEnumFormatEtc@@UAGKXZ ; has WINAPI (@4)
+?AddRef@CLogFile@@QAEKXZ
+?AddRef@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?CchValue@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?ChParse@CStringParser@@QAGDDDK@Z ; has WINAPI (@16)
+?ChParse@CStringParser@@QAGDPBD@Z ; has WINAPI (@8)
+?ChParse@CStringParser@@QAGDPBDK@Z ; has WINAPI (@12)
+?ChParse@CStringParser@@QAGDXZ ; has WINAPI (@4)
+?ChPeekNext@CStringParser@@QAGDK@Z ; has WINAPI (@8)
+?ChSkip@CStringParser@@QAGDPBD@Z ; has WINAPI (@8)
+?ChSkip@CStringParser@@QAGDXZ ; has WINAPI (@4)
+?ChSkipWhite@CStringParser@@QAGDXZ ; has WINAPI (@4)
+?Clone@CByteStream@@UAGJPAPAUIStream@@@Z ; has WINAPI (@8)
+?Clone@CEnumFormatEtc@@UAGJPAPAUIEnumFORMATETC@@@Z ; has WINAPI (@8)
+?Commit@CByteStream@@UAGJK@Z ; has WINAPI (@8)
+?CopyTo@CByteStream@@UAGJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z ; has WINAPI (@24)
+?DebugLog@CLogFile@@QAGXPBD@Z ; has WINAPI (@8)
+?DebugLogd@CLogFile@@QAGXPBDH@Z ; has WINAPI (@12)
+?DebugLogs@CLogFile@@QAGXPBD0@Z ; has WINAPI (@12)
+?FIsParseSpace@CStringParser@@QAGHDPAH@Z ; has WINAPI (@12)
+?FlagClear@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?FlagSet@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?GetCP@CStringParser@@QAGIXZ ; has WINAPI (@4)
+?GetIndex@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?GetLength@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?HrAcquireStringA@CByteStream@@QAGJPAKPAPADW4tagACQUIRETYPE@@@Z ; has WINAPI (@16)
+?HrAcquireStringW@CByteStream@@QAGJPAKPAPAGW4tagACQUIRETYPE@@@Z ; has WINAPI (@16)
+?HrAppendValue@CStringParser@@QAGJD@Z ; has WINAPI (@8)
+?Init@CStringParser@@QAGXPBDKK@Z ; has WINAPI (@16)
+?LockRegion@CByteStream@@UAGJT_ULARGE_INTEGER@@0K@Z ; has WINAPI (@24)
+?Next@CEnumFormatEtc@@UAGJKPAUtagFORMATETC@@PAK@Z ; has WINAPI (@16)
+?PszValue@CStringParser@@QAGPBDXZ ; has WINAPI (@4)
+?QueryInterface@CByteStream@@UAGJABU_GUID@@PAPAX@Z ; has WINAPI (@12)
+?QueryInterface@CEnumFormatEtc@@UAGJABU_GUID@@PAPAX@Z ; has WINAPI (@12)
+?Read@CByteStream@@UAGJPAXKPAK@Z ; has WINAPI (@16)
+?Release@CByteStream@@UAGKXZ ; has WINAPI (@4)
+?Release@CEnumFormatEtc@@UAGKXZ ; has WINAPI (@4)
+?Release@CLogFile@@QAEKXZ
+?Release@CStringParser@@QAGKXZ ; has WINAPI (@4)
+?Reset@CEnumFormatEtc@@UAGJXZ ; has WINAPI (@4)
+?ResetObject@CByteStream@@AAGXXZ ; has WINAPI (@4)
+?Revert@CByteStream@@UAGJXZ ; has WINAPI (@4)
+?Seek@CByteStream@@UAGJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z ; has WINAPI (@20)
+?SetCodePage@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?SetIndex@CStringParser@@QAGXK@Z ; has WINAPI (@8)
+?SetSize@CByteStream@@UAGJT_ULARGE_INTEGER@@@Z ; has WINAPI (@12)
+?SetTokens@CStringParser@@QAGXPBD@Z ; has WINAPI (@8)
+?Skip@CEnumFormatEtc@@UAGJK@Z ; has WINAPI (@8)
+?Stat@CByteStream@@UAGJPAUtagSTATSTG@@K@Z ; has WINAPI (@12)
+?UnlockRegion@CByteStream@@UAGJT_ULARGE_INTEGER@@0K@Z ; has WINAPI (@24)
+?Write@CByteStream@@UAGJPBXKPAK@Z ; has WINAPI (@16)
+?WriteLog@CLogFile@@QAGXW4LOGFILETYPE@@PBD@Z ; has WINAPI (@12)
+?_HrDoubleByteIncrement@CStringParser@@AAGJH@Z ; has WINAPI (@8)
+?_HrGrowBuffer@CByteStream@@AAGJKK@Z ; has WINAPI (@12)
+?_HrGrowDestination@CStringParser@@AAGJK@Z ; has WINAPI (@8)
+AppendTempFileList@12
+CchFileTimeToDateTimeSz@16
+ChConvertFromHex@4
+CleanupFileNameInPlaceA@8
+CleanupFileNameInPlaceW@4
+CleanupGlobalTempFiles
+CopyRegistry@8
+CreateTempFile@16
+CreateTempFileStream@4
+DeleteTempFile@4
+DeleteTempFileOnShutdown@4
+DeleteTempFileOnShutdownEx@8
+FIsEmptyA@4
+FIsEmptyW@4
+FIsSpaceA@4
+FIsSpaceW@4
+FIsValidFileNameCharA@8
+FIsValidFileNameCharW@4
+FMissingCert@4
+GenerateUniqueFileName@20
+HrByteToStream@12
+HrCopyLockBytesToStream@12
+HrCopyStream@12
+HrCopyStreamCB@24
+HrCopyStreamCBEndOnCRLF@16
+HrCopyStreamToByte@12
+HrCreatePhonebookEntry@8
+HrEditPhonebookEntry@12
+HrExtractDate@8
+HrFillRasCombo@12
+HrFindInetTimeZone@8
+HrGetStreamPos@8
+HrGetStreamSize@8
+HrIndexOfMonth@8
+HrIndexOfWeek@8
+HrRewindStream@4
+HrSafeGetStreamSize@8
+HrStreamSeekBegin@4
+HrStreamSeekCur@8
+HrStreamSeekEnd@4
+HrStreamSeekSet@8
+HrStreamToByte@12
+IsDigit@4
+IsPrint@4
+IsUpper@4
+OpenFileStream@16
+OpenFileStreamShare@20
+PSTCreateTypeSubType_NoUI@20
+PSTFreeHandle@4
+PSTGetData@20
+PSTSetNewData@24
+PVDecodeObject@16
+PVGetCertificateParam@12
+PVGetMsgParam@16
+PszAllocA@4
+PszAllocW@4
+PszDayFromIndex@4
+PszDupA@4
+PszDupW@4
+PszEscapeMenuStringA@8
+PszFromANSIStreamA@4
+PszMonthFromIndex@4
+PszScanToCharA@8
+PszScanToWhiteA@4
+PszSkipWhiteA@4
+PszToANSI@8
+PszToUnicode@8
+RegDeleteKeyRecursive@8
+StrChrExA@12
+StrToUintA@4
+StrToUintW@4
+StripCRLF@8
+SzGetCertificateEmailAddress@4
+UlStripWhitespace@16
+UnlocStrEqNW@12
+WriteStreamToFile@16
+WriteStreamToFileHandle@12
+WszGenerateNameFromBlob@8
+_HrAlloc@12
+_HrRealloc@12
+_MemAlloc@12
+_MemRealloc@12
+strtrim@4

@@ -1,0 +1,16 @@
+LIBRARY MSLOCUSR.DLL
+EXPORTS
+NPGetCaps@4
+AddUserWizard@16
+ChangeSupervisorPassword@8
+DllCanUnloadNow
+DllGetClassObject@12
+DllInstall@8
+DllRegisterServer
+DllUnregisterServer
+InstallWizard@16
+UserCPL@16
+VerifySupervisorPassword@4
+ord_43@24 @43 NONAME
+ord_44@12 @44 NONAME
+ord_50@12 @50 NONAME

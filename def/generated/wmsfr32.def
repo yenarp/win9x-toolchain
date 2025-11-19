@@ -1,0 +1,5 @@
+LIBRARY WMSFR32.DLL
+EXPORTS
+CreateObject@12
+Unload
+WMSRegExt

@@ -1,0 +1,6 @@
+LIBRARY dx3j.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

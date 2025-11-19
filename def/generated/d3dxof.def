@@ -1,0 +1,5 @@
+LIBRARY D3DXOF.DLL
+EXPORTS
+IXOFCreate@4
+XOFMetafileGetAllocator@12
+XOFMetafileSetAllocator@12

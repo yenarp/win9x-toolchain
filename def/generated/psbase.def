@@ -1,0 +1,27 @@
+LIBRARY PSBASE.DLL
+EXPORTS
+AuthFinalPolicy@4
+AuthInitPolicy@4
+FPasswordChangeNotify@24
+SPCloseItem@24
+SPOpenItem@32
+SPAcquireContext@8
+SPCreateSubtype@28
+SPCreateType@20
+SPDeleteItem@28
+SPDeleteSubtype@20
+SPDeleteType@16
+SPEnumItems@28
+SPEnumSubtypes@24
+SPEnumTypes@20
+SPGetProvInfo@8
+SPGetProvParam@20
+SPGetSubtypeInfo@24
+SPGetTypeInfo@20
+SPProviderInitialize@4
+SPReadAccessRuleset@24
+SPReadItem@36
+SPReleaseContext@8
+SPSetProvParam@20
+SPWriteAccessRuleset@24
+SPWriteItem@40

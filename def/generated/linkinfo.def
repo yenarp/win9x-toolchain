@@ -1,0 +1,11 @@
+LIBRARY LINKINFO.DLL
+EXPORTS
+CompareLinkInfoReferents@8
+CompareLinkInfoVolumes@8
+CreateLinkInfo@8
+DestroyLinkInfo@4
+DisconnectLinkInfo@4
+GetCanonicalPathInfo@20
+GetLinkInfoData@12
+IsValidLinkInfo@4
+ResolveLinkInfo@24

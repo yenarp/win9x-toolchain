@@ -1,0 +1,170 @@
+LIBRARY COMCTL32.DLL
+EXPORTS
+MenuHelp@28
+ShowHideMenuCtl@12
+GetEffectiveClientRect@12
+DrawStatusTextA@16
+CreateStatusWindowA@16
+CreateToolbar@32
+CreateMappedBitmap@20
+ord_9@16 @9 NONAME
+ord_10@16 @10 NONAME
+ord_11@24 @11 NONAME
+Cctl1632_ThunkData32 DATA
+MakeDragList@4
+LBItemFromPt@16
+DrawInsert@12
+CreateUpDownControl@48
+InitCommonControls
+CreatePropertySheetPage@4
+CreatePropertySheetPageA@4
+CreatePropertySheetPageW@4
+CreateStatusWindow@16
+CreateStatusWindowW@16
+CreateToolbarEx@52
+DestroyPropertySheetPage@4
+DllGetVersion@4
+DllInstall@8
+DrawStatusText@16
+DrawStatusTextW@16
+FlatSB_EnableScrollBar@12
+FlatSB_GetScrollInfo@12
+FlatSB_GetScrollPos@8
+FlatSB_GetScrollProp@12
+FlatSB_GetScrollRange@16
+FlatSB_SetScrollInfo@16
+FlatSB_SetScrollPos@16
+FlatSB_SetScrollProp@16
+FlatSB_SetScrollRange@20
+FlatSB_ShowScrollBar@12
+ImageList_Add@12
+ImageList_AddIcon@8
+ImageList_AddMasked@12
+ImageList_BeginDrag@16
+ImageList_Copy@20
+ImageList_Create@20
+ImageList_Destroy@4
+ImageList_DragEnter@12
+ImageList_DragLeave@4
+ImageList_DragMove@8
+ImageList_DragShowNolock@4
+ImageList_Draw@24
+ImageList_DrawEx@40
+ImageList_DrawIndirect@4
+ImageList_Duplicate@4
+ImageList_EndDrag
+ImageList_GetBkColor@4
+ImageList_GetDragImage@8
+ImageList_GetIcon@12
+ImageList_GetIconSize@12
+ImageList_GetImageCount@4
+ImageList_GetImageInfo@12
+ImageList_GetImageRect@12
+ImageList_LoadImage@28
+ImageList_LoadImageA@28
+ImageList_LoadImageW@28
+ImageList_Merge@24
+ImageList_Read@4
+ImageList_Remove@8
+ImageList_Replace@16
+ImageList_ReplaceIcon@12
+ImageList_SetBkColor@8
+ord_71@4 @71 NONAME
+ord_72@8 @72 NONAME
+ord_73@4 @73 NONAME
+ord_74@4 @74 NONAME
+ImageList_SetDragCursorImage@16
+ImageList_SetFilter@12
+ImageList_SetIconSize@12
+ImageList_SetImageCount@8
+ImageList_SetOverlayImage@12
+ImageList_Write@8
+InitCommonControlsEx@4
+InitializeFlatSB@4
+PropertySheet@4
+PropertySheetA@4
+PropertySheetW@4
+UninitializeFlatSB@4
+_TrackMouseEvent@4
+ord_151@4 @151 NONAME
+ord_152@4 @152 NONAME
+ord_153@8 @153 NONAME
+ord_154@16 @154 NONAME
+ord_155@12 @155 NONAME
+ord_156@8 @156 NONAME
+ord_157@16 @157 NONAME
+ord_163@8 @163 NONAME
+ord_164@8 @164 NONAME
+ord_167@12 @167 NONAME
+ord_169@16 @169 NONAME
+ord_233@12 @233 NONAME
+ord_234@8 @234 NONAME
+ord_235@12 @235 NONAME
+ord_236@8 @236 NONAME
+ord_320@8 @320 NONAME
+ord_321@4 @321 NONAME
+ord_322@12 @322 NONAME
+ord_323@8 @323 NONAME
+ord_324@12 @324 NONAME
+ord_325@12 @325 NONAME
+ord_326@8 @326 NONAME
+ord_327@4 @327 NONAME
+ord_328@4 @328 NONAME
+ord_329@4 @329 NONAME
+ord_330@8 @330 NONAME
+ord_331@8 @331 NONAME
+ord_332@8 @332 NONAME
+ord_333@8 @333 NONAME
+ord_334@12 @334 NONAME
+ord_335@12 @335 NONAME
+ord_336@8 @336 NONAME
+ord_337@4 @337 NONAME
+ord_338@12 @338 NONAME
+ord_339@24 @339 NONAME
+ord_340@8 @340 NONAME
+ord_341@16 @341 NONAME
+ord_342@20 @342 NONAME
+ord_350@8 @350 NONAME
+ord_351@12 @351 NONAME
+ord_352@12 @352 NONAME
+ord_353@12 @353 NONAME
+ord_354@8 @354 NONAME
+ord_355@8 @355 NONAME
+ord_356@8 @356 NONAME
+ord_357@4 @357 NONAME
+ord_358@8 @358 NONAME
+ord_359@12 @359 NONAME
+ord_360@12 @360 NONAME
+ord_361@12 @361 NONAME
+ord_362@8 @362 NONAME
+ord_363@8 @363 NONAME
+ord_364@8 @364 NONAME
+ord_365@4 @365 NONAME
+ord_366@8 @366 NONAME
+ord_367@8 @367 NONAME
+ord_368@12 @368 NONAME
+ord_369@12 @369 NONAME
+ord_372@12 @372 NONAME
+ord_373@12 @373 NONAME
+ord_374@8 @374 NONAME
+ord_375@8 @375 NONAME
+ord_376@16 @376 NONAME
+ord_377@16 @377 NONAME
+ord_382@4 @382 NONAME
+ord_383@4 @383 NONAME
+ord_384@8 @384 NONAME
+ord_385@12 @385 NONAME
+ord_386@12 @386 NONAME
+ord_387@12 @387 NONAME
+ord_388@12 @388 NONAME
+ord_389@8 @389 NONAME
+ord_390@16 @390 NONAME
+ord_400@4 @400 NONAME
+ord_401@8 @401 NONAME
+ord_402@12 @402 NONAME
+ord_403@16 @403 NONAME
+ord_404@16 @404 NONAME
+ord_410@16 @410 NONAME
+ord_411@16 @411 NONAME
+ord_412@12 @412 NONAME
+ord_413@16 @413 NONAME

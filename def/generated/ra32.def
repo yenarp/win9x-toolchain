@@ -1,0 +1,37 @@
+LIBRARY RA32.DLL
+EXPORTS
+?AsyncNotifyProc@CAsyncNotify@@SGJPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?AsyncNotifyProc@CAsyncSockN@@KGJPAXIIJ@Z ; has WINAPI (@16)
+?NonMMTimerProc@CRaSession@@CGXPAUHWND__@@IIK@Z ; has WINAPI (@16)
+RaBegin@4 == _RaBegin@4
+RaBeginRecording@8 == _RaBeginRecording@8
+RaClose@4 == _RaClose@4
+RaCloseHttp@8 == _RaCloseHttp@8
+RaFormClientIdString@24 == _RaFormClientIdString@24
+RaGetClipAttribute@16 == _RaGetClipAttribute@16
+RaGetConnectionInfo@8 == _RaGetConnectionInfo@8
+RaGetErrorText@4 == _RaGetErrorText@4
+RaGetLastError@4 == _RaGetLastError@4
+RaGetStatus@12 == _RaGetStatus@12
+RaGetVolume@8 == _RaGetVolume@8
+RaOpen@20 == _RaOpen@20
+RaOpenHttp@12 == _RaOpenHttp@12
+RaOpenURL@8 == _RaOpenURL@8
+RaPause@4 == _RaPause@4
+RaProductVersion@0 == _RaProductVersion@0
+RaReadPref@16 == _RaReadPref@16
+RaRegisterNotifyCallback@12 == _RaRegisterNotifyCallback@12
+RaRegisterNotifyWnd@16 == _RaRegisterNotifyWnd@16
+RaResetLastError@4 == _RaResetLastError@4
+RaSeek@8 == _RaSeek@8
+RaSetClientId@8 == _RaSetClientId@8
+RaSetClientLocale@8 == _RaSetClientLocale@8
+RaSetPlayMode@8 == _RaSetPlayMode@8
+RaSetVolume@8 == _RaSetVolume@8
+RaSetup@12 == _RaSetup@12
+RaShutdown@4 == _RaShutdown@4
+RaStopRecording@4 == _RaStopRecording@4
+RaUpdatePrefs@4 == _RaUpdatePrefs@4
+RaVersion@0 == _RaVersion@0
+RaVolumeSupport@8 == _RaVolumeSupport@8
+RaWritePref@12 == _RaWritePref@12

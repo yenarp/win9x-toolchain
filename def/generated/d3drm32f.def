@@ -1,0 +1,5 @@
+LIBRARY D3DRM32F.DLL
+EXPORTS
+ord_1 @1 NONAME
+RLDDICreateRampDriver
+RLDDICreateRampLightingDriver

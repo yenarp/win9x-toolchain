@@ -1,0 +1,6 @@
+LIBRARY JPEG1X32.DLL
+EXPORTS
+jpeg_cmp_init@24
+jpeg_cmp@36
+cleanup@4
+jpeg_header@16

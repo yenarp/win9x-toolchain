@@ -1,0 +1,6 @@
+LIBRARY CLRVIDDC.DLL
+EXPORTS
+WinDllSHIMOpen
+WinDllSHIMChunk
+WinDllSHIMClose
+WinDllChangeSHIMColorspace

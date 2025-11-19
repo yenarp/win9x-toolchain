@@ -1,0 +1,16 @@
+LIBRARY MSPWL32.DLL
+EXPORTS
+OpenPasswordCache@16
+ClosePasswordCache@8
+CreatePasswordCache@12
+CheckCacheVersion@8
+LoadCacheImage@4
+MakeCacheDirty@4
+FindCacheResource@24
+DeleteCacheResource@16
+AddCacheResource@28
+EnumCacheResources@24
+UpdateCacheMRU@8
+SetCachePassword@8
+DeletePasswordCache@4
+GetCacheFileName@12

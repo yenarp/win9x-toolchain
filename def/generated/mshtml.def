@@ -1,0 +1,17 @@
+LIBRARY MSHTML.DLL
+EXPORTS
+PrintHTML@16
+DllCanUnloadNow
+DllEnumClassObjects@12
+DllGetClassObject@12
+DllInstall@8
+DllRegisterServer
+DllUnregisterServer
+MatchExactGetIDsOfNames@28
+RNIGetCompatibleVersion
+ShowHTMLDialog@20
+ShowModalDialog@20
+com_ms_osp_ospmrshl_classInit
+com_ms_osp_ospmrshl_copyToExternal
+com_ms_osp_ospmrshl_releaseByValExternal
+com_ms_osp_ospmrshl_toJava

@@ -1,0 +1,3 @@
+LIBRARY javasntx.DLL
+EXPORTS
+SyntaxColorizeJavaSource@12

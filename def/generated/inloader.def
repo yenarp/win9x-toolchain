@@ -1,0 +1,14 @@
+LIBRARY INLOADER.DLL
+EXPORTS
+InlDownloadImage@12
+InlEnableCallbacks@4
+InlExit
+InlFlushDownloads
+InlGetCurrentDocumentURL@4
+InlGetProxySettings
+InlInit@12
+InlOpenDocument@32
+InlOpenRegKey
+InlRecalFileNameFromBefore@4
+InlSaveProxySettings
+InlStoreFileNameForLater@4

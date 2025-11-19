@@ -1,0 +1,75 @@
+LIBRARY WMSUI32.DLL
+EXPORTS
+ScInitMapidlg@4@4
+ScAddRecipientsToWells@16@16
+ScAddNamesToAdrlist@16@16
+ScAddRecipientToAdrlist@12@12
+ScCopyRowAux@12@12
+ScCopyRowToBuffer@12@12
+CopyBufferToRow@8@8
+DoConfigPropsheet@32@32
+DeleteABCachedObjects@0
+FreeSRowSet@4@4
+DeinitMapidlg@0
+TRIPCALL_New@20@20
+ord_15@48 @15 NONAME
+ScCopyPval@12@12
+ord_17@8 @17 NONAME
+ord_19@8 @19 NONAME
+ord_20@12 @20 NONAME
+ord_21 @21 NONAME
+ord_22@8 @22 NONAME
+ord_23@12 @23 NONAME
+ord_24@4 @24 NONAME
+ord_25 @25 NONAME
+ord_26@4 @26 NONAME
+ord_27@4 @27 NONAME
+ord_28 @28 NONAME
+ord_29 @29 NONAME
+ord_30@8 @30 NONAME
+ord_31@12 @31 NONAME
+ord_32 @32 NONAME
+ord_33@8 @33 NONAME
+ord_34@16 @34 NONAME
+ord_35@12 @35 NONAME
+ord_36@12 @36 NONAME
+ord_37@16 @37 NONAME
+ord_38@20 @38 NONAME
+ord_39@12 @39 NONAME
+ord_40@12 @40 NONAME
+ord_41 @41 NONAME
+ord_42@8 @42 NONAME
+ord_43@12 @43 NONAME
+ord_44@4 @44 NONAME
+ord_45@4 @45 NONAME
+CreateDate@12@12
+DllGetClassObject@12
+DllCanUnloadNow
+ord_49@12 @49 NONAME
+ord_51 @51 NONAME
+ord_52@12 @52 NONAME
+ord_53@20 @53 NONAME
+ord_54@12 @54 NONAME
+GetContextMenuForTriple@20@20
+PromoteOLEProps@16@16
+CchFileTimeToDateTimeSz@12@12
+CommonCriteriaModal@4@4
+ScViewFilter@8@8
+ScSavePresToPstm@20@20
+ScExternAddRef@0
+ExternReleaseDLL@0
+ScRestoreFakeFinderPres@16@16
+ScCopyPres@12@12
+ord_66@8 @66 NONAME
+ord_76@12 @76 NONAME
+ord_91@4 @91 NONAME
+ord_99@8 @99 NONAME
+ord_102@16 @102 NONAME
+ord_109@8 @109 NONAME
+ord_110@12 @110 NONAME
+ord_112@4 @112 NONAME
+PositionTrackedWindow@12@12
+FCreateStandardProgress@4@4
+UpdateStandardProgress@16@16
+DestroyStandardProgress@8@8
+CenterDialog@4@4

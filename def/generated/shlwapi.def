@@ -1,0 +1,391 @@
+LIBRARY SHLWAPI.DLL
+EXPORTS
+ord_1@8 @1 NONAME
+ord_2@8 @2 NONAME
+ord_3@8 @3 NONAME
+ord_4@8 @4 NONAME
+ord_5@12 @5 NONAME
+ord_6@12 @6 NONAME
+ord_7@12 @7 NONAME
+ord_8@8 @8 NONAME
+ord_9@4 @9 NONAME
+ord_10@8 @10 NONAME
+ord_11@20 @11 NONAME
+ord_12@8 @12 NONAME
+ord_13@8 @13 NONAME
+ord_14@8 @14 NONAME
+ord_15@8 @15 NONAME
+ord_16@16 @16 NONAME
+ord_17@8 @17 NONAME
+ord_18@8 @18 NONAME
+ord_19@4 @19 NONAME
+ord_20@8 @20 NONAME
+ord_21@8 @21 NONAME
+ord_22@8 @22 NONAME
+ord_23@12 @23 NONAME
+ord_24@12 @24 NONAME
+ord_25@4 @25 NONAME
+ord_26@4 @26 NONAME
+ord_27@4 @27 NONAME
+ord_28@4 @28 NONAME
+ord_29@4 @29 NONAME
+ord_30@4 @30 NONAME
+ord_31@4 @31 NONAME
+ord_32@4 @32 NONAME
+ord_33@4 @33 NONAME
+ord_34@4 @34 NONAME
+ord_35@12 @35 NONAME
+ord_36@16 @36 NONAME
+ord_37@20 @37 NONAME
+ord_38@4 @38 NONAME
+ord_39@8 @39 NONAME
+ord_40@4 @40 NONAME
+ord_41@8 @41 NONAME
+ord_42@8 @42 NONAME
+ord_43@4 @43 NONAME
+ord_44@8 @44 NONAME
+ord_45@24 @45 NONAME
+ord_46@12 @46 NONAME
+ord_47@8 @47 NONAME
+ord_48@16 @48 NONAME
+ord_49@20 @49 NONAME
+ord_50@8 @50 NONAME
+ord_51@16 @51 NONAME
+ord_52@28 @52 NONAME
+ord_53@4 @53 NONAME
+ord_54@16 @54 NONAME
+ord_55@48 @55 NONAME
+ord_56@16 @56 NONAME
+ord_57@4 @57 NONAME
+ord_58@20 @58 NONAME
+ord_59@20 @59 NONAME
+ord_60@4 @60 NONAME
+ord_61@20 @61 NONAME
+ord_62@16 @62 NONAME
+ord_63@20 @63 NONAME
+ord_64@16 @64 NONAME
+ord_65@8 @65 NONAME
+ord_66@12 @66 NONAME
+ord_67@8 @67 NONAME
+ord_68@28 @68 NONAME
+ord_69@12 @69 NONAME
+ord_70@8 @70 NONAME
+ord_71@12 @71 NONAME
+ord_72@12 @72 NONAME
+ord_73@8 @73 NONAME
+ord_74@16 @74 NONAME
+ord_75@4 @75 NONAME
+ord_76@16 @76 NONAME
+ord_77@16 @77 NONAME
+ord_78@20 @78 NONAME
+ord_79@16 @79 NONAME
+ord_80@12 @80 NONAME
+ord_81@8 @81 NONAME
+ord_82@24 @82 NONAME
+ord_83@4 @83 NONAME
+ord_84@12 @84 NONAME
+ord_85@16 @85 NONAME
+ord_86@20 @86 NONAME
+ord_87@8 @87 NONAME
+ord_88@20 @88 NONAME
+ord_89@16 @89 NONAME
+ord_90@8 @90 NONAME
+ord_91@16 @91 NONAME
+ord_92@12 @92 NONAME
+ord_93@8 @93 NONAME
+ord_94@8 @94 NONAME
+ord_95@12 @95 NONAME
+ord_96@4 @96 NONAME
+ord_97@8 @97 NONAME
+ord_98@20 @98 NONAME
+ord_99@8 @99 NONAME
+ord_100@8 @100 NONAME
+ord_101@8 @101 NONAME
+ord_102@8 @102 NONAME
+ord_103@8 @103 NONAME
+ord_104@24 @104 NONAME
+ord_105@12 @105 NONAME
+ord_106@8 @106 NONAME
+ord_107@16 @107 NONAME
+ord_108@4 @108 NONAME
+ord_109@20 @109 NONAME
+ord_110@16 @110 NONAME
+ord_111@24 @111 NONAME
+ord_112@12 @112 NONAME
+ord_113@8 @113 NONAME
+ord_114@8 @114 NONAME
+ord_115@4 @115 NONAME
+ord_116@20 @116 NONAME
+ord_117@16 @117 NONAME
+ord_118@16 @118 NONAME
+ord_119@12 @119 NONAME
+ord_120@36 @120 NONAME
+ord_121@8 @121 NONAME
+ord_122@16 @122 NONAME
+ord_123@32 @123 NONAME
+ord_124@12 @124 NONAME
+ord_125@20 @125 NONAME
+ord_126@48 @126 NONAME
+ord_127@16 @127 NONAME
+ord_128@24 @128 NONAME
+ord_129@20 @129 NONAME
+ord_130@24 @130 NONAME
+ord_131@4 @131 NONAME
+ord_132@4 @132 NONAME
+ord_133@4 @133 NONAME
+ord_134@8 @134 NONAME
+ord_135@20 @135 NONAME
+ord_136@16 @136 NONAME
+ord_137@4 @137 NONAME
+ord_138@12 @138 NONAME
+ord_139@16 @139 NONAME
+ord_140@12 @140 NONAME
+ord_141@12 @141 NONAME
+ord_142@16 @142 NONAME
+ord_143@8 @143 NONAME
+ord_144@8 @144 NONAME
+ord_145@16 @145 NONAME
+ord_146@12 @146 NONAME
+ord_147@8 @147 NONAME
+ord_148@4 @148 NONAME
+ord_149@16 @149 NONAME
+ord_150@12 @150 NONAME
+ord_151@12 @151 NONAME
+ord_152@12 @152 NONAME
+ord_153@12 @153 NONAME
+ord_154@12 @154 NONAME
+ord_155@8 @155 NONAME
+ord_156@8 @156 NONAME
+ord_157@8 @157 NONAME
+ord_158@8 @158 NONAME
+ord_159@24 @159 NONAME
+ord_160@8 @160 NONAME
+ord_161@8 @161 NONAME
+ChrCmpIA@8
+ChrCmpIW@8
+DllGetVersion@4
+GetMenuPosFromID@8
+HashData@16
+IntlStrEqWorkerA@16
+IntlStrEqWorkerW@16
+PathAddBackslashA@4
+PathAddBackslashW@4
+PathAddExtensionA@8
+PathAddExtensionW@8
+PathAppendA@8
+PathAppendW@8
+PathBuildRootA@8
+PathBuildRootW@8
+PathCanonicalizeA@8
+PathCanonicalizeW@8
+PathCombineA@12
+PathCombineW@12
+PathCommonPrefixA@12
+PathCommonPrefixW@12
+PathCompactPathA@12
+PathCompactPathExA@16
+PathCompactPathExW@16
+PathCompactPathW@12
+PathCreateFromUrlA@16
+PathCreateFromUrlW@16
+PathFileExistsA@4
+PathFileExistsW@4
+PathFindExtensionA@4
+PathFindExtensionW@4
+PathFindFileNameA@4
+PathFindFileNameW@4
+PathFindNextComponentA@4
+PathFindNextComponentW@4
+PathFindOnPathA@8
+PathFindOnPathW@8
+PathGetArgsA@4
+PathGetArgsW@4
+PathGetCharTypeA@4
+PathGetCharTypeW@4
+PathGetDriveNumberA@4
+PathGetDriveNumberW@4
+PathIsContentTypeA@8
+PathIsContentTypeW@8
+PathIsDirectoryA@4
+PathIsDirectoryW@4
+PathIsFileSpecA@4
+PathIsFileSpecW@4
+PathIsPrefixA@8
+PathIsPrefixW@8
+PathIsRelativeA@4
+PathIsRelativeW@4
+PathIsRootA@4
+PathIsRootW@4
+PathIsSameRootA@8
+PathIsSameRootW@8
+PathIsSystemFolderA@8
+PathIsSystemFolderW@8
+PathIsUNCA@4
+PathIsUNCServerA@4
+PathIsUNCServerShareA@4
+PathIsUNCServerShareW@4
+PathIsUNCServerW@4
+PathIsUNCW@4
+PathIsURLA@4
+PathIsURLW@4
+PathMakePrettyA@4
+PathMakePrettyW@4
+PathMakeSystemFolderA@4
+PathMakeSystemFolderW@4
+PathMatchSpecA@8
+PathMatchSpecW@8
+PathParseIconLocationA@4
+PathParseIconLocationW@4
+PathQuoteSpacesA@4
+PathQuoteSpacesW@4
+PathRelativePathToA@20
+PathRelativePathToW@20
+PathRemoveArgsA@4
+PathRemoveArgsW@4
+PathRemoveBackslashA@4
+PathRemoveBackslashW@4
+PathRemoveBlanksA@4
+PathRemoveBlanksW@4
+PathRemoveExtensionA@4
+PathRemoveExtensionW@4
+PathRemoveFileSpecA@4
+PathRemoveFileSpecW@4
+PathRenameExtensionA@8
+PathRenameExtensionW@8
+PathSearchAndQualifyA@12
+PathSearchAndQualifyW@12
+PathSetDlgItemPathA@12
+PathSetDlgItemPathW@12
+PathSkipRootA@4
+PathSkipRootW@4
+PathStripPathA@4
+PathStripPathW@4
+PathStripToRootA@4
+PathStripToRootW@4
+PathUnmakeSystemFolderA@4
+PathUnmakeSystemFolderW@4
+PathUnquoteSpacesA@4
+PathUnquoteSpacesW@4
+SHCreateShellPalette@4
+SHDeleteEmptyKeyA@8
+SHDeleteEmptyKeyW@8
+SHDeleteKeyA@8
+SHDeleteKeyW@8
+SHDeleteOrphanKeyA@8
+SHDeleteOrphanKeyW@8
+SHDeleteValueA@12
+SHDeleteValueW@12
+SHEnumKeyExA@16
+SHEnumKeyExW@16
+SHEnumValueA@28
+SHEnumValueW@28
+SHGetInverseCMAP@8
+SHGetValueA@24
+SHGetValueW@24
+SHIsLowMemoryMachine@4
+SHOpenRegStreamA@16
+SHOpenRegStreamW@16
+SHQueryInfoKeyA@20
+SHQueryInfoKeyW@20
+SHQueryValueExA@24
+SHQueryValueExW@24
+SHRegCloseUSKey@4
+SHRegCreateUSKeyA@20
+SHRegCreateUSKeyW@20
+SHRegDeleteEmptyUSKeyA@12
+SHRegDeleteEmptyUSKeyW@12
+SHRegDeleteUSValueA@12
+SHRegDeleteUSValueW@12
+SHRegEnumUSKeyA@20
+SHRegEnumUSKeyW@20
+SHRegEnumUSValueA@32
+SHRegEnumUSValueW@32
+SHRegGetBoolUSValueA@16
+SHRegGetBoolUSValueW@16
+SHRegGetUSValueA@32
+SHRegGetUSValueW@32
+SHRegOpenUSKeyA@20
+SHRegOpenUSKeyW@20
+SHRegQueryInfoUSKeyA@24
+SHRegQueryInfoUSKeyW@24
+SHRegQueryUSValueA@32
+SHRegQueryUSValueW@32
+SHRegSetUSValueA@24
+SHRegSetUSValueW@24
+SHRegWriteUSValueA@24
+SHRegWriteUSValueW@24
+SHSetValueA@24
+SHSetValueW@24
+StrCSpnA@8
+StrCSpnIA@8
+StrCSpnIW@8
+StrCSpnW@8
+StrCatW@8
+StrChrA@8
+StrChrIA@8
+StrChrIW@8
+StrChrW@8
+StrCmpIW@8
+StrCmpNA@12
+StrCmpNIA@12
+StrCmpNIW@12
+StrCmpNW@12
+StrCmpW@8
+StrCpyNW@12
+StrCpyW@8
+StrDupA@4
+StrDupW@4
+StrFormatByteSizeA@12
+StrFormatByteSizeW@16
+StrFromTimeIntervalA@16
+StrFromTimeIntervalW@16
+StrIsIntlEqualA@16
+StrIsIntlEqualW@16
+StrNCatA@12
+StrNCatW@12
+StrPBrkA@8
+StrPBrkW@8
+StrRChrA@12
+StrRChrIA@12
+StrRChrIW@12
+StrRChrW@12
+StrRStrIA@12
+StrRStrIW@12
+StrSpnA@8
+StrSpnW@8
+StrStrA@8
+StrStrIA@8
+StrStrIW@8
+StrStrW@8
+StrToIntA@4
+StrToIntExA@12
+StrToIntExW@12
+StrToIntW@4
+StrTrimA@8
+StrTrimW@8
+UrlApplySchemeA@16
+UrlApplySchemeW@16
+UrlCanonicalizeA@16
+UrlCanonicalizeW@16
+UrlCombineA@20
+UrlCombineW@20
+UrlCompareA@12
+UrlCompareW@12
+UrlCreateFromPathA@16
+UrlCreateFromPathW@16
+UrlEscapeA@16
+UrlEscapeW@16
+UrlGetLocationA@4
+UrlGetLocationW@4
+UrlGetPartA@20
+UrlGetPartW@20
+UrlHashA@12
+UrlHashW@12
+UrlIsA@8
+UrlIsNoHistoryA@4
+UrlIsNoHistoryW@4
+UrlIsOpaqueA@4
+UrlIsOpaqueW@4
+UrlIsW@8
+UrlUnescapeA@16
+UrlUnescapeW@16

@@ -1,0 +1,6 @@
+LIBRARY SHSCRAP.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+OpenScrap_RunDLL@16
+Scrap_CreateFromDataObject@16

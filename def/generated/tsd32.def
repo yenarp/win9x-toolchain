@@ -1,0 +1,8 @@
+LIBRARY TSD32.DLL
+EXPORTS
+TrueSpeech_Version
+TrueSpeech_Init@8
+TrueSpeech_Term@4
+TrueSpeech_Encod@12
+TrueSpeech_Decod@12
+TrueSpeech_Reset@4

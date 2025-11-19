@@ -1,0 +1,582 @@
+LIBRARY USER32.DLL
+EXPORTS
+ActivateKeyboardLayout@8
+AdjustWindowRect ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+AdjustWindowRectEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+AnyPopup
+AppendMenuA@16
+AppendMenuW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ArrangeIconicWindows@4
+AttachThreadInput@12
+BeginDeferWindowPos@4
+BeginPaint ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+BringWindowToTop@4
+BroadcastSystemMessage ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CalcChildScroll ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallMsgFilter ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallMsgFilterA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallMsgFilterW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallNextHookEx ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallWindowProcA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallWindowProcW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CascadeChildWindows@8
+CascadeWindows ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+ChangeClipboardChain@8
+ChangeDisplaySettingsA@8
+ChangeDisplaySettingsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ChangeMenuA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ChangeMenuW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharLowerA@4
+CharLowerBuffA@8
+CharLowerBuffW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharLowerW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharNextA@4
+CharNextExA@12
+CharNextExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharNextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharPrevA@8
+CharPrevExA@16
+CharPrevExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharPrevW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharToOemA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharToOemBuffA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharToOemBuffW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharToOemW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharUpperA@4
+CharUpperBuffA@8
+CharUpperBuffW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CharUpperW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CheckDlgButton@12
+CheckMenuItem@12
+CheckMenuRadioItem@20
+CheckRadioButton@16
+ChildWindowFromPoint@16
+ChildWindowFromPointEx@16
+ClientThreadConnect ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ClientToScreen@8
+ClipCursor ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+CloseClipboard
+CloseDesktop ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CloseWindow@4
+CloseWindowStation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopyAcceleratorTableA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopyAcceleratorTableW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopyIcon@24
+CopyImage@24
+CopyRect@8
+CountClipboardFormats
+CreateAcceleratorTableA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateAcceleratorTableW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateCaret@16
+CreateCursor@28
+CreateDesktopA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDesktopW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDialogIndirectParamA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDialogIndirectParamW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDialogParamA@20
+CreateDialogParamW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateIcon@28
+CreateIconFromResource@28
+CreateIconFromResourceEx@28
+CreateIconIndirect ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+CreateMDIWindowA ; Check!!! return value is from FT_Exit48 in KERNEL32.dll (ordinal 128)
+CreateMDIWindowW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateMenu
+CreatePopupMenu
+CreateWindowExA ; Check!!! return value is from FT_Exit48 in KERNEL32.dll (ordinal 128)
+CreateWindowExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateWindowStationA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateWindowStationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeAbandonTransaction@12
+DdeAccessData@8
+DdeAddData@16
+DdeClientTransaction ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeCmpStringHandles@8
+DdeConnect ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeConnectList ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeCreateDataHandle@28
+DdeCreateStringHandleA@12
+DdeCreateStringHandleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeDisconnect@4
+DdeDisconnectList@4
+DdeEnableCallback@12
+DdeFreeDataHandle@4
+DdeFreeStringHandle@8
+DdeGetData@16
+DdeGetLastError@4
+DdeImpersonateClient ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeInitializeA@16
+DdeInitializeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeKeepStringHandle@8
+DdeNameService@16
+DdePostAdvise@12
+DdeQueryConvInfo ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeQueryNextServer@8
+DdeQueryStringA@20
+DdeQueryStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeReconnect@4
+DdeSetQualityOfService ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DdeSetUserHandle@12
+DdeUnaccessData@4
+DdeUninitialize@4
+DefDlgProcA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefDlgProcW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefFrameProcA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefFrameProcW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefMDIChildProcA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefMDIChildProcW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefWindowProcA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefWindowProcW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeferWindowPos@32
+DeleteMenu@12
+DestroyAcceleratorTable@4
+DestroyCaret
+DestroyCursor@8
+DestroyIcon@8
+DestroyMenu@4
+DestroyWindow@4
+DialogBoxIndirectParamA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DialogBoxIndirectParamW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DialogBoxParamA@20
+DialogBoxParamW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DispatchMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DispatchMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DlgDirListA@20
+DlgDirListComboBoxA@20
+DlgDirListComboBoxW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DlgDirListW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DlgDirSelectComboBoxExA@16
+DlgDirSelectComboBoxExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DlgDirSelectExA@16
+DlgDirSelectExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DragDetect@12
+DragObject@20
+DrawAnimatedRects ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+DrawCaption ; Check!!! return value is from FT_Exit28 in KERNEL32.dll (ordinal 122)
+DrawCaptionTempA ; Check!!! return value is from FT_Exit28 in KERNEL32.dll (ordinal 122)
+DrawCaptionTempW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DrawEdge ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+DrawFocusRect ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+DrawFrame ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DrawFrameControl ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+DrawIcon@36
+DrawIconEx@36
+DrawMenuBar@4
+DrawStateA@40
+DrawStateW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DrawTextA@20
+DrawTextExA ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+DrawTextExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DrawTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EditWndProc ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EmptyClipboard
+EnableMenuItem@12
+EnableScrollBar@12
+EnableWindow@8
+EndDeferWindowPos@4
+EndDialog@8
+EndPaint ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+EndTask@16
+EnumChildWindows@16
+EnumClipboardFormats@4
+EnumDesktopWindows ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDesktopsA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDesktopsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDisplaySettingsA@12
+EnumDisplaySettingsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumPropsA@8
+EnumPropsExA@12
+EnumPropsExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumPropsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumThreadWindows@8
+EnumWindowStationsA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumWindowStationsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumWindows@16
+EqualRect@8
+ExcludeUpdateRgn@8
+ExitWindowsEx@8
+FillRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+FindWindowA@16
+FindWindowExA@16
+FindWindowExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindWindowW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FlashWindow@8
+FrameRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+FreeDDElParam ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetActiveWindow
+GetAsyncKeyState@4
+GetCapture
+GetCaretBlinkTime
+GetCaretPos ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+GetClassInfoA@12
+GetClassInfoExA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassInfoExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassLongA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassLongW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassNameA@12
+GetClassNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClassWord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClientRect@8
+GetClipCursor ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+GetClipboardData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClipboardFormatNameA@12
+GetClipboardFormatNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetClipboardOwner
+GetClipboardViewer
+GetCursor
+GetCursorPos ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+GetDC@4
+GetDCEx@12
+GetDesktopWindow
+GetDialogBaseUnits
+GetDlgCtrlID@4
+GetDlgItem@8
+GetDlgItemInt@16
+GetDlgItemTextA@16
+GetDlgItemTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDoubleClickTime
+GetFocus
+GetForegroundWindow
+GetIconInfo ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+GetInputDesktop ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetInputState
+GetInternalWindowPos ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKBCodePage
+GetKeyNameTextA@12
+GetKeyNameTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKeyState@4
+GetKeyboardLayout@4
+GetKeyboardLayoutList@8
+GetKeyboardLayoutNameA@4
+GetKeyboardLayoutNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKeyboardState@4
+GetKeyboardType@4
+GetLastActivePopup@4
+GetMenu@4
+GetMenuCheckMarkDimensions
+GetMenuContextHelpId@4
+GetMenuDefaultItem@12
+GetMenuItemCount@4
+GetMenuItemID@8
+GetMenuItemInfoA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMenuItemInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMenuItemRect ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+GetMenuState@12
+GetMenuStringA@20
+GetMenuStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetMessageExtraInfo
+GetMessagePos
+GetMessageTime
+GetMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetNextDlgGroupItem@12
+GetNextDlgTabItem@12
+GetNextQueueWindow@8
+GetOpenClipboardWindow
+GetParent@4
+GetPriorityClipboardFormat ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+GetProcessWindowStation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPropA@8
+GetPropW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetQueueStatus@4
+GetScrollInfo@12
+GetScrollPos@8
+GetScrollRange@16
+GetShellWindow
+GetSubMenu@8
+GetSysColor@4
+GetSysColorBrush@4
+GetSystemMenu@8
+GetSystemMetrics@4
+GetTabbedTextExtentA ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+GetTabbedTextExtentW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetThreadDesktop@4
+GetTopWindow@4
+GetUpdateRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+GetUpdateRgn@12
+GetUserObjectInformationA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetUserObjectInformationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetUserObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetWindow@8
+GetWindowContextHelpId@4
+GetWindowDC@4
+GetWindowLongA@16
+GetWindowLongW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetWindowPlacement ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+GetWindowRect@8
+GetWindowRgn@8
+GetWindowTextA@12
+GetWindowTextLengthA@4
+GetWindowTextLengthW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetWindowTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetWindowThreadProcessId@8
+GetWindowWord@16
+GrayStringA@36
+GrayStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HideCaret@4
+HiliteMenuItem@16
+ImpersonateDdeClientWindow ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InSendMessage
+InflateRect@12
+InitSharedTable
+InitTask ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InsertMenuA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InsertMenuItemA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InsertMenuItemW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InsertMenuW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InternalGetWindowText ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IntersectRect@12
+InvalidateRect ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+InvalidateRgn@12
+InvertRect ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+IsCharAlphaA@4
+IsCharAlphaNumericA@4
+IsCharAlphaNumericW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsCharAlphaW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsCharLowerA@4
+IsCharLowerW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsCharUpperA@4
+IsCharUpperW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsChild@8
+IsClipboardFormatAvailable@4
+IsDialogMessage ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsDialogMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsDialogMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsDlgButtonChecked@8
+IsHungThread@4
+IsIconic@4
+IsMenu@4
+IsRectEmpty@4
+IsWindow@4
+IsWindowEnabled@4
+IsWindowUnicode@4
+IsWindowVisible@4
+IsZoomed@4
+KillTimer@8
+LoadAcceleratorsA@8
+LoadAcceleratorsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadBitmapA@24
+LoadBitmapW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadCursorA@24
+LoadCursorFromFileA@24
+LoadCursorFromFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadCursorW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadIconA@24
+LoadIconW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadImageA@24
+LoadImageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadKeyboardLayoutA@8
+LoadKeyboardLayoutW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadMenuA@8
+LoadMenuIndirectA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadMenuIndirectW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadMenuW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadStringA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LockWindowStation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LockWindowUpdate@4
+LookupIconIdFromDirectory@20
+LookupIconIdFromDirectoryEx@20
+MapDialogRect ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+MapVirtualKeyA@8
+MapVirtualKeyExA@12
+MapVirtualKeyExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MapVirtualKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MapWindowPoints ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+MenuItemFromPoint@16
+MessageBeep@4
+MessageBoxA@16
+MessageBoxExA@20
+MessageBoxExW@20
+MessageBoxIndirectA@4
+MessageBoxIndirectW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MessageBoxW@16
+ModifyAccess ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ModifyMenuA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ModifyMenuW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MoveWindow@24
+MsgWaitForMultipleObjects@20
+OemKeyScan@4
+OemToCharA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OemToCharBuffA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OemToCharBuffW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OemToCharW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OffsetRect@12
+OpenClipboard@4
+OpenDesktopA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenDesktopW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenIcon@4
+OpenInputDesktop ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenWindowStationA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenWindowStationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PackDDElParam ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PaintDesktop@4
+PeekMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PeekMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PlaySoundEvent@4
+PostMessageA@16
+PostMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PostQuitMessage@4
+PostThreadMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PostThreadMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PtInRect@12
+RedrawWindow ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+RegisterClassA@4
+RegisterClassExA ; Check!!! return value is from FT_Exit4 in KERNEL32.dll (ordinal 125)
+RegisterClassExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterClassW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterClipboardFormatA@4
+RegisterClipboardFormatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterHotKey@16
+RegisterLogonProcess ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterNetworkCapabilities@8
+RegisterSystemThread@8
+RegisterTasklist ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterWindowMessageA@4
+RegisterWindowMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReleaseCapture
+ReleaseDC@8
+RemoveMenu@12
+RemovePropA@8
+RemovePropW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReplyMessage@4
+ReuseDDElParam@20
+ScreenToClient@8
+ScrollDC ; Check!!! return value is from FT_Exit28 in KERNEL32.dll (ordinal 122)
+ScrollWindow@20
+ScrollWindowEx ; Check!!! return value is from FT_Exit32 in KERNEL32.dll (ordinal 123)
+SendDlgItemMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendDlgItemMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageCallbackA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageCallbackW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageTimeoutA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageTimeoutW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendNotifyMessageA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SendNotifyMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetActiveWindow@4
+SetCapture@4
+SetCaretBlinkTime@4
+SetCaretPos@8
+SetClassLongA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetClassLongW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetClassWord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetClipboardData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetClipboardViewer@4
+SetCursor@4
+SetCursorPos@8
+SetDebugErrorLevel@4
+SetDeskWallpaper ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDesktopBitmap ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDlgItemInt@16
+SetDlgItemTextA@12
+SetDlgItemTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDoubleClickTime@4
+SetFocus@4
+SetForegroundWindow@4
+SetInternalWindowPos ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetKeyboardState@4
+SetLastErrorEx@8
+SetLogonNotifyWindow ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMenu@8
+SetMenuContextHelpId@8
+SetMenuDefaultItem@12
+SetMenuItemBitmaps@20
+SetMenuItemInfoA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMenuItemInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMessageExtraInfo@4
+SetMessageQueue@4
+SetParent@8
+SetProcessWindowStation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetPropA@16
+SetPropW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetRect@20
+SetRectEmpty@4
+SetScrollInfo@16
+SetScrollPos@16
+SetScrollRange@20
+SetShellWindow@4
+SetSysColors ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+SetSysColorsTemp ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+SetSystemCursor@8
+SetThreadDesktop@4
+SetTimer@16
+SetUserObjectInformationA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetUserObjectInformationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetUserObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowContextHelpId@8
+SetWindowFullScreenState ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowLongA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowLongW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowPlacement ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+SetWindowPos@28
+SetWindowRgn@12
+SetWindowTextA@8
+SetWindowTextW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowWord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowsHookA@8
+SetWindowsHookExA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowsHookExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetWindowsHookW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ShowCaret@4
+ShowCursor@4
+ShowOwnedPopups@8
+ShowScrollBar@12
+ShowWindow@8
+ShowWindowAsync@8
+SubtractRect@12
+SwapMouseButton@4
+SwitchDesktop ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SwitchToThisWindow@8
+SysErrorBox@20
+SystemParametersInfoA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SystemParametersInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+TabbedTextOutA ; Check!!! return value is from FT_Exit32 in KERNEL32.dll (ordinal 123)
+TabbedTextOutW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+TileChildWindows@8
+TileWindows ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+ToAscii@20
+ToAsciiEx@24
+ToUnicode ; Check!!! Couldn't determine function argument count. Function doesn't return.
+TrackPopupMenu@28
+TrackPopupMenuEx ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+TranslateAccelerator@12
+TranslateAcceleratorA@12
+TranslateAcceleratorW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+TranslateMDISysAccel@8
+TranslateMessage@4
+UnhookWindowsHook ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnhookWindowsHookEx@4
+UnionRect@12
+UnloadKeyboardLayout@4
+UnlockWindowStation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnpackDDElParam ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnregisterClassA@8
+UnregisterClassW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnregisterHotKey@8
+UpdateWindow@4
+UserClientDllInitialize ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UserSignalProc@16
+ValidateRect ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+ValidateRgn@8
+VkKeyScanA@4
+VkKeyScanExA@8
+VkKeyScanExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VkKeyScanW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WNDPROC_CALLBACK ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WaitForInputIdle@8
+WaitMessage
+WinHelpA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WinHelpW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WinOldAppHackoMatic@4
+WindowFromDC@4
+WindowFromPoint@8
+YieldTask ; Check!!! Couldn't determine function argument count. Function doesn't return.
+keybd_event ; Check!!! Couldn't determine function argument count. Function doesn't return.
+mouse_event ; Check!!! Couldn't determine function argument count. Function doesn't return.
+wsprintfA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+wsprintfW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+wvsprintfA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+wvsprintfW ; Check!!! Couldn't determine function argument count. Function doesn't return.

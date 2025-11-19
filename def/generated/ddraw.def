@@ -1,0 +1,23 @@
+LIBRARY DDRAW.DLL
+EXPORTS
+DDHAL32_VidMemAlloc@16
+DDHAL32_VidMemFree@12
+DDInternalLock@8
+DDInternalUnlock@4
+DSoundHelp@12
+DirectDrawCreate@12
+DirectDrawCreateClipper@12
+DirectDrawEnumerateA@8
+DirectDrawEnumerateW@8
+DllCanUnloadNow
+DllGetClassObject@12
+InternalLock
+InternalUnlock
+VidMemAlloc@12
+VidMemAmountFree@4
+VidMemFini@4
+VidMemFree@8
+VidMemInit@20
+VidMemLargestFree@4
+thk1632_ThunkData32 DATA
+thk3216_ThunkData32 DATA

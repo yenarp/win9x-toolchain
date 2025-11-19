@@ -1,0 +1,7 @@
+LIBRARY P2D.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+DllMain@12

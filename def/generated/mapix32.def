@@ -1,0 +1,16 @@
+LIBRARY MAPIX32.DLL
+EXPORTS
+MAPIInitialize@4@4
+MAPIInitialize@4
+MAPIUninitialize@0 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MAPIUninitialize ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MAPILogon@24
+MAPIAdminProfiles@8
+MAPIAdminProfiles@8@8
+MAPIFreeBuffer@4
+MAPILogonA@24@24
+MAPIFreeBuffer@4@4
+MAPIAllocateBuffer@8
+MAPIAllocateBuffer@8@8
+MAPIAllocateMore@12
+MAPIAllocateMore@12@12

@@ -1,0 +1,8 @@
+LIBRARY ICM32.DLL
+EXPORTS
+CMGetInfo@4
+CMCreateTransform@12
+CMDeleteTransform@4
+CMTranslateRGB@16
+CMTranslateRGBs@36
+CMCheckColorsInGamut@16

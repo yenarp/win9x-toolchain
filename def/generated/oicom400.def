@@ -1,0 +1,13 @@
+LIBRARY OICOM400.DLL
+EXPORTS
+OIExpand@20
+OICompress@20
+GetCmpDataWiis@4
+PutUncmpDataWiis@4
+GetUncmpDataWiis@4
+PutCmpDataWiis@8
+OICompressJpegInfo@20
+OICompressJpegCleanUp
+OIExpandJpegCleanUp@4
+IMGGetTaskData@16
+IMGFreeTaskData

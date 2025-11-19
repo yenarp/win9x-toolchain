@@ -1,0 +1,6 @@
+LIBRARY MOSCC.DLL
+EXPORTS
+FGetNthHotspot
+GetBitmapCCSize
+GetHotspotCount
+InitCustomControls

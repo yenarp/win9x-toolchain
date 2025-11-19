@@ -1,0 +1,36 @@
+LIBRARY PKPD32.DLL
+EXPORTS
+BoundingRectFromPoints ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+CreatePenDataEx ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+DestroyPenData@4
+GetPenDataInfo ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+AddPointsPenData@16
+MetricScalePenData@8
+OffsetPenData@12
+DuplicatePenData@8
+GetPenDataAttributes@12
+GetPointsFromPenData ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+ResizePenData ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+InsertPenData@12
+GetStrokeAttributes@16
+SetStrokeAttributes@16
+GetStrokeTableAttributes@16
+SetStrokeTableAttributes@16
+DrawPenDataEx@40
+InsertPenDataPoints ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+InsertPenDataStroke@20
+ExtractPenDataPoints ; Check!!! return value is from FT_Exit28 in KERNEL32.dll (ordinal 122)
+RemovePenDataStrokes@12
+HitTestPenData ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+CompressPenData@12
+TrimPenData@12
+RedisplayPenData ; Check!!! return value is from FT_Exit24 in KERNEL32.dll (ordinal 121)
+ExtractPenDataStrokes@20
+PenDataFromBuffer ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+PenDataToBuffer@16
+CreatePenDataRegion@8
+AddInksetInterval ; Check!!! return value is from FT_Exit8 in KERNEL32.dll (ordinal 131)
+CreateInkset@4
+DestroyInkset@4
+GetInksetInterval ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+GetInksetIntervalCount@4

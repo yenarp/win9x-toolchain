@@ -1,0 +1,7 @@
+LIBRARY ITSS.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllMain@12
+DllRegisterServer
+DllUnregisterServer

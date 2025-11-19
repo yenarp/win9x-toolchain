@@ -1,0 +1,8 @@
+LIBRARY VDMDBG.DLL
+EXPORTS
+VDMEnumProcessWOW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VDMGetPointer ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VDMGetThreadContext ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VDMGetThreadSelectorEntry ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VDMProcessException ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VDMSetThreadContext ; Check!!! Couldn't determine function argument count. Function doesn't return.

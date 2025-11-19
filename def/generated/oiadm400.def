@@ -1,0 +1,23 @@
+LIBRARY OIADM400.DLL
+EXPORTS
+GetAppWndw@4
+GetImgWndw@4
+IMGCreateDialog@16
+IMGDeRegWndw@4
+IMGEnumWndws
+IMGGetFilePath@12
+IMGGetFileTemplate@12
+IMGGetFileType@16
+IMGGetImgCodingCgbw@20
+IMGIsRegWnd@4
+IMGListWndws@4
+IMGRegWndw@4
+IMGSetFilePath@12
+IMGSetFileTemplate@12
+IMGSetFileType@16
+IMGSetImgCodingCgbw@20
+IMGSetScaling@12
+IsOIUIWndw@4
+OiGetIntfromReg@16
+OiGetStringfromReg@20
+OiWriteStringtoReg@12

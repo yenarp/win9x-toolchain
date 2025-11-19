@@ -1,0 +1,6 @@
+LIBRARY RAOCX32.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

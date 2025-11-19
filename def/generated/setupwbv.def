@@ -1,0 +1,10 @@
+LIBRARY SETUPWBV.DLL
+EXPORTS
+DeleteRecycleBin@8
+IE4AddWebView@16
+IE4InstallEx@16
+IE4Maintenance@16
+InstallWebView@16
+RemoveExtraFiles@16
+SetDefBrowserInfo@16
+UninstallWebView@16

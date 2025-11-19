@@ -1,0 +1,36 @@
+LIBRARY WHLP32T.DLL
+EXPORTS
+thk_ThunkData32 DATA
+RegisterThunk@12
+CallThunk@16
+FinalizeDLL
+InformDlls@16
+DoEmbedCreate@36
+thkR_ThunkData32 DATA
+ExpHfsOpenQch@8
+ExpRcCloseHfs@4
+ExpHfOpenHfs@12
+ExpRcCloseHf@4
+ExpLcbReadHf@12
+ExpLTellHf@4
+ExpLSeekHf@12
+ExpFEofHf@4
+ExpLcbSizeHf@4
+ExpFAccessHfs@12
+ExpRcLLInfoFromHf@20
+ExpRcLLInfoFromHfsSz@24
+ExpError@4
+ExpErrorQch@4
+ExpGetInfo@8
+ExpFAPI@12
+ExpFChSizeHf@8
+ExpHfCreateFileHfs@12
+ExpRcUnlinkFileHfs@8
+ExpRcFlushHf@4
+ExpLcbWriteHf@12
+ExpRcRenameFileHfs@12
+ExpRcAbandonHf@4
+ExpHfsCreateFileSys@8
+ExpRcDestroyFileSys@4
+GetModuleFileName16@12
+CallThunkCleanup

@@ -1,0 +1,8 @@
+LIBRARY THUMBVW.DLL
+EXPORTS
+ConvertDIBSECTIONToThumbnail@28
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+LibMain@12

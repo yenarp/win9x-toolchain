@@ -1,0 +1,8 @@
+LIBRARY NETBIOS.DLL
+EXPORTS
+NetbiosAddthd@4
+NetbiosDelete
+NetbiosDelthd@4
+NetbiosInitialize
+PostRoutineCaller@4
+_Netbios@4

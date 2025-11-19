@@ -1,0 +1,7 @@
+LIBRARY VSREVOKE.DLL
+EXPORTS
+DllRegisterServer
+DllUnregisterServer
+CertDllVerifyRevocation@28
+CheckCertStatus@20
+DllCanUnloadNow

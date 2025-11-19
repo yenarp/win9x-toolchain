@@ -1,0 +1,10 @@
+LIBRARY WEBCHECK.DLL
+EXPORTS
+ord_101@4 @101 NONAME
+XMLScheduleElementToTaskTrigger@8
+f3drt@8
+DllCanUnloadNow
+DllGetClassObject@12
+DllInstall@8
+DllRegisterServer
+DllUnregisterServer

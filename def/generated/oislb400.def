@@ -1,0 +1,26 @@
+LIBRARY OISLB400.DLL
+EXPORTS
+IMGScanProp@16
+IMGOpenScanner@16
+IMGCloseScanner@4
+IMGScanOpts@12
+IMGDefScanOpts@4
+IMGGetScanOpts@4
+IMGSaveScanOpts@4
+IMGResetScanner@4
+IMGScannerStatus@16
+IMGGetScanDataInfo@12
+IMGScannerPaperEject@8
+IMGScannerPaperFeed@12
+IMGScannerBeep@4
+IMGGetCapability@8
+IMGEnaKeypanel@12
+IMGSetDataOpts@40
+IMGGetScanInfoItem@12
+IMGEnaPreFeed@16
+IMGInqPreFeed@8
+IMGGetScanVersion@8
+IMGScanOpts_Enh@20
+IMGGetScanImageInfo@8
+TwainWndProc@16
+IMGTwainScanPages@12

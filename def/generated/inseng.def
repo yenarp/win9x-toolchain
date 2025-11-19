@@ -1,0 +1,10 @@
+LIBRARY INSENG.DLL
+EXPORTS
+PurgeDownloadDirectory@4
+CheckForVersionConflict
+CheckTrust@12
+CheckTrustEx@20
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

@@ -1,0 +1,4 @@
+LIBRARY ICMUI.DLL
+EXPORTS
+DllGetClassObject@12
+DllCanUnloadNow

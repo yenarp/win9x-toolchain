@@ -1,0 +1,5 @@
+LIBRARY VDODEC32.DLL
+EXPORTS
+DecFrame@16
+CloseFrameDecoder
+DecGetPalette@8

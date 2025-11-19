@@ -1,0 +1,297 @@
+LIBRARY GAPIA32.DLL
+EXPORTS
+??0CHAROP@@QAE@XZ
+??0CONV@@QAE@XZ
+??0IME@@QAE@PAXP6GH0IIJQAUCOMPOSITIONtag@@0@ZK@Z ; has WINAPI (@12)
+??0LANG@@QAE@GG@Z ; has WINAPI (@8)
+??0LANG@@QAE@XZ
+??0PUNCT@@QAE@XZ
+??1CHAROP@@QAE@XZ
+??1CONV@@QAE@XZ
+??1IME@@QAE@XZ
+??1LANG@@QAE@XZ
+??1PUNCT@@QAE@XZ
+??2CHAROP@@SGPAXI@Z ; has WINAPI (@4)
+??2CONV@@SGPAXI@Z ; has WINAPI (@4)
+??2IME@@SGPAXI@Z ; has WINAPI (@4)
+??2LANG@@SGPAXI@Z ; has WINAPI (@4)
+??2PUNCT@@SGPAXI@Z ; has WINAPI (@4)
+??3CHAROP@@SGXPAX@Z ; has WINAPI (@4)
+??3CONV@@SGXPAX@Z ; has WINAPI (@4)
+??3IME@@SGXPAX@Z ; has WINAPI (@4)
+??3LANG@@SGXPAX@Z ; has WINAPI (@4)
+??3PUNCT@@SGXPAX@Z ; has WINAPI (@4)
+?CbSzLen@CHAROP@@QAGKPBD@Z ; has WINAPI (@8)
+?CchSzLen@CHAROP@@QAGKPBD@Z ; has WINAPI (@8)
+?FAddPunct@PUNCT@@QAGHFPBD@Z ; has WINAPI (@12)
+?FAlign@CHAROP@@QAGHPBD0@Z ; has WINAPI (@12)
+?FAssociate@IME@@QAGHPAX@Z ; has WINAPI (@8)
+?FCheck@LANG@@QAGHGPBD@Z ; has WINAPI (@12)
+?FFlushComposition@IME@@QAGHH@Z ; has WINAPI (@8)
+?FFree@IME@@QAGHXZ ; has WINAPI (@4)
+?FGetActiveStatus@IME@@QAGHXZ ; has WINAPI (@4)
+?FGetConversionStatus@IME@@QAGHPAK0@Z ; has WINAPI (@12)
+?FGetLangInfo@LANG@@QAGHGPAX@Z ; has WINAPI (@12)
+?FGetLangInfo@LANG@@QAGHPAULANGINFOtag@@@Z ; has WINAPI (@8)
+?FGetOpenStatus@IME@@QAGHXZ ; has WINAPI (@4)
+?FGetOpenStatusWindow@IME@@QAGHXZ ; has WINAPI (@4)
+?FInitPunct@PUNCT@@QAGHFPBD@Z ; has WINAPI (@12)
+?FLeadByte@CHAROP@@QAGHD@Z ; has WINAPI (@8)
+?FLeadByte@CHAROP@@QAGHPBD@Z ; has WINAPI (@8)
+?FMessage@IME@@QAGJIIJPAX@Z ; has WINAPI (@20)
+?FPunct@PUNCT@@QAGHFPBD@Z ; has WINAPI (@12)
+?FRegDecodeProc@CONV@@QAGHGP6GHPBDK@ZP6GK00PAKPADK2@Z0@Z ; has WINAPI (@20)
+?FRegDecodeProc@CONV@@QAGHGPBDP6GK00PAKPADK1@Z0@Z ; has WINAPI (@20)
+?FRegDecodeProcEx@CONV@@QAGHGPBDP6GH0K@ZP6GK00PAKPADK2@Z0@Z ; has WINAPI (@24)
+?FRegEncodeProc@CONV@@QAGHGPAGP6GKPBDPAKPADK2@Z1@Z ; has WINAPI (@20)
+?FRemoveDecodeProc@CONV@@QAGHP6GKPBD0PAKPADK1@Z@Z ; has WINAPI (@8)
+?FRemoveEncodeProc@CONV@@QAGHP6GKPBDPAKPADK1@Z@Z ; has WINAPI (@8)
+?FRemovePunct@PUNCT@@QAGHFPBD@Z ; has WINAPI (@12)
+?FSetActiveStatus@IME@@QAGHH@Z ; has WINAPI (@8)
+?FSetComposition@IME@@QAGHKPBXK0K@Z ; has WINAPI (@24)
+?FSetConversionStatus@IME@@QAGHKK@Z ; has WINAPI (@12)
+?FSetFont@IME@@QAGHPAUtagLOGFONTA@@@Z ; has WINAPI (@8)
+?FSetFont@IME@@QAGHPAX@Z ; has WINAPI (@8)
+?FSetLangInfo@LANG@@QAGHGPAX@Z ; has WINAPI (@12)
+?FSetOpenStatus@IME@@QAGHH@Z ; has WINAPI (@8)
+?FSetOpenStatusWindow@IME@@QAGHH@Z ; has WINAPI (@8)
+?FSetWndProc@IME@@QAGHP6GHPAXIIJQAUCOMPOSITIONtag@@0@Z@Z ; has WINAPI (@8)
+?FSetWordBreakProc@PUNCT@@QAGHP6GHXZ@Z ; has WINAPI (@8)
+?FValidString@CHAROP@@QAGHPBD@Z ; has WINAPI (@8)
+?FWordRegister@IME@@QAGHPBD0@Z ; has WINAPI (@12)
+?GetLastError@CONV@@QAGKXZ ; has WINAPI (@4)
+?IWordBreakProc@PUNCT@@QAGHPBDHHH@Z ; has WINAPI (@20)
+?LpGetComposition@IME@@QAGPAUCOMPOSITIONtag@@XZ ; has WINAPI (@4)
+?LpGetCriticalSection@IME@@QAGPAU_RTL_CRITICAL_SECTION@@XZ ; has WINAPI (@4)
+?LpGetWndProc@IME@@QAGP6GHPAXIIJQAUCOMPOSITIONtag@@0@ZXZ ; has WINAPI (@4)
+?LpGetWordBreakProc@PUNCT@@QAGP6GHXZXZ ; has WINAPI (@4)
+?NCheckMessage@IME@@QAGHIIJ@Z ; has WINAPI (@16)
+?NGetDecodeProcList@CONV@@QAGHPAUDEODEPROCLISTtag@@H@Z ; has WINAPI (@12)
+?NGetDecodeProcNum@CONV@@QAGHXZ ; has WINAPI (@4)
+?NGetEncodeProcList@CONV@@QAGHPAUENCODEPROCLISTtag@@H@Z ; has WINAPI (@12)
+?NGetEncodeProcNum@CONV@@QAGHXZ ; has WINAPI (@4)
+?ResetDecodingStatus@CONV@@QAGXXZ ; has WINAPI (@4)
+?ResetEncodingStatus@CONV@@QAGXXZ ; has WINAPI (@4)
+?SetCandidatePos@IME@@QAGXUtagPOINT@@PAUtagRECT@@1PAUtagSIZE@@@Z ; has WINAPI (@24)
+?SzAlign@CHAROP@@QAGPADPBD0@Z ; has WINAPI (@12)
+?SzCombine@CHAROP@@QAGPADPADG@Z ; has WINAPI (@12)
+?SzCombine@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?SzConvToDBCS@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?SzConvToSBCS@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?SzCopy@CHAROP@@QAGPADPADG@Z ; has WINAPI (@12)
+?SzCopy@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?SzDecode@CONV@@QAGPADPADKPBDPAK2@Z ; has WINAPI (@24)
+?SzEncode@CONV@@QAGPADPADKPBDPAK2@Z ; has WINAPI (@24)
+?SzFind@CHAROP@@QAGPADPBD0@Z ; has WINAPI (@12)
+?SzFind@CHAROP@@QAGPADPBDG@Z ; has WINAPI (@12)
+?SzFindBack@CHAROP@@QAGPADPBD00@Z ; has WINAPI (@16)
+?SzFindBack@CHAROP@@QAGPADPBD0G@Z ; has WINAPI (@16)
+?SzLower@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?SzNext@CHAROP@@QAGPADPBD@Z ; has WINAPI (@8)
+?SzPrev@CHAROP@@QAGPADPBD0@Z ; has WINAPI (@12)
+?SzUpper@CHAROP@@QAGPADPADPBD@Z ; has WINAPI (@12)
+?UlCharType@CHAROP@@QAGKPBD@Z ; has WINAPI (@8)
+?UlGetComposition@IME@@QAGKGPAXK@Z ; has WINAPI (@16)
+?UlGetLang@LANG@@QAGKXZ ; has WINAPI (@4)
+?UlGetMask@PUNCT@@QAGKH@Z ; has WINAPI (@8)
+?UlGetMode@IME@@QAGKXZ ; has WINAPI (@4)
+?UlSetLang@LANG@@QAGKGG@Z ; has WINAPI (@12)
+?UlSetMask@PUNCT@@QAGKHK@Z ; has WINAPI (@12)
+?UlSetMode@IME@@QAGKK@Z ; has WINAPI (@8)
+?UsCharSize@CHAROP@@QAGGPBD@Z ; has WINAPI (@8)
+?UsDecChar@CHAROP@@QAGGG@Z ; has WINAPI (@8)
+?UsGetBreakOption@PUNCT@@QAGGXZ ; has WINAPI (@4)
+?UsGetPunct@PUNCT@@QAGGFPADG@Z ; has WINAPI (@16)
+?UsIncChar@CHAROP@@QAGGG@Z ; has WINAPI (@8)
+?UsPunct@PUNCT@@QAGGPBD@Z ; has WINAPI (@8)
+?UsSetBreakOption@PUNCT@@QAGGG@Z ; has WINAPI (@8)
+CbGSzLen@4@4
+CbVSzLen@8@8
+CchGSzLen@4@4
+CchVSzLen@8@8
+EntryFunc@12@12
+FDeinitIME@4@4
+FEucCodeE@8@8
+FEucCodeS@8@8
+FFlushIMEComposition@8@8
+FGAddPunct@8@8
+FGAlign@8@8
+FGCheckLang@8@8
+FGGetDefFont@8@8
+FGGetLangInfo@8@8
+FGGetLangInfos@4@4
+FGInitPunct@8@8
+FGLeadByte@4@4
+FGLeadBytep@4@4
+FGPunct@8@8
+FGRemovePunct@8@8
+FGSetLangInfo@8@8
+FGSetWordBreakProc@4@4
+FGSyncSys@0
+FGValidString@4@4
+FGetActiveIMEStatus@4@4
+FGetConversionStatus@12@12
+FGetOpenIMEStatus@4@4
+FGetOpenIMEStatusWindow@4@4
+FIMEMessage@20@20
+FIMEWordRegister@12@12
+FInitIME@12@12
+FRedefCommand@8@8
+FRegisterHelpID@12@12
+FSJISCode@8@8
+FSetActiveIMEStatus@8@8
+FSetConversionStatus@12@12
+FSetIMEFont@8@8
+FSetIMEFontH@8@8
+FSetIMEWndProc@8@8
+FSetOpenIMEStatus@8@8
+FSetOpenIMEStatusWindow@8@8
+FTerminatorCode@8@8
+FVAddPunct@12@12
+FVAlign@12@12
+FVCheckLang@12@12
+FVFreeCharObject@4@4
+FVFreeConvObject@4@4
+FVFreeLangObject@4@4
+FVFreePunctObject@4@4
+FVGetLangInfo@12@12
+FVGetLangInfos@8@8
+FVInitPunct@12@12
+FVLeadByte@8@8
+FVLeadBytep@8@8
+FVPunct@12@12
+FVRegDecodeProc@20@20
+FVRegDecodeProcEx@20@20
+FVRegEncodeProc@20@20
+FVRemoveDecodeProc@8@8
+FVRemoveEncodeProc@8@8
+FVRemovePunct@12@12
+FVSetLangInfo@12@12
+FVSetWordBreakProc@8@8
+FVValidString@8@8
+FValidateLogfont@12@12
+FreeAllIMEObject@0
+HConvDlg@8@8
+HConvDlgTemplate@4@4
+HFreeDlg@4@4
+HFreeDlgTemplate@4@4
+IGetValidFontSize@8@8
+IVWordBreakProc@20@20
+IWordBreakProc@16@16
+LpConvDlgTemplate@4@4
+LpConvLockDlg@8@8
+LpConvPropSheet@4@4
+LpFreeDlg@4@4
+LpFreeDlgTemplate@4@4
+LpFreePropSheet@4@4
+LpGetIMEComposition@4@4
+LpGetIMECriticalSection@4@4
+LpGetIMEWndProc@4@4
+LpVCreateCharObject@0
+LpVCreateConvObject@0
+LpVCreateLangObject@0
+LpVCreatePunctObject@0
+LpVGetWordBreakProc@4@4
+NCheckIMEMessage@16@16
+NDetectCodeFromESC@4@4
+NDetectCodeFromSz@4@4
+NGetFontInfo@12@12
+NGetIMEType@0
+NVGetDecodeProcList@12@12
+NVGetDecodeProcNum@4@4
+NVGetEncodeProcList@12@12
+NVGetEncodeProcNum@4@4
+REDEFCALL_New@20@20
+REDEFCALL_Release@4@4
+RedefOnCommand@8@8
+SetIMECandidatePos@24@24
+SzGAlign@8@8
+SzGCombine@8@8
+SzGCombineCh@8@8
+SzGConvToDBCS@8@8
+SzGConvToSBCS@8@8
+SzGCopy@8@8
+SzGCopyCh@8@8
+SzGFind@8@8
+SzGFindBack@12@12
+SzGFindBackCh@12@12
+SzGFindCh@8@8
+SzGLower@8@8
+SzGNext@4@4
+SzGPrev@8@8
+SzGUpper@8@8
+SzVAlign@12@12
+SzVCombine@12@12
+SzVCombineCh@12@12
+SzVConvToDBCS@12@12
+SzVConvToSBCS@12@12
+SzVCopy@12@12
+SzVCopyCh@12@12
+SzVDecode@24@24
+SzVEncode@24@24
+SzVFind@12@12
+SzVFindBack@16@16
+SzVFindBackCh@16@16
+SzVFindCh@12@12
+SzVLower@12@12
+SzVNext@8@8
+SzVPrev@12@12
+SzVUpper@12@12
+UlDecodeEUC_JIS@24@24
+UlDecodeGB2312_1980@24@24
+UlDecodeISO8859_1@24@24
+UlDecodeISO8859_7@24@24
+UlDecodeJISX0201_1976@24@24
+UlDecodeJISX0208_1978@24@24
+UlDecodeJISX0208_1983@24@24
+UlDecodeJISX0208_NEC@24@24
+UlDecodeJISX0212_1990@24@24
+UlDecodeKSC5601_1987@24@24
+UlDecodeTerminator@24@24
+UlEncodeEUC_JIS@20@20
+UlEncodeGB2312_1980@20@20
+UlEncodeISO8859_1@20@20
+UlEncodeISO8859_7@20@20
+UlEncodeJISX0201K_1976@20@20
+UlEncodeJISX0201R_1976@20@20
+UlEncodeJISX0201_1976@20@20
+UlEncodeJISX0208S_1978@20@20
+UlEncodeJISX0208S_1983@20@20
+UlEncodeJISX0208S_NEC@20@20
+UlEncodeJISX0208_1978@20@20
+UlEncodeJISX0208_1983@20@20
+UlEncodeJISX0208_NEC@20@20
+UlEncodeJISX0212S_1990@20@20
+UlEncodeJISX0212_1990@20@20
+UlEncodeKSC5601_1987@20@20
+UlEncodeTerminator@20@20
+UlGCharType@4@4
+UlGGetLang@0
+UlGGetPunctMask@4@4
+UlGSetLang@8@8
+UlGSetPunctMask@8@8
+UlGetIMEComposition@16@16
+UlGetIMEMode@4@4
+UlSetIMEMode@8@8
+UlVCharType@8@8
+UlVGetLang@4@4
+UlVGetPunctMask@8@8
+UlVSetLang@12@12
+UlVSetPunctMask@12@12
+UsGCharSize@4@4
+UsGDecChar@4@4
+UsGGetBreakOption@0
+UsGGetPunct@12@12
+UsGIncChar@4@4
+UsGPunct@4@4
+UsGSetBreakOption@4@4
+UsVCharSize@8@8
+UsVDecChar@8@8
+UsVGetBreakOption@4@4
+UsVGetPunct@16@16
+UsVIncChar@8@8
+UsVPunct@8@8
+UsVSetBreakOption@8@8
+VGetLastError@4@4
+VResetDecodingStatus@4@4
+VResetEncodingStatus@4@4

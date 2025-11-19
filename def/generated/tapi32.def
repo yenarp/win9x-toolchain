@@ -1,0 +1,116 @@
+LIBRARY TAPI32.DLL
+EXPORTS
+lineAccept@12
+lineAddProvider@12
+lineAddToConference@8
+lineAnswer@12
+lineBlindTransfer@12
+lineClose@4
+lineCompleteCall ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineCompleteTransfer ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineConfigDialog@12
+lineConfigDialogEdit@24
+lineConfigProvider@8
+lineDeallocateCall@4
+lineDevSpecific ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineDevSpecificFeature ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineDial@12
+lineDrop@12
+lineForward ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineGatherDigits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineGenerateDigits@16
+lineGenerateTone@20
+lineGetAddressCaps@24
+lineGetAddressID@20
+lineGetAddressStatus@12
+lineGetAppPriority@24
+lineGetCallInfo@8
+lineGetCallStatus@8
+lineGetConfRelatedCalls@8
+lineGetCountry@12
+lineGetDevCaps@20
+lineGetDevConfig@12
+lineGetID@24
+lineGetIcon@12
+lineGetLineDevStatus@8
+lineGetNewCalls@16
+lineGetNumRings@12
+lineGetProviderList@8
+lineGetRequest@12
+lineGetStatusMessages@12
+lineGetTranslateCaps@12
+lineHandoff@12
+lineHold@4
+lineInitialize@20
+lineMakeCall ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineMonitorDigits@8
+lineMonitorMedia@8
+lineMonitorTones@12
+lineNegotiateAPIVersion@24
+lineNegotiateExtVersion@24
+lineOpen@36
+linePark ; Check!!! Couldn't determine function argument count. Function doesn't return.
+linePickup ; Check!!! Couldn't determine function argument count. Function doesn't return.
+linePrepareAddToConference ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineRedirect@12
+lineRegisterRequestRecipient ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineReleaseUserUserInfo@4
+lineRemoveFromConference@4
+lineRemoveProvider@8
+lineSecureCall@4
+lineSendUserUserInfo@12
+lineSetAppPriority@24
+lineSetAppSpecific@8
+lineSetCallParams@20
+lineSetCallPrivilege@8
+lineSetCurrentLocation@8
+lineSetDevConfig@16
+lineSetMediaControl@48
+lineSetMediaMode@8
+lineSetNumRings@12
+lineSetStatusMessages@12
+lineSetTerminal@28
+lineSetTollList@16
+lineSetupConference ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineSetupTransfer ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lineShutdown@4
+lineSwapHold@8
+lineTranslateAddress@28
+lineTranslateDialog@20
+lineUncompleteCall@8
+lineUnhold@4
+lineUnpark ; Check!!! Couldn't determine function argument count. Function doesn't return.
+phoneClose@4
+phoneConfigDialog@12
+phoneDevSpecific ; Check!!! Couldn't determine function argument count. Function doesn't return.
+phoneGetButtonInfo@12
+phoneGetData@16
+phoneGetDevCaps@20
+phoneGetDisplay@8
+phoneGetGain@12
+phoneGetHookSwitch@8
+phoneGetID@12
+phoneGetIcon@12
+phoneGetLamp@12
+phoneGetRing@12
+phoneGetStatus@8
+phoneGetStatusMessages@16
+phoneGetVolume@12
+phoneInitialize@20
+phoneNegotiateAPIVersion@24
+phoneNegotiateExtVersion@24
+phoneOpen@28
+phoneSetButtonInfo@12
+phoneSetData@16
+phoneSetDisplay@20
+phoneSetGain@12
+phoneSetHookSwitch@12
+phoneSetLamp@12
+phoneSetRing@12
+phoneSetStatusMessages@16
+phoneSetVolume@12
+phoneShutdown@4
+tapiGetLocationInfo ; Check!!! Couldn't determine function argument count. Function doesn't return.
+tapiRequestDrop ; Check!!! Couldn't determine function argument count. Function doesn't return.
+tapiRequestMakeCall ; Check!!! Couldn't determine function argument count. Function doesn't return.
+tapiRequestMediaCall ; Check!!! Couldn't determine function argument count. Function doesn't return.

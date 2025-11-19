@@ -1,0 +1,6 @@
+LIBRARY MSCTL.DLL
+EXPORTS
+CertDllVerifyCTLUsage@28
+DllCanUnloadNow
+DllRegisterServer
+DllUnregisterServer

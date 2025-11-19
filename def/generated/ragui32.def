@@ -1,0 +1,59 @@
+LIBRARY RAGUI32.DLL
+EXPORTS
+?AboutProc@@YGHPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?AnimTimerProc@@YGXPAUHWND__@@IIK@Z ; has WINAPI (@16)
+?OnNewImage@@YGHPAX0PAUtag_PNCODEC_DATA@@@Z ; has WINAPI (@12)
+?OnNewImage@CRAImageWnd@@QAGHPAXPAUtag_PNCODEC_DATA@@@Z ; has WINAPI (@12)
+?PrefsProc@@YGHPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?RaBtnWndProc@@YGJPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?RaSubclassProc@@YGJPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?RaWndProc@@YGJPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?StatsProc@@YGHPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+?TabButtonWndProc@@YGJPAUHWND__@@IIJ@Z ; has WINAPI (@16)
+RaguiCanPlayPause@4 == _RaguiCanPlayPause@4
+RaguiCanStop@4 == _RaguiCanStop@4
+RaguiCheckLicense@4 == _RaguiCheckLicense@4
+RaguiDestroy@4
+RaguiDoNextItem@4 == _RaguiDoNextItem@4
+RaguiDoPause@4 == _RaguiDoPause@4
+RaguiDoPlay@4 == _RaguiDoPlay@4
+RaguiDoPlayPause@4 == _RaguiDoPlayPause@4
+RaguiDoPrevItem@4 == _RaguiDoPrevItem@4
+RaguiDoScan@4 == _RaguiDoScan@4
+RaguiDoStop@4 == _RaguiDoStop@4
+RaguiEditPreferences@4 == _RaguiEditPreferences@4
+RaguiFormClientIdString@24 == _RaguiFormClientIdString@24
+RaguiGetConsoleName@4 == _RaguiGetConsoleName@4
+RaguiGetControlsFlags@4
+RaguiGetPreferedClientHeight@4 == _RaguiGetPreferedClientHeight@4
+RaguiGetPreferedClientWidth@4 == _RaguiGetPreferedClientWidth@4
+RaguiGetUserData@4 == _RaguiGetUserData@4
+RaguiGetWindowName@4 == _RaguiGetWindowName@4
+RaguiHasNextItem@4 == _RaguiHasNextItem@4
+RaguiHasPrevItem@4 == _RaguiHasPrevItem@4
+RaguiHideShowStatistics@4 == _RaguiHideShowStatistics@4
+RaguiIsStatisticsVisible@4 == _RaguiIsStatisticsVisible@4
+RaguiNew@8
+RaguiProductVersion@0 == _RaguiProductVersion@0
+RaguiResizeWindow@4
+RaguiSetAutoStart@8
+RaguiSetConsoleName@12
+RaguiSetControlsFlags@8
+RaguiSetControlsString@8
+RaguiSetLockUpdate@8
+RaguiSetNoLabels@8
+RaguiSetPlayMode@8 == _RaguiSetPlayMode@8
+RaguiSetPreset@16 == _RaguiSetPreset@16
+RaguiSetReportError@8 == _RaguiSetReportError@8
+RaguiSetSource@8
+RaguiSetUserData@8 == _RaguiSetUserData@8
+RaguiSetWindow@8
+RaguiSetWindowName@8 == _RaguiSetWindowName@8
+RaguiSetupClient@8 == _RaguiSetupClient@8
+RaguiShowAbout@4 == _RaguiShowAbout@4
+RaguiShutdownClient@4 == _RaguiShutdownClient@4
+RaguiStartRecording@8 == _RaguiStartRecording@8
+RaguiStatusScan@8 == _RaguiStatusScan@8
+RaguiStatusScanEnd@4 == _RaguiStatusScanEnd@4
+RaguiStatusScanStart@4 == _RaguiStatusScanStart@4
+RaguiStopRecording@4 == _RaguiStopRecording@4

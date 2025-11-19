@@ -1,0 +1,5 @@
+LIBRARY IMNIMP.DLL
+EXPORTS
+DllMain@12
+ImportMessages@4
+ExportMessages@4

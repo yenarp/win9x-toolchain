@@ -1,0 +1,21 @@
+LIBRARY CRYPTDLG.DLL
+EXPORTS
+CertConfigureTrustA
+CertConfigureTrustW
+CertTrustCertPolicy@16
+CertTrustCleanup@4
+CertTrustFinalPolicy@4
+CertTrustInit@4
+DecodeAttrSequence@28
+EncodeAttrSequence@20
+FormatPKIXEmailProtection@36
+FormatVerisignExtension@36
+CertModifyCertificatesToTrust@24
+CertSelectCertificateA@4
+CertSelectCertificateW@4
+CertViewPropertiesA@4
+CertViewPropertiesW@4
+DllRegisterServer
+DllUnregisterServer
+GetFriendlyNameOfCertA@12
+GetFriendlyNameOfCertW@12

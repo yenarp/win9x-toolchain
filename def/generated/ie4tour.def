@@ -1,0 +1,6 @@
+LIBRARY ie4tour.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

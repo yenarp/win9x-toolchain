@@ -1,0 +1,18 @@
+LIBRARY OCCACHE.DLL
+EXPORTS
+FindControlClose@4
+FindFirstControl@12
+FindNextControl@8
+GetControlDependentFile@20
+GetControlInfo@20
+IsModuleRemovable@4
+ReleaseControlHandle@4
+RemoveControlByHandle@8
+RemoveControlByName@20
+SweepControlsByLastAccessDate@16
+DllCanUnloadNow
+DllGetClassObject@12
+DllInstall@8
+DllMain@12
+DllRegisterServer
+DllUnregisterServer

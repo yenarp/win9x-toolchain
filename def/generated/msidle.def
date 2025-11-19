@@ -1,0 +1,9 @@
+LIBRARY MSIDLE.DLL
+EXPORTS
+ord_3@12 @3 NONAME
+ord_4@4 @4 NONAME
+ord_5@8 @5 NONAME
+ord_6@8 @6 NONAME
+ord_7@8 @7 NONAME
+ord_8@4 @8 NONAME
+LibMain@12

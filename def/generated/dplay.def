@@ -1,0 +1,4 @@
+LIBRARY DPLAY.DLL
+EXPORTS
+DirectPlayCreate@12
+DirectPlayEnumerate@8

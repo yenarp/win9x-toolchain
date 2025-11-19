@@ -1,0 +1,16 @@
+LIBRARY RNAPH.DLL
+EXPORTS
+RasValidateEntryName@8
+RasRenameEntry@12
+RasDeleteEntry@8
+RasGetEntryProperties@24
+RasSetEntryProperties@24
+RasEnumDevices@12
+RasGetCountryInfo@8
+RasValidateEntryNameA@8
+RasRenameEntryA@12
+RasDeleteEntryA@8
+RasGetEntryPropertiesA@24
+RasSetEntryPropertiesA@24
+RasEnumDevicesA@12
+RasGetCountryInfoA@8

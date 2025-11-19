@@ -1,0 +1,5 @@
+LIBRARY NPRA32.DLL
+EXPORTS
+NP_GetEntryPoints@4
+NP_Initialize@4
+NP_Shutdown

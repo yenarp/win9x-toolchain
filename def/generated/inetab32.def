@@ -1,0 +1,4 @@
+LIBRARY INETAB32.DLL
+EXPORTS
+ABProviderInit
+ServiceEntry@40

@@ -1,0 +1,5 @@
+LIBRARY D3DRG8F.DLL
+EXPORTS
+ord_1 @1 NONAME
+RLDDICreateRGBDriver
+RLDDICreateRGBLightingDriver

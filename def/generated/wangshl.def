@@ -1,0 +1,4 @@
+LIBRARY WANGSHL.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12

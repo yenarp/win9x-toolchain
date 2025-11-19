@@ -1,0 +1,50 @@
+LIBRARY SHDOCVW.DLL
+EXPORTS
+ord_101@8 @101 NONAME
+ord_102@20 @102 NONAME
+ord_103@20 @103 NONAME
+ord_104 @104 NONAME
+DoFileDownload@4
+DoFileDownloadEx@8
+HlinkFindFrame@8
+HlinkFrameNavigate@20
+HlinkFrameNavigateNHL@24
+ord_110 @110 NONAME
+ord_111 @111 NONAME
+AddUrlToFavorites@16
+DllCanUnloadNow
+DllGetClassObject@12
+ord_115@4 @115 NONAME
+DllGetVersion@4
+ord_117@12 @117 NONAME
+ord_118@4 @118 NONAME
+ord_119@4 @119 NONAME
+ord_120@4 @120 NONAME
+ord_121 @121 NONAME
+ord_122 @122 NONAME
+ord_123@20 @123 NONAME
+DllInstall@8
+ord_125 @125 NONAME
+DllRegisterServer
+DllRegisterWindowClasses@4
+DllUnregisterServer
+DoAddToFavDlg@24
+ord_130@4 @130 NONAME
+ord_131@4 @131 NONAME
+DoOrganizeFavDlg@8
+IEWriteErrorLog@4
+OpenURL@16
+SHGetIDispatchForFolder@8
+SetQueryNetSessionCount@4
+SoftwareUpdateMessageBox@16
+URLQualifyA@12
+URLQualifyW@12
+ord_150@16 @150 NONAME
+ord_151@24 @151 NONAME
+ord_152@20 @152 NONAME
+ord_158@12 @158 NONAME
+ord_159@12 @159 NONAME
+ord_161@4 @161 NONAME
+ord_162@12 @162 NONAME
+SHAddSubscribeFavorite@24
+ord_164@4 @164 NONAME

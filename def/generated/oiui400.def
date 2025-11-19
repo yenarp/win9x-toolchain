@@ -1,0 +1,17 @@
+LIBRARY OIUI400.DLL
+EXPORTS
+AttrLineDlgProc@16
+AttrRectDlgProc@16
+AttrNoteDlgProc@16
+AttrStampDlgProc@16
+CustClrPalUserCtlProc@16
+ChooseFontDlgProc@16
+ChooseColorDlgProc@16
+AttrTextStampEditProc@16
+AttrImageStampEditProc@16
+OiUIFileGetNameCommDlg@8
+OiUIFileSaveAsDlgProc@16
+OiUIFileOpenDlgProc@16
+OiUIFilePrintDlgProc@16
+OiUIAttribDlgBox@16
+OiUIStampAttribDlgBox@8

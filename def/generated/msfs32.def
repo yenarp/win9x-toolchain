@@ -1,0 +1,12 @@
+LIBRARY MSFS32.DLL
+EXPORTS
+MSFSEXT_ME_New
+MSFSPEXT_MEPS_New
+ABProviderInit
+MMFSearch@12
+MSProviderInit
+ServiceEntry@40
+WizardInformation@20
+XPProviderInit
+ord_9@8 @9 NONAME
+ord_10@4 @10 NONAME

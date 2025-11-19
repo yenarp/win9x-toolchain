@@ -1,0 +1,9 @@
+LIBRARY PSTOREC.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+GetPStoreProvider@12
+PStoreCreateInstance@16
+PStoreEnumProviders@8

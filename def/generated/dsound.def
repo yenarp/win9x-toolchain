@@ -1,0 +1,7 @@
+LIBRARY DSOUND.DLL
+EXPORTS
+DirectSoundCreate@12
+DirectSoundEnumerateA@8
+DirectSoundEnumerateW@8
+DllCanUnloadNow
+DllGetClassObject@12

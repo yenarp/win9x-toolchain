@@ -1,0 +1,5 @@
+LIBRARY FONTEXT.DLL
+EXPORTS
+DllMain@12
+DllCanUnloadNow
+DllGetClassObject@12

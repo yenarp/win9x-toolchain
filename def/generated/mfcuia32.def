@@ -1,0 +1,14 @@
+LIBRARY MFCUIA32.DLL
+EXPORTS
+OleUIAddVerbMenu@36
+OleUICanConvertOrActivateAs ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIInsertObject@4
+OleUIPasteSpecial@4
+OleUIEditLinks ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIChangeIcon ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIConvert ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIBusy ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIUpdateLinks ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIPromptUser ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIObjectProperties ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OleUIChangeSource ; Check!!! Couldn't determine function argument count. Function doesn't return.

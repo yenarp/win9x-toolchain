@@ -1,0 +1,16 @@
+LIBRARY VERSION.DLL
+EXPORTS
+GetFileVersionInfoA@16
+GetFileVersionInfoSizeA@8
+GetFileVersionInfoSizeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFileVersionInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerFThk_ThunkData32 DATA
+VerFindFileA@32
+VerFindFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerInstallFileA@32
+VerInstallFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerLanguageNameA@12
+VerLanguageNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerQueryValueA@16
+VerQueryValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerThkSL_ThunkData32 DATA

@@ -1,0 +1,15 @@
+LIBRARY AWKRNL32.DLL
+EXPORTS
+IFBufAlloc@4 == _IFBufAlloc@4
+IFBufFree@4 == _IFBufFree@4
+IFBufMakeWritable@4 == _IFBufMakeWritable@4
+IFBufShare@4 == _IFBufShare@4
+IFBufSplit@8 == _IFBufSplit@8
+IFDbgCheck@0 == _IFDbgCheck@0
+IFDbgPrintf
+IFDbgSetParams@8 == _IFDbgSetParams@8
+IFMemAlloc@12 == _IFMemAlloc@12
+IFMemFree@4 == _IFMemFree@4
+IFProfileHit@0 == _IFProfileHit@0
+IFProfileProcessLog@4 == _IFProfileProcessLog@4
+IFProfileReport@0 == _IFProfileReport@0

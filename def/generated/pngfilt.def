@@ -1,0 +1,6 @@
+LIBRARY PNGFILT.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer

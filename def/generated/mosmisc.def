@@ -1,0 +1,27 @@
+LIBRARY MOSMISC.DLL
+EXPORTS
+CenterDlg
+DeleteRegistryValue
+FFindMSNFile
+FGetPreferenceBool
+FGetRegistryBool
+FGetRegistryDword
+FGetRegistryPvAlloc
+FGetRegistrySz
+FGetSingleByteDlgItemText
+FPathIsDirectory
+FRegistryBoolSet
+FRegistryKeyExists
+FSzIsSingleByte
+FWriteRegSt
+FreeRegistryPv
+GetModulePath
+GetPreferenceDword
+GetSz
+MOSDefDlgProc
+PVReadReg
+PVReadRegSt
+SetRegistryBool
+SetRegistryRaw
+SetSelFocus
+Sz2Int

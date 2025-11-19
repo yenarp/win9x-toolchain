@@ -1,0 +1,27 @@
+LIBRARY DSKAPI32.DLL
+EXPORTS
+thk_ThunkData32 DATA
+DRV_GetDriverVersion
+dllDRV_GetDriverVersion@4
+DRV_NumDiskUnits
+Drive_GetVolFormat
+GetClusterSize
+GetVolName
+DRV_GetDriveMap
+CompressionType
+LockDrive
+UnlockDrive
+GetDriveECR
+GetDriveACR
+GetFirstCluster
+SH1632BrowseFF
+GetDriveCompFree
+GetDrivePhysFree
+GetDriveCompUsed
+GetDrivePhysUsed
+GetDriveCompTotal
+GetDrivePhysTotal
+GetDriveOverhead
+DRV_SetCompressionAlgo
+DRV_GetCompressionAlgo
+DLL32Call@4 == _DLL32Call@4

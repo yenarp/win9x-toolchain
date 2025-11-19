@@ -1,0 +1,8 @@
+LIBRARY AWCODC32.DLL
+EXPORTS
+FaxCodecInit@8
+FaxCodecConvert@12
+FaxCodecCount@8
+FaxCodecChange@12
+BitReverseBuf@4
+InvertBuf@4

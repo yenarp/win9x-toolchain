@@ -1,0 +1,4 @@
+LIBRARY PANMAP.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12

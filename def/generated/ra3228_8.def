@@ -1,0 +1,9 @@
+LIBRARY RA3228_8.DLL
+EXPORTS
+Compression_Name@8
+Decode@20
+Encode@8
+FreeDecoder
+FreeEncoder
+InitDecoder@4
+InitEncoder@16

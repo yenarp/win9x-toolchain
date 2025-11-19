@@ -1,0 +1,7 @@
+LIBRARY OISSQ400.DLL
+EXPORTS
+ScanStatDlgProc@16
+IMGScantoFile@16
+IMGScanCheckTypeWithExt@16
+IMGScantoDest@24
+IMGScanOCXService@8

@@ -1,0 +1,9 @@
+LIBRARY RICHED20.DLL
+EXPORTS
+IID_IRichEditOle DATA
+IID_IRichEditOleCallback DATA
+CreateTextServices@12
+IID_ITextServices DATA
+IID_ITextHost DATA
+IID_ITextHost2 DATA
+DllMain@12 == _DllMain@12

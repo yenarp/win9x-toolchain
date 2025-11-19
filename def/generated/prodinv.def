@@ -1,0 +1,12 @@
+LIBRARY PRODINV.DLL
+EXPORTS
+UpgradeCheckProc@16
+HardDriveFailed@16
+DirDialogProc@16
+AllFailedProc@16
+PassWordProc@16
+ErrorDialogProc@16
+BadPasswordProc@16
+IntroDlgProc@16
+Parse@24
+RegProductSearch@4

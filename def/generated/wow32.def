@@ -1,0 +1,19 @@
+LIBRARY WOW32.DLL
+EXPORTS
+ord_1 @1 NONAME ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWCallback16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWCallback16Ex ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWDirectedYield16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGetVDMPointer ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGetVDMPointerFix ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGetVDMPointerUnfix ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalAlloc16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalAllocLock16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalFree16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalLock16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalLockSize16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalUnlock16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWGlobalUnlockFree16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWHandle16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWHandle32 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WOWYield16 ; Check!!! Couldn't determine function argument count. Function doesn't return.

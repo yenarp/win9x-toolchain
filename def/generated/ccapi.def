@@ -1,0 +1,42 @@
+LIBRARY CCAPI.DLL
+EXPORTS
+??0CCcStorage@@QAE@XZ
+??1CCcStorage@@QAE@XZ
+??4CCcStorage@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_ECCcStorage@@QAEPAXI@Z ; has WINAPI (@4)
+??_GCCcStorage@@QAEPAXI@Z ; has WINAPI (@4)
+?HrCopyToStorage@CCcStorage@@QAEJPAUIStorage@@@Z ; has WINAPI (@4)
+?HrExecute@CCcStorage@@QAEJH@Z ; has WINAPI (@4)
+?HrFlush@CCcStorage@@AAEJH@Z ; has WINAPI (@4)
+?HrGetFieldString@CCcStorage@@QAEJW4CCFIELD@@PAXKPAK@Z ; has WINAPI (@16)
+?HrGetIStorage@CCcStorage@@QAEJPAPAUIStorage@@@Z ; has WINAPI (@4)
+?HrGetIcon@CCcStorage@@QAEJPAPAXH@Z ; has WINAPI (@8)
+?HrGetItemIdList@CCcStorage@@QAEJPAPAX@Z ; has WINAPI (@4)
+?HrGetSuggestName@@YGJPBDPADK@Z ; has WINAPI (@12)
+?HrInitFromCCDI@CCcStorage@@QAEJPAUtagCCDI@@PAUIStorage@@@Z ; has WINAPI (@8)
+?HrLoadFromFile@CCcStorage@@QAEJPBD@Z ; has WINAPI (@4)
+?HrLoadFromStorage@CCcStorage@@QAEJPAUIStorage@@@Z ; has WINAPI (@4)
+?HrReadFromStm@CCcStorage@@AAEJPAUIStream@@KPAXKPAK@Z ; has WINAPI (@20)
+?HrSetFieldString@CCcStorage@@AAEJW4CCFIELD@@PBD@Z ; has WINAPI (@8)
+?HrSetIcon@CCcStorage@@AAEJPAX@Z ; has WINAPI (@4)
+?HrSetItemIdList@CCcStorage@@AAEJPBU_ITEMIDLIST@@K@Z ; has WINAPI (@8)
+?HrShowMnid@CCcStorage@@QAEJXZ
+?HrWriteToStm@CCcStorage@@AAEJPAUIStream@@KPAXK@Z ; has WINAPI (@16)
+?MnidToSz@@YAXPAU_MosNodeId@@PAD@Z
+?OleStdCompareFormatEtc@@YGHPAUtagFORMATETC@@0@Z ; has WINAPI (@8)
+?OleStdCompareTargetDevice@@YGHPAUtagDVTARGETDEVICE@@0@Z ; has WINAPI (@8)
+?OleStdCreateStorageOnHGlobal@@YGPAUIStorage@@PAXHK@Z ; has WINAPI (@12)
+HrCreateMosDataObj
+HrCreateMosDataObjEx
+HrSaveCallingCard
+MOSX_GotoMosLocation
+MOSX_HrAddToFavoritePlaces
+MOSX_HrCreateCCFromAppidDeid
+MOSX_HrExecFromDeid
+MOSX_HrExecFromDeidEx
+MOSX_HrExecPidl
+MOSX_HrExecSzMnid
+MOSX_HrGetDataObjFromAppidDeid
+MOSX_HrShowMnid
+ReportCCErr
+ReportCCErrX

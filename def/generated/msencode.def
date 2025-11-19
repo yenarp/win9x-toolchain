@@ -1,0 +1,11 @@
+LIBRARY MSENCODE.DLL
+EXPORTS
+CceDetectInputCode@32
+CceGetAvailableEncodings@8
+CceIsAvailableEncoding@4
+CceStreamMultiByteToUnicode@36
+CceStreamUnicodeToMultiByte@36
+CceStringMultiByteToUnicode@36
+CceStringUnicodeToMultiByte@36
+DllMain@12
+FetchMsEncodeDllVersion@8

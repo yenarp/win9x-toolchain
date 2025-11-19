@@ -1,0 +1,226 @@
+LIBRARY ADVAPI32.DLL
+EXPORTS
+AbortSystemShutdownA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AbortSystemShutdownW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AccessCheck ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AccessCheckAndAuditAlarmA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AccessCheckAndAuditAlarmW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AddAccessAllowedAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AddAccessDeniedAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AddAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AddAuditAccessAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AdjustTokenGroups ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AdjustTokenPrivileges ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AllocateAndInitializeSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AllocateLocallyUniqueId ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AreAllAccessesGranted ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AreAnyAccessesGranted ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BackupEventLogA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BackupEventLogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ChangeServiceConfigA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ChangeServiceConfigW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ClearEventLogA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ClearEventLogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CloseEventLog ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CloseServiceHandle ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ControlService ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CopySid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreatePrivateObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateProcessAsUserA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateProcessAsUserW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateServiceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateServiceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CryptAcquireContextA@20
+CryptCreateHash@20
+CryptDecrypt@24
+CryptDeriveKey@20
+CryptDestroyHash@4
+CryptDestroyKey@4
+CryptEncrypt@28
+CryptExportKey@24
+CryptGenKey@16
+CryptGenRandom@12
+CryptGetHashParam@20
+CryptGetKeyParam@20
+CryptGetProvParam@20
+CryptGetUserKey@12
+CryptHashData@16
+CryptHashSessionKey@12
+CryptImportKey@24
+CryptReleaseContext@8
+CryptSetHashParam@16
+CryptSetKeyParam@16
+CryptSetProvParam@16
+CryptSetProviderA@8
+CryptSignHashA@24
+CryptVerifySignatureA@24
+DeleteAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeleteService ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeregisterEventSource ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DestroyPrivateObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DuplicateToken ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDependentServicesA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDependentServicesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumServicesStatusA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumServicesStatusW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EqualPrefixSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EqualSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindFirstFreeAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FreeSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetAce ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetAclInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFileSecurityA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFileSecurityW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetKernelObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetLengthSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetNumberOfEventLogRecords ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetOldestEventLogRecord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPrivateObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorControl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorDacl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorGroup ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorLength ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorOwner ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSecurityDescriptorSacl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetServiceDisplayNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetServiceDisplayNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetServiceKeyNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetServiceKeyNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSidIdentifierAuthority ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSidLengthRequired ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSidSubAuthority ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSidSubAuthorityCount ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTokenInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetUserNameA@8
+GetUserNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ImpersonateLoggedOnUser ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ImpersonateNamedPipeClient ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ImpersonateSelf ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitializeAcl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitializeSecurityDescriptor ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitializeSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitiateSystemShutdownA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitiateSystemShutdownW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsTextUnicode ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsValidAcl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsValidSecurityDescriptor ; Check!!! Couldn't determine function argument count. Function doesn't return.
+IsValidSid ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LockServiceDatabase ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LogonUserA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LogonUserW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupAccountNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupAccountNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupAccountSidA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupAccountSidW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeDisplayNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeDisplayNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeValueA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LookupPrivilegeValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MakeAbsoluteSD ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MakeSelfRelativeSD ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MapGenericMask ; Check!!! Couldn't determine function argument count. Function doesn't return.
+NotifyBootConfigStatus ; Check!!! Couldn't determine function argument count. Function doesn't return.
+NotifyChangeEventLog ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectCloseAuditAlarmA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectCloseAuditAlarmW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectOpenAuditAlarmA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectOpenAuditAlarmW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectPrivilegeAuditAlarmA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ObjectPrivilegeAuditAlarmW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenBackupEventLogA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenBackupEventLogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenEventLogA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenEventLogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenProcessToken ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenSCManagerA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenSCManagerW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenServiceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenServiceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenThreadToken ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PrivilegeCheck ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PrivilegedServiceAuditAlarmA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PrivilegedServiceAuditAlarmW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceConfigA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceConfigW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceLockStatusA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceLockStatusW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryServiceStatus ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadEventLogA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadEventLogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegCloseKey@4
+RegConnectRegistryA@12
+RegConnectRegistryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegCreateKeyA@12
+RegCreateKeyExA@36
+RegCreateKeyExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegCreateKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegDeleteKeyA@8
+RegDeleteKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegDeleteValueA@8
+RegDeleteValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegEnumKeyA@16
+RegEnumKeyExA@32
+RegEnumKeyExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegEnumKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegEnumValueA@32
+RegEnumValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegFlushKey@4
+RegGetKeySecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegLoadKeyA@12
+RegLoadKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegNotifyChangeKeyValue ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegOpenKeyA@12
+RegOpenKeyExA@20
+RegOpenKeyExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegOpenKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegQueryInfoKeyA@48
+RegQueryInfoKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegQueryMultipleValuesA@20
+RegQueryMultipleValuesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegQueryValueA@16
+RegQueryValueExA@24
+RegQueryValueExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegQueryValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegRemapPreDefKey@8
+RegReplaceKeyA@16
+RegReplaceKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegRestoreKeyA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegRestoreKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegSaveKeyA@12
+RegSaveKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegSetKeySecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegSetValueA@20
+RegSetValueExA@24
+RegSetValueExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegSetValueW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegUnLoadKeyA@8
+RegUnLoadKeyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterEventSourceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterEventSourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterServiceCtrlHandlerA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterServiceCtrlHandlerW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReportEventA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReportEventW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RevertToSelf ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetAclInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetFileSecurityA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetFileSecurityW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetKernelObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetPrivateObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetSecurityDescriptorDacl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetSecurityDescriptorGroup ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetSecurityDescriptorOwner ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetSecurityDescriptorSacl ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetServiceBits ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetServiceObjectSecurity ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetServiceStatus ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetThreadToken ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetTokenInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartServiceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartServiceCtrlDispatcherA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartServiceCtrlDispatcherW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+StartServiceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnlockServiceDatabase ; Check!!! Couldn't determine function argument count. Function doesn't return.

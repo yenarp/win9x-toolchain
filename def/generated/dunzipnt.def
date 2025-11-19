@@ -1,0 +1,4 @@
+LIBRARY DUNZIPNT.DLL
+EXPORTS
+dunzip@4
+dunzipVB@16

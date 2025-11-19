@@ -1,0 +1,13 @@
+LIBRARY IEDKCS32.DLL
+EXPORTS
+DllMain@12
+InternetInitializeAutoProxyDll@20
+BrandCleanInstallStubs@16
+BrandFixUrl@16
+BrandICW@12
+BrandIE4@16
+BrandIntra@4
+BrandMe@8
+BrandOPK@16
+Clear@16
+CloseRASConnections@16

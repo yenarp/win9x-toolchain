@@ -1,0 +1,5 @@
+LIBRARY D3DRG16F.DLL
+EXPORTS
+ord_1 @1 NONAME
+RLDDICreateRGBDriver
+RLDDICreateRGBLightingDriver

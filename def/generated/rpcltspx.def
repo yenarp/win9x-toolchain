@@ -1,0 +1,3 @@
+LIBRARY RPCLTSPX.DLL
+EXPORTS
+TransportLoad@4

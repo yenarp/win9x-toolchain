@@ -1,0 +1,20 @@
+LIBRARY D3DRGBF.DLL
+EXPORTS
+ord_1 @1 NONAME
+RLDDIGetCaps
+RLDDICreateGenRasDriver
+RLDDIDDrawCreateDriver
+RLDDIFInvSqrt
+RLDDIFree DATA
+RLDDIInit
+RLDDIMalloc DATA
+RLDDIPixmapFill
+RLDDIPixmapScale
+RLDDIPopDriver
+RLDDIPushDriver
+RLDDIRaise DATA
+RLDDIRampmapAllocate
+RLDDIRampmapFree
+RLDDIRealloc DATA
+RLDDITextureDiff
+RLDDIZTestTriangle

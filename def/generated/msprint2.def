@@ -1,0 +1,6 @@
+LIBRARY MSPRINT2.DLL
+EXPORTS
+PrinterSetup32@20
+MspFThk_ThunkData32 DATA
+MspThk_ThunkData32 DATA
+RUNDLL_PrintTestPage@16

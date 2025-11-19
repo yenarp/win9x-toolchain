@@ -1,0 +1,24 @@
+LIBRARY DCIMAN32.DLL
+EXPORTS
+DCIBeginAccess@20
+DCICloseProvider@4
+DCICreateOffscreen@40
+DCICreateOverlay@12
+DCICreatePrimary@8
+DCIDestroy@4
+DCIDraw@4
+DCIEndAccess@4
+DCIEnum ; Check!!! return value is from FT_Exit20 in KERNEL32.dll (ordinal 120)
+DCIOpenProvider
+DCISetClipList@8
+DCISetDestination ; Check!!! return value is from FT_Exit12 in KERNEL32.dll (ordinal 118)
+DCISetSrcDestClip ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+DllEntryPoint@12
+GetDCRegionData@12
+GetWindowRegionData@12
+WinWatchClose@4
+WinWatchDidStatusChange@4
+WinWatchGetClipList ; Check!!! return value is from FT_Exit16 in KERNEL32.dll (ordinal 119)
+WinWatchNotify@12
+WinWatchOpen@4
+dcithk_ThunkData32 DATA

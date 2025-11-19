@@ -1,0 +1,4 @@
+LIBRARY JPEG2X32.DLL
+EXPORTS
+jpeg_decmp_init@24
+jpeg_decmp@32

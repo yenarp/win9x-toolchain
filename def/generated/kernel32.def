@@ -1,0 +1,784 @@
+LIBRARY KERNEL32.DLL
+EXPORTS
+ord_1@4 @1 NONAME
+ord_2@4 @2 NONAME
+ord_3@4 @3 NONAME
+ord_4@4 @4 NONAME
+ord_5@4 @5 NONAME
+ord_6@4 @6 NONAME
+ord_7@4 @7 NONAME
+ord_8@4 @8 NONAME
+ord_9@4 @9 NONAME
+ord_10@8 @10 NONAME
+ord_11@12 @11 NONAME
+ord_12@8 @12 NONAME
+ord_13@12 @13 NONAME
+ord_14@16 @14 NONAME
+ord_15 @15 NONAME
+ord_16@12 @16 NONAME
+ord_17 @17 NONAME ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ord_18@8 @18 NONAME
+ord_19@4 @19 NONAME
+ord_20@4 @20 NONAME
+ord_21@4 @21 NONAME
+ord_22@4 @22 NONAME
+ord_23@4 @23 NONAME
+ord_24@8 @24 NONAME
+ord_25@4 @25 NONAME
+ord_26@4 @26 NONAME
+ord_27@4 @27 NONAME
+ord_28@4 @28 NONAME
+ord_29@4 @29 NONAME
+ord_30@4 @30 NONAME
+ord_31@4 @31 NONAME
+ord_32@4 @32 NONAME
+ord_33 @33 NONAME
+ord_34 @34 NONAME
+ord_35@4 @35 NONAME
+ord_36@4 @36 NONAME
+ord_37@8 @37 NONAME
+ord_38 @38 NONAME
+ord_39 @39 NONAME
+ord_40 @40 NONAME
+ord_41@20 @41 NONAME
+ord_42@4 @42 NONAME
+ord_43@20 @43 NONAME
+ord_44@4 @44 NONAME
+ord_45 @45 NONAME
+ord_46@20 @46 NONAME
+ord_47@4 @47 NONAME
+ord_48@4 @48 NONAME
+ord_49@4 @49 NONAME
+AddAtomA@4
+ord_51 @51 NONAME
+ord_52 @52 NONAME
+ord_53@8 @53 NONAME
+ord_54@8 @54 NONAME
+ord_55@20 @55 NONAME
+ord_56@12 @56 NONAME
+ord_57@8 @57 NONAME
+ord_58@8 @58 NONAME
+ord_59@8 @59 NONAME
+ord_60@4 @60 NONAME
+ord_61@4 @61 NONAME
+ord_62@4 @62 NONAME
+ord_63@12 @63 NONAME
+ord_64@4 @64 NONAME
+ord_65@8 @65 NONAME
+ord_66 @66 NONAME
+ord_67@4 @67 NONAME
+ord_68@12 @68 NONAME
+ord_69@4 @69 NONAME
+ord_70@8 @70 NONAME
+ord_71@4 @71 NONAME
+ord_72@16 @72 NONAME
+ord_73@8 @73 NONAME
+ord_74@8 @74 NONAME
+ord_75@16 @75 NONAME
+ord_76@16 @76 NONAME
+ord_77@20 @77 NONAME
+ord_78@12 @78 NONAME
+ord_79@12 @79 NONAME
+ord_80@12 @80 NONAME
+ord_81@12 @81 NONAME
+ord_82@8 @82 NONAME
+ord_83@16 @83 NONAME
+ord_84@4 @84 NONAME
+ord_85@4 @85 NONAME
+ord_86@4 @86 NONAME
+ord_87 @87 NONAME
+ord_88 @88 NONAME
+ord_89 @89 NONAME
+ord_90 @90 NONAME ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ord_91@4 @91 NONAME
+ord_92 @92 NONAME
+ord_93@4 @93 NONAME
+ord_94@4 @94 NONAME
+ord_95@4 @95 NONAME
+ord_96 @96 NONAME
+ord_97 @97 NONAME
+ord_98@4 @98 NONAME
+ord_99@4 @99 NONAME
+ord_100@12 @100 NONAME
+ord_101@4 @101 NONAME
+AddAtomW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+AllocConsole
+AllocLSCallback@8
+AllocSLCallback@8
+AreFileApisANSI
+BackupRead ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BackupSeek ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BackupWrite ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Beep@8
+BeginUpdateResourceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BeginUpdateResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BuildCommDCBA@8
+BuildCommDCBAndTimeoutsA@12
+BuildCommDCBAndTimeoutsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+BuildCommDCBW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CallNamedPipeA@28
+CallNamedPipeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback12 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback16 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback20 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback24 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback28 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback32 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback36 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback40 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback44 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback48 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback4 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback52 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback56 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback60 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback64 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Callback8 ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ClearCommBreak@4
+ClearCommError@12
+CloseHandle@4
+CloseProfileUserMapping ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CloseSystemHandle@4
+CommConfigDialogA@12
+CommConfigDialogW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CompareFileTime@8
+CompareStringA@24
+CompareStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ConnectNamedPipe ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ContinueDebugEvent@12
+ConvertDefaultLocale@4
+ConvertToGlobalHandle@4
+CopyFileA@12
+CopyFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateConsoleScreenBuffer@20
+CreateDirectoryA@8
+CreateDirectoryExA@12
+CreateDirectoryExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateEventA@16
+CreateEventW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateFileA@28
+CreateFileMappingA@24
+CreateFileMappingW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateIoCompletionPort ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateKernelThread@24
+CreateMailslotA@16
+CreateMailslotW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateMutexA@12
+CreateMutexW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateNamedPipeA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateNamedPipeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreatePipe@16
+CreateProcessA@40
+CreateProcessW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateRemoteThread ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateSemaphoreA@16
+CreateSemaphoreW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateSocketHandle
+CreateTapePartition ; Check!!! Couldn't determine function argument count. Function doesn't return.
+CreateThread@24
+CreateToolhelp32Snapshot@8
+DebugActiveProcess@4
+DebugBreak ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefineDosDeviceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DefineDosDeviceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeleteAtom@4
+DeleteCriticalSection@4
+DeleteFileA@4
+DeleteFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DeviceIoControl@32
+DisableThreadLibraryCalls@4
+DisconnectNamedPipe ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DosDateTimeToFileTime@12
+DuplicateHandle@28
+EndUpdateResourceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EndUpdateResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnterCriticalSection@4
+EnumCalendarInfoA@16
+EnumCalendarInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumDateFormatsA@12
+EnumDateFormatsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumResourceLanguagesA@20
+EnumResourceLanguagesW@20
+EnumResourceNamesA@16
+EnumResourceNamesW@16
+EnumResourceTypesA@12
+EnumResourceTypesW@12
+EnumSystemCodePagesA@8
+EnumSystemCodePagesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumSystemLocalesA@8
+EnumSystemLocalesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EnumTimeFormatsA@12
+EnumTimeFormatsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EraseTape ; Check!!! Couldn't determine function argument count. Function doesn't return.
+EscapeCommFunction@8
+ExitProcess@4
+ExitThread@4
+ExpandEnvironmentStringsA@12
+ExpandEnvironmentStringsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FT_Exit0
+FT_Exit12@12
+FT_Exit16@16
+FT_Exit20@20
+FT_Exit24@24
+FT_Exit28@28
+FT_Exit32@32
+FT_Exit36@36
+FT_Exit4@4
+FT_Exit40@40
+FT_Exit44@44
+FT_Exit48@48
+FT_Exit52@52
+FT_Exit56@56
+FT_Exit8@8
+FT_Prolog ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FT_Thunk
+FatalAppExitA@8
+FatalAppExitW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FatalExit@4
+FileTimeToDosDateTime@12
+FileTimeToLocalFileTime@8
+FileTimeToSystemTime@8
+FillConsoleOutputAttribute@20
+FillConsoleOutputCharacterA@20
+FillConsoleOutputCharacterW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindAtomA@4
+FindAtomW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindClose@4
+FindCloseChangeNotification@4
+FindFirstChangeNotificationA@12
+FindFirstChangeNotificationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindFirstFileA@8
+FindFirstFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindNextChangeNotification@4
+FindNextFileA@8
+FindNextFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FindResourceA@12
+FindResourceExA@16
+FindResourceExW@16
+FindResourceW@12
+FlushConsoleInputBuffer@4
+FlushFileBuffers@4
+FlushInstructionCache@12
+FlushViewOfFile@8
+FoldStringA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FoldStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FormatMessageA@28
+FormatMessageW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FreeConsole
+FreeEnvironmentStringsA@4
+FreeEnvironmentStringsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+FreeLSCallback@4
+FreeLibrary@4
+FreeLibraryAndExitThread@8
+FreeResource@4
+FreeSLCallback@4
+GenerateConsoleCtrlEvent@8
+GetACP
+GetAtomNameA@12
+GetAtomNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetBinaryType ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetBinaryTypeA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetBinaryTypeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCPInfo@8
+GetCommConfig@12
+GetCommMask@8
+GetCommModemStatus@8
+GetCommProperties@8
+GetCommState@8
+GetCommTimeouts@8
+GetCommandLineA
+GetCommandLineW
+GetCompressedFileSizeA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCompressedFileSizeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetComputerNameA@8
+GetComputerNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetConsoleCP
+GetConsoleCursorInfo@8
+GetConsoleMode@8
+GetConsoleOutputCP
+GetConsoleScreenBufferInfo@8
+GetConsoleTitleA@8
+GetConsoleTitleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCurrencyFormatA@24
+GetCurrencyFormatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCurrentDirectoryA@8
+GetCurrentDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetDateFormatA@24
+GetDateFormatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDaylightFlag
+GetDefaultCommConfigA@12
+GetDefaultCommConfigW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDiskFreeSpaceA@20
+GetDiskFreeSpaceExA@16
+GetDiskFreeSpaceExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDiskFreeSpaceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetDriveTypeA@4
+GetDriveTypeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnvironmentStrings
+GetEnvironmentStringsA
+GetEnvironmentStringsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetEnvironmentVariableA@12
+GetEnvironmentVariableW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetErrorMode
+GetExitCodeProcess@8
+GetExitCodeThread@8
+GetFileAttributesA@4
+GetFileAttributesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetFileInformationByHandle@8
+GetFileSize@8
+GetFileTime@16
+GetFileType@4
+GetFullPathNameA@16
+GetFullPathNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetHandleContext@4
+GetHandleInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetLSCallbackTarget@4
+GetLSCallbackTemplate@4
+GetLargestConsoleWindowSize@4
+GetLastError
+GetLocalTime@4
+GetLocaleInfoA@16
+GetLocaleInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetLogicalDriveStringsA@8
+GetLogicalDriveStringsW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetLogicalDrives
+GetMailslotInfo@20
+GetModuleFileNameA@12
+GetModuleFileNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetModuleHandleA@4
+GetModuleHandleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetNamedPipeHandleStateA@28
+GetNamedPipeHandleStateW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetNamedPipeInfo@20
+GetNumberFormatA@24
+GetNumberFormatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetNumberOfConsoleInputEvents@8
+GetNumberOfConsoleMouseButtons@4
+GetOEMCP
+GetOverlappedResult@16
+GetPriorityClass@4
+GetPrivateProfileIntA@16
+GetPrivateProfileIntW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPrivateProfileSectionA@16
+GetPrivateProfileSectionNamesA@12
+GetPrivateProfileSectionNamesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPrivateProfileSectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPrivateProfileStringA@24
+GetPrivateProfileStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetPrivateProfileStructA@20
+GetPrivateProfileStructW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProcAddress@8
+GetProcessAffinityMask@12
+GetProcessFlags@4
+GetProcessHeap
+GetProcessHeaps ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProcessShutdownParameters ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProcessTimes ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProcessVersion@4
+GetProcessWorkingSetSize ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProductName@8
+GetProfileIntA@12
+GetProfileIntW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProfileSectionA@12
+GetProfileSectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetProfileStringA@20
+GetProfileStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetQueuedCompletionStatus@20
+GetSLCallbackTarget@4
+GetSLCallbackTemplate@4
+GetShortPathNameA@12
+GetShortPathNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetStartupInfoA@4
+GetStartupInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetStdHandle@4
+GetStringTypeA@20
+GetStringTypeExA@20
+GetStringTypeExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetStringTypeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSystemDefaultLCID
+GetSystemDefaultLangID
+GetSystemDirectoryA@8
+GetSystemDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSystemInfo@4
+GetSystemPowerStatus@4
+GetSystemTime@4
+GetSystemTimeAdjustment ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetSystemTimeAsFileTime@4
+GetTapeParameters ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTapePosition ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTapeStatus ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTempFileNameA@16
+GetTempFileNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTempPathA@8
+GetTempPathW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetThreadContext@8
+GetThreadLocale
+GetThreadPriority@4
+GetThreadSelectorEntry@12
+GetThreadTimes ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTickCount
+GetTimeFormatA@24
+GetTimeFormatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetTimeZoneInformation@4
+GetUserDefaultLCID
+GetUserDefaultLangID
+GetVersion
+GetVersionExA@4
+GetVersionExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetVolumeInformationA@32
+GetVolumeInformationW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetWindowsDirectoryA@8
+GetWindowsDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GlobalAddAtomA@4
+GlobalAddAtomW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GlobalAlloc@8
+GlobalCompact@4
+GlobalDeleteAtom@4
+GlobalFindAtomA@4
+GlobalFindAtomW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GlobalFix@4
+GlobalFlags@4
+GlobalFree@4
+GlobalGetAtomNameA@12
+GlobalGetAtomNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GlobalHandle@4
+GlobalLock@4
+GlobalMemoryStatus@4
+GlobalReAlloc@12
+GlobalSize@4
+GlobalUnWire@4
+GlobalUnfix@4
+GlobalUnlock@4
+GlobalWire@4
+Heap32First@12
+Heap32ListFirst@8
+Heap32ListNext@8
+Heap32Next@4
+HeapAlloc@12
+HeapCompact ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HeapCreate@12
+HeapDestroy@4
+HeapFree@12
+HeapLock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HeapReAlloc@16
+HeapSetFlags ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HeapSize@12
+HeapUnlock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HeapValidate ; Check!!! Couldn't determine function argument count. Function doesn't return.
+HeapWalk ; Check!!! Couldn't determine function argument count. Function doesn't return.
+InitAtomTable@4
+InitializeCriticalSection@4
+InterlockedDecrement@4
+InterlockedExchange@8
+InterlockedIncrement@4
+InvalidateNLSCache
+IsBadCodePtr@4
+IsBadHugeReadPtr@8
+IsBadHugeWritePtr@8
+IsBadReadPtr@8
+IsBadStringPtrA@8
+IsBadStringPtrW@8
+IsBadWritePtr@8
+IsDBCSLeadByte@4
+IsDBCSLeadByteEx@8
+IsLSCallback@4
+IsSLCallback@4
+IsValidCodePage@4
+IsValidLocale@8
+K32Thk1632Epilog
+K32Thk1632Prolog
+LCMapStringA@24
+LCMapStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LeaveCriticalSection@4
+LoadLibraryA@4
+LoadLibraryExA@12
+LoadLibraryExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadLibraryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadModule@8
+LoadResource@8
+LocalAlloc@8
+LocalCompact@4
+LocalFileTimeToFileTime@8
+LocalFlags@4
+LocalFree@4
+LocalHandle@4
+LocalLock@4
+LocalReAlloc@12
+LocalShrink@8
+LocalSize@4
+LocalUnlock@4
+LockFile@20
+LockFileEx ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LockResource@4
+MakeCriticalSectionGlobal@4
+MapHInstLS
+MapHInstLS_PN
+MapHInstSL
+MapHInstSL_PN
+MapHModuleLS@4
+MapHModuleSL@4
+MapLS@4
+MapSL@4
+MapSLFix@4
+MapViewOfFile@20
+MapViewOfFileEx@24
+Module32First@8
+Module32Next@8
+MoveFileA@8
+MoveFileExA@12
+MoveFileExW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MoveFileW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+MulDiv@12
+MultiByteToWideChar@24
+NotifyNLSUserCache@12
+OpenEventA@12
+OpenEventW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenFile@12
+OpenFileMappingA@12
+OpenFileMappingW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenMutexA@12
+OpenMutexW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenProcess@12
+OpenProfileUserMapping ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenSemaphoreA@12
+OpenSemaphoreW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+OpenVxDHandle@4
+OutputDebugStringA@4
+OutputDebugStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PeekConsoleInputA@16
+PeekConsoleInputW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PeekNamedPipe@24
+PostQueuedCompletionStatus ; Check!!! Couldn't determine function argument count. Function doesn't return.
+PrepareTape ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Process32First@8
+Process32Next@8
+PulseEvent@4
+PurgeComm@8
+QT_Thunk
+QueryDosDeviceA@12
+QueryDosDeviceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryNumberOfEventLogRecords ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryOldestEventLogRecord ; Check!!! Couldn't determine function argument count. Function doesn't return.
+QueryPerformanceCounter@4
+QueryPerformanceFrequency@4
+QueueUserAPC@12
+RaiseException@16
+ReadConsoleA@20
+ReadConsoleInputA@16
+ReadConsoleInputW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadConsoleOutputA@20
+ReadConsoleOutputAttribute@20
+ReadConsoleOutputCharacterA@20
+ReadConsoleOutputCharacterW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadConsoleOutputW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadConsoleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ReadFile
+ReadFileEx@20
+ReadProcessMemory@20
+RegisterServiceProcess@8
+ReinitializeCriticalSection@4
+ReleaseMutex@4
+ReleaseSemaphore@12
+RemoveDirectoryA@4
+RemoveDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ResetEvent@4
+ResumeThread@4
+RtlFillMemory@12
+RtlMoveMemory@12
+RtlUnwind@16
+RtlZeroMemory@8
+SMapLS
+SMapLS_IP_EBP_12
+SMapLS_IP_EBP_16
+SMapLS_IP_EBP_20
+SMapLS_IP_EBP_24
+SMapLS_IP_EBP_28
+SMapLS_IP_EBP_32
+SMapLS_IP_EBP_36
+SMapLS_IP_EBP_40
+SMapLS_IP_EBP_8
+SUnMapLS
+SUnMapLS_IP_EBP_12
+SUnMapLS_IP_EBP_16
+SUnMapLS_IP_EBP_20
+SUnMapLS_IP_EBP_24
+SUnMapLS_IP_EBP_28
+SUnMapLS_IP_EBP_32
+SUnMapLS_IP_EBP_36
+SUnMapLS_IP_EBP_40
+SUnMapLS_IP_EBP_8
+ScrollConsoleScreenBufferA@20
+ScrollConsoleScreenBufferW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SearchPathA@24
+SearchPathW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetCommBreak@4
+SetCommConfig@12
+SetCommMask@8
+SetCommState@8
+SetCommTimeouts@8
+SetComputerNameA@4
+SetComputerNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetConsoleActiveScreenBuffer@4
+SetConsoleCP ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetConsoleCtrlHandler@8
+SetConsoleCursorInfo@8
+SetConsoleCursorPosition@8
+SetConsoleMode@8
+SetConsoleOutputCP ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetConsoleScreenBufferSize@8
+SetConsoleTextAttribute@8
+SetConsoleTitleA@4
+SetConsoleTitleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetConsoleWindowInfo@12
+SetCurrentDirectoryA@4
+SetCurrentDirectoryW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetDaylightFlag@4
+SetDefaultCommConfigA@12
+SetDefaultCommConfigW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetEndOfFile@4
+SetEnvironmentVariableA@8
+SetEnvironmentVariableW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetErrorMode@4
+SetEvent@4
+SetFileApisToANSI
+SetFileApisToOEM
+SetFileAttributesA@8
+SetFileAttributesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetFilePointer@16
+SetFileTime@16
+SetHandleContext@8
+SetHandleCount@4
+SetHandleInformation ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetLastError@4
+SetLocalTime@4
+SetLocaleInfoA@12
+SetLocaleInfoW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetMailslotInfo@8
+SetNamedPipeHandleState@16
+SetPriorityClass@8
+SetProcessShutdownParameters ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetProcessWorkingSetSize ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetStdHandle@8
+SetSystemPowerState@8
+SetSystemTime@4
+SetSystemTimeAdjustment ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetTapeParameters ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetTapePosition ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetThreadAffinityMask@8
+SetThreadContext@8
+SetThreadLocale ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetThreadPriority@8
+SetTimeZoneInformation@4
+SetUnhandledExceptionFilter@4
+SetVolumeLabelA@8
+SetVolumeLabelW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SetupComm@12
+SizeofResource@8
+Sleep@4
+SleepEx@8
+SuspendThread@4
+SystemTimeToFileTime@8
+SystemTimeToTzSpecificLocalTime ; Check!!! Couldn't determine function argument count. Function doesn't return.
+TerminateProcess@8
+TerminateThread@8
+Thread32First@8
+Thread32Next@8
+ThunkConnect32@24
+TlsAlloc
+TlsAllocInternal
+TlsFree@4
+TlsFreeInternal@4
+TlsGetValue@4
+TlsSetValue@8
+Toolhelp32ReadProcessMemory@20
+TransactNamedPipe@28
+TransmitCommChar@8
+UTRegister@28
+UTUnRegister@4
+UnMapLS@4
+UnMapSLFixArray@8
+UnhandledExceptionFilter@4
+UninitializeCriticalSection@4
+UnlockFile@20
+UnlockFileEx ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UnmapViewOfFile@4
+UpdateResourceA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+UpdateResourceW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerLanguageNameA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VerLanguageNameW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VirtualAlloc@16
+VirtualFree@12
+VirtualLock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VirtualProtect@16
+VirtualProtectEx@20
+VirtualQuery@12
+VirtualQueryEx@16
+VirtualUnlock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WaitCommEvent@12
+WaitForDebugEvent@8
+WaitForMultipleObjects@16
+WaitForMultipleObjectsEx@20
+WaitForSingleObject@8
+WaitForSingleObjectEx@12
+WaitNamedPipeA@8
+WaitNamedPipeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WideCharToMultiByte@32
+WinExec@8
+WriteConsoleA@20
+WriteConsoleInputA@16
+WriteConsoleInputW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteConsoleOutputA@20
+WriteConsoleOutputAttribute@20
+WriteConsoleOutputCharacterA@20
+WriteConsoleOutputCharacterW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteConsoleOutputW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteConsoleW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteFile
+WriteFileEx@20
+WritePrivateProfileSectionA@12
+WritePrivateProfileSectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WritePrivateProfileStringA@16
+WritePrivateProfileStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WritePrivateProfileStructA@20
+WritePrivateProfileStructW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteProcessMemory@20
+WriteProfileSectionA@8
+WriteProfileSectionW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteProfileStringA@12
+WriteProfileStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+WriteTapemark ; Check!!! Couldn't determine function argument count. Function doesn't return.
+_DebugOut
+_DebugPrintf
+_hread@12
+_hwrite@12
+_lclose@4
+_lcreat@8
+_llseek@12
+_lopen@8
+_lread@12
+_lwrite@12
+dprintf
+lstrcat@8
+lstrcatA@8
+lstrcatW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lstrcmp@8
+lstrcmpA@8
+lstrcmpW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lstrcmpi@8
+lstrcmpiA@8
+lstrcmpiW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lstrcpy@8
+lstrcpyA@8
+lstrcpyW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lstrcpyn@12
+lstrcpynA@12
+lstrcpynW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+lstrlen@4
+lstrlenA@4
+lstrlenW@4

@@ -1,0 +1,194 @@
+LIBRARY MFCANS32.DLL
+EXPORTS
+CLSIDFromProgID@8
+CLSIDFromString@8
+CoLoadLibrary@8
+CoCreateInstance@20
+CoGetClassObject@20
+IIDFromString@8
+ProgIDFromCLSID@8
+CoRegisterClassObject@20
+StringFromCLSID@8
+StringFromGUID2@12
+StringFromIID@8
+StgCreateDocfile@16
+StgCreateDocfileOnILockBytes@16
+StgIsStorageFile@4
+StgIsStorageILockBytes@4
+StgOpenStorage@24
+StgOpenStorageOnILockBytes@24
+StgSetTimes@16
+OleQueryLinkFromData@4
+OleQueryCreateFromData@4
+OleCreateFromData@28
+OleCreateLinkFromData@28
+OleCreate@28
+OleCreateLink@28
+OleLoad@16
+OleSave@12
+OleRun@4
+OleIsRunning@4
+ReadClassStg@8
+WriteClassStg@8
+ReadClassStm@8
+WriteClassStm@8
+BindMoniker@16
+MkParseDisplayName@16
+OleSaveToStream@8
+OleLoadFromStream@12
+CreateBindCtx@8
+CreateItemMoniker@12
+CreateFileMoniker@8
+CreateGenericComposite@12
+ReleaseStgMedium ; Check!!! return value is from ReleaseStgMedium in ole32.dll (ordinal 139)
+RegisterDragDrop@8
+DoDragDrop@16
+RevokeDragDrop@4
+CreateOleAdviseHolder@4
+CreateDataAdviseHolder@4
+OleSetMenuDescriptor@20
+CreateAntiMoniker@4
+CreatePointerMoniker@8
+GetRunningObjectTable@8
+MonikerRelativePathTo@16
+MonikerCommonPrefixWith@12
+OleSetClipboard@4
+OleGetClipboard@4
+CreateILockBytesOnHGlobal@12
+GetHGlobalFromILockBytes@8
+GetClassFile@8
+OleDraw@16
+OleCreateDefaultHandler@16
+OleCreateFromFile@32
+OleCreateLinkToFile@28
+CreateDataCache@16
+ReadFmtUserTypeStg@12
+WriteFmtUserTypeStg@12
+OleIsCurrentClipboard@4
+OleTranslateAccelerator@12
+OleDoAutoConvert@8
+GetConvertStg@4
+SetConvertStg@8
+CreateStreamOnHGlobal@12
+GetHGlobalFromStream@8
+OleSetContainedObject@8
+OleNoteObjectVisible@8
+OleCreateStaticFromData@28
+CreateTypeLib@12
+LHashValOfNameSys@12
+LoadRegTypeLib@20
+LoadTypeLib@8
+QueryPathOfRegTypeLib@20
+RegisterTypeLib@12
+CreateDispTypeInfo@12
+CreateStdDispatch@16
+DispGetIDsOfNames@16
+DispGetParam@20
+DispInvoke@32
+GetActiveObject@12
+RegisterActiveObject@16
+SafeArrayAccessData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayAllocData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayAllocDescriptor ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayCopy ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayCreate ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayDestroy ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayDestroyData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayDestroyDescriptor ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayGetDim ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayGetElement ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayGetElemsize ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayGetLBound ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayGetUBound ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayLock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayPutElement ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayRedim ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayUnaccessData ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SafeArrayUnlock ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SysAllocString@4
+OleRegEnumVerbs@8
+SysAllocStringLen ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SysFreeString ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SysReAllocString@8
+SysReAllocStringLen@12
+SysStringLen ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VarBoolFromDisp@12
+VarBoolFromStr@16
+VarBstrFromBool@16
+VarBstrFromCy@20
+VarBstrFromDate@20
+VarBstrFromDisp@16
+VarBstrFromI2@16
+VarBstrFromI4@16
+VarBstrFromR4@16
+VarBstrFromR8@20
+VarCyFromDisp@12
+VarCyFromStr@16
+VarDateFromDisp@12
+VarDateFromStr@16
+VarI2FromDisp@12
+VarI2FromStr@16
+VarI4FromDisp@12
+VarI4FromStr@16
+VarR4FromDisp@12
+VarR4FromStr@16
+VarR8FromDisp@12
+VarR8FromStr@16
+VariantChangeType@16
+VariantChangeTypeEx@20
+VariantClear ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VariantCopy ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VariantCopyInd ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VariantInit ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Ole2AnsiAFromW@12
+Ole2AnsiWFromA@12
+OleConvertOLESTREAMToIStorage@12
+OleConvertIStorageToOLESTREAM@8
+OleRegEnumFormatEtc@12
+CoLockObjectExternal@12
+CoDisconnectObject@8
+CoRevokeClassObject ; Check!!! return value is from CoRevokeClassObject in ole32.dll (ordinal 39)
+OleRegGetUserType@12
+OleGetIconOfClass@12
+OleGetIconOfFile@8
+OleMetafilePictFromIconAndLabel@16
+OleCreatePropertyFrame@44
+OleCreatePropertyFrameIndirect@4
+OleCreateFontIndirect@12
+VarBstrFromUI1@16
+VarUI1FromDisp@12
+VarUI1FromStr@16
+Ole2AnsiDispAFromW@8
+Ole2AnsiDispWFromA@8
+Ole2AnsiVariantAFromW@8
+Ole2AnsiVariantWFromA@8
+SysAllocStringLenW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+GetErrorInfo@8
+SetErrorInfo@8
+CreateErrorInfo@4
+WrapIUnknownAFromW@8
+WrapIUnknownWFromA@8
+WrapIStorageAFromW@8
+WrapIStorageWFromA@8
+WrapIDispatchAFromW@8
+WrapIDispatchWFromA@8
+SysAllocStringA@4
+SysAllocStringLenA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SysReAllocStringA@8
+SysReAllocStringLenA@12
+SysStringLenA ; Check!!! Couldn't determine function argument count. Function doesn't return.
+ConvertExcepInfoToA@4
+ConvertExcepInfoToW@4
+DispGetIDsOfNamesW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LoadTypeLibW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+RegisterTypeLibW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+VariantChangeTypeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+LHashValOfNameSysW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+DispInvokeW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+SysAllocStringW ; Check!!! Couldn't determine function argument count. Function doesn't return.
+Ole2AnsiSetHashSizes@8
+Ole2AnsiGetFlags
+Ole2AnsiSetFlags@8
+OleLockRunning@12
+CoMarshalInterface@24
+CoUnmarshalInterface@12

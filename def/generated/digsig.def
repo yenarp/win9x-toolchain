@@ -1,0 +1,13 @@
+LIBRARY DIGSIG.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+CreatePkcs10@12
+CreateX509@12
+CreatePkcs7SignedData@12
+CreateX500Name@12
+OpenCertificateStore@12
+CreateMsDefKeyPair@12
+CreateCABSigner@12

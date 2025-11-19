@@ -1,0 +1,24 @@
+LIBRARY SAGE.DLL
+EXPORTS
+MouseProc@12
+IdleHooks@8
+GetMouseTime
+GetKeyTime
+KeyProc@12
+SetIdleLossNotify
+System_Agent_End
+System_Agent_Initialize
+System_Agent_Add_Task@8
+System_Agent_Remove_Task@4
+System_Agent_Get_Task_List@8
+System_Agent_Change_Task@8
+NotifyNoIdle
+System_Agent_Enable@4
+System_Agent_Terminate
+System_Agent_Unlock_Task@12
+System_Agent_Lock_Task@12
+System_Agent_Detect
+Screen_Saver_Changed
+NotifyVMEvent
+WakeAgent
+EndGlobalContext

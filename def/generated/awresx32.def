@@ -1,0 +1,7 @@
+LIBRARY AWRESX32.DLL
+EXPORTS
+hHREOpen@12
+uiHREWrite@12
+uiHREExecute@12
+uiHREClose@4
+UnpackGlyphSet@8

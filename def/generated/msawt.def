@@ -1,0 +1,12 @@
+LIBRARY msawt.DLL
+EXPORTS
+DllCanUnloadNow
+DllGetClassObject@12
+DllRegisterServer
+DllUnregisterServer
+NativeGraphics_DrawRect@24
+NativeGraphics_DrawString@16
+NativeGraphics_SetColour@12
+RNIGetCompatibleVersion
+com_ms_fx_RegionConverter_computeJavaRegion
+com_ms_fx_RegionConverter_computeNativeRegion

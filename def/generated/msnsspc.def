@@ -1,0 +1,26 @@
+LIBRARY MSNSSPC.DLL
+EXPORTS
+InitSecurityInterfaceA
+InitSecurityInterfaceW
+AcquireCredentialsHandleA@36
+AcquireCredentialsHandleW@36
+DeleteSecurityContext@4
+FreeCredentialsHandle@4
+InitializeSecurityContextA@48
+InitializeSecurityContextW@48
+EnumerateSecurityPackagesA@8
+EnumerateSecurityPackagesW@8
+QueryContextAttributesA@12
+QueryContextAttributesW@12
+QuerySecurityPackageInfoA@8
+QuerySecurityPackageInfoW@8
+CompleteAuthToken@8
+ApplyControlToken@8
+MakeSignature@16
+VerifySignature@16
+FreeContextBuffer@4
+SealMessage@16
+UnsealMessage@16
+SetMSNAccountInfo@8
+SspcCreateSspiReg@16
+CleanupCredentialCache

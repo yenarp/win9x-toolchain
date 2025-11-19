@@ -1,0 +1,93 @@
+LIBRARY MCM.DLL
+EXPORTS
+NewsProtocolHandler@16
+MSNAutoDialer@16
+??0CAuthenticator@@QAE@PBD0HK@Z ; has WINAPI (@16)
+??1CAuthenticator@@QAE@XZ
+??4CAuthenticator@@QAEAAV0@ABV0@@Z ; has WINAPI (@4)
+??_ECAuthenticator@@QAEPAXI@Z ; has WINAPI (@4)
+??_FCAuthenticator@@QAEXXZ
+??_GCAuthenticator@@QAEPAXI@Z ; has WINAPI (@4)
+?DoProxySettings@@YAHPAXJ@Z
+?FInitialized@CAuthenticator@@QAEHXZ
+?FProcessMessage@CAuthenticator@@QAEHPADKPAU_NTLMSSP_MESSAGE_SIGNATURE@@W4ScrambleRequestType@@@Z ; has WINAPI (@16)
+?IndexToConnectProtocol@@YAKH@Z
+?PhContext@CAuthenticator@@QAEPAU_SecHandle@@XZ
+?StAuthenticate@CAuthenticator@@QAE?AW4AuthStatus@@PAUIMosUniversal@@PAI@Z ; has WINAPI (@8)
+?WriteRegDwordEx@@YAXPAX0GGK@Z
+ChangeConnectionSettings
+ChangePassword
+CheckURLType
+ConnectProtocolToIndex
+FAmIOnline
+FAskApps2Disconnect
+FCheckActiveSockets
+FGetCmdLineInfo
+FGetCmdLineInfoEx
+FGetConDetails
+FGetCurrentLocation
+FGetDeviceID
+FGetGoWord
+FGetLocationEntry
+FGetModemSpeed
+FGetNamesForApp
+FGetNedForApp
+FGetNodeableApps
+FGetPortDetails
+FGetRglcidBrowse
+FGuideIsDead
+FHms2Hmc
+FInsureModemTAPI
+FIsMSNDialup
+FIsTCP
+FMCMCancelCall
+FMCMMakeCall
+FMCMOpenSession
+FRequestAppShutdown
+Fatoi
+GetDwDefLcidBrowse
+GetLastMCMError
+GetMosGlobalSetting
+HRMOSExec
+HRMOSExecEx
+HRMOSExtract
+HandleHelp
+IfTCPthenSecurityCheck
+IfTCPthenUpdateDisconnectTimeout
+IfTCPthenUpdateOhare
+LConnectionSettingsError
+LoadAndCallW
+MCMCloseSession
+MosAbout
+MosAboutEx
+MosCommonError
+MosError
+MosErrorExP
+MosErrorP
+MsgWaitForSingleObject
+PBKAutoPick
+PBKAutoPickIP
+PBKClose
+PBKConfirmNPANXX
+PBKDWCountryId
+PBKDisplayPhoneBook
+PBKDisplayPhoneBookTCP
+PBKDisplayPhoneBookX25
+PBKForceStyle
+PBKGetTollFree
+PBKInit
+PBKInitAndDisplayPhoneBookTCP
+PBKPickNumber
+PBKSyncBackground
+PBKSyncPhoneBooks
+SetMosGlobalSetting
+VerifyDeviceExists
+WriteRegDword
+g_GuidePID ; Check!!! Couldn't determine function argument count. Function doesn't return.
+g_cOpenSessions ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vMCMError ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vMCMFailOpeningSession ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vMCMNeedSecurityReboot ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vfInitMos ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vfOnline ; Check!!! Couldn't determine function argument count. Function doesn't return.
+vhDlgCon ; Check!!! Couldn't determine function argument count. Function doesn't return.
