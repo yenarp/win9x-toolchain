@@ -1,1 +1,4 @@
 def/dlls
+.carbide
+.cache
+compile_commands.json
